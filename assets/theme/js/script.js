@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.info">Mobirise</a> Mobirise v4.0.10';document.body.insertBefore(a,document.body.childNodes[0])}}();
+>>>>>>> bed7c3873c9bc0f96cf7aa266af8fbe1af652487
 (function($) {
 
     var isBuilder = $('html').hasClass('is-builder');
@@ -1164,4 +1168,7 @@
     };
 
 })(jQuery);
+<<<<<<< HEAD
 !function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.info">Mobirise</a> Mobirise v4.0.10';document.body.insertBefore(a,document.body.childNodes[0])}}();
+=======
+>>>>>>> bed7c3873c9bc0f96cf7aa266af8fbe1af652487
