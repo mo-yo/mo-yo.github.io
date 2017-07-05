@@ -32,7 +32,7 @@
     "uniqCompNum": 53,
     "versionPublish": "4.0.10",
     "favicon": "@PROJECT_PATH@/assets/images/82-128x128-1.png",
-    "noImageResize": "true",
+    "noImageResize": "",
     "google-analytics": ""
   },
   "pages": {
