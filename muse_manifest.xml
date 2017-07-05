@@ -1,450 +1,61 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannavam.github.io" resolutions="1x" timestamp="1499203371359">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="false" exportTarget="other" domain="https://moyo.github.io" resolutions="1x" timestamp="1499209308639">
   <folder name="css">
     <file name="site_global.css" crc="4036237069"/>
-    <file name="master_______-_.css" crc="3909067615" ref="restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="nomq_preview_master_______-_.css" crc="3892795746" ref="restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="master_______-a.css" crc="4125490474" ref="metodi-restavracii:ekspluataciya:index:photogalereya:cena"/>
-    <file name="nomq_preview_master_______-a.css" crc="511359198" ref="metodi-restavracii:ekspluataciya:index:photogalereya:cena"/>
-    <file name="metodi-restavracii.css" crc="4219341357" ref="metodi-restavracii"/>
-    <file name="nomq_metodi-restavracii.css" crc="3855273329" ref="metodi-restavracii"/>
-    <file name="ekspluataciya.css" crc="474861695" ref="ekspluataciya"/>
-    <file name="nomq_ekspluataciya.css" crc="485980685" ref="ekspluataciya"/>
-    <file name="index.css" crc="60728522" ref="index"/>
-    <file name="nomq_index.css" crc="269621653" ref="index"/>
-    <file name="photogalereya.css" crc="4074940637" ref="photogalereya"/>
-    <file name="nomq_photogalereya.css" crc="403176514" ref="photogalereya"/>
-    <file name="restavraciya-akrilovih-vann.css" crc="266368957" ref="restavraciya-akrilovih-vann"/>
-    <file name="nomq_restavraciya-akrilovih-vann.css" crc="23972256" ref="restavraciya-akrilovih-vann"/>
-    <file name="vidyi-sovremennyix-vann.css" crc="142953376" ref="vidyi-sovremennyix-vann"/>
-    <file name="nomq_vidyi-sovremennyix-vann.css" crc="196045529" ref="vidyi-sovremennyix-vann"/>
-    <file name="cena.css" crc="4086130506" ref="cena"/>
-    <file name="nomq_cena.css" crc="386612443" ref="cena"/>
+    <file name="master_______-a.css" crc="366811502" ref="index"/>
+    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="3955960068" ref="index"/>
+    <file name="nomq_index.css" crc="4154769373" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="museutils.js" crc="46400467" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="whatinput.js" crc="86476730" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="museconfig.js" crc="436936948" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="jquery.musemenu.js" crc="3936200140" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="webpro.js" crc="4152390327" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="musewpslideshow.js" crc="380562115" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="jquery.museoverlay.js" crc="3986278607" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="touchswipe.js" crc="4228958816" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="musewpdisclosure.js" crc="204784597" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="html5shiv.js" crc="4241844378" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="jquery.museresponsive.js" crc="52098982" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="require.js" crc="85721165" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="form_check.php" crc="4286608207" ref="index"/>
-    <file name="form_throttle.php" crc="313199896" ref="index"/>
-    <file name="form_process.php" crc="3855659497" ref="index"/>
-    <file name="form-u25739.php" crc="374740591" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="46400467" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="436936948" ref="index"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
+    <file name="webpro.js" crc="4152390327" ref="index"/>
+    <file name="musewpdisclosure.js" crc="204784597" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="52098982" ref="index"/>
+    <file name="require.js" crc="85721165" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="шаблон-a-favicon.ico" crc="213043613" ref="cena"/>
-    <file name="55.gif" crc="4183731033" seo="true" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann">
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-      <caption webpage="vidyi-sovremennyix-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="vidyi-sovremennyix-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="vidyi-sovremennyix-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="vidyi-sovremennyix-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="vidyi-sovremennyix-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
+    <file name="шаблон-a-favicon.ico" crc="213043613" ref="index"/>
+    <file name="55.gif" crc="4183731033" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
     </file>
-    <file name="siyanie.jpg" crc="367908982" ref="cena:metodi-restavracii:restavraciya-akrilovih-vann">
-      <caption webpage="metodi-restavracii" alt=""/>
-      <caption webpage="metodi-restavracii" alt=""/>
-      <caption webpage="metodi-restavracii" alt=""/>
-      <caption webpage="metodi-restavracii" alt=""/>
-      <caption webpage="restavraciya-akrilovih-vann" alt=""/>
-      <caption webpage="restavraciya-akrilovih-vann" alt=""/>
-      <caption webpage="restavraciya-akrilovih-vann" alt=""/>
-      <caption webpage="restavraciya-akrilovih-vann" alt=""/>
-      <caption webpage="restavraciya-akrilovih-vann" alt=""/>
-      <caption webpage="cena" alt=""/>
-      <caption webpage="cena" alt=""/>
-      <caption webpage="cena" alt=""/>
-      <caption webpage="cena" alt=""/>
-      <caption webpage="cena" alt=""/>
-    </file>
-    <file name="29.jpg" crc="3882332902" seo="true" ref="cena">
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-    </file>
-    <file name="98876-1.png" crc="286515441" seo="true" ref="cena">
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-    </file>
-    <file name="291165x214.jpg" crc="489427232" seo="true" ref="cena">
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-    </file>
-    <file name="29980x180.jpg" crc="279744903" seo="true" ref="cena">
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-    </file>
-    <file name="29768x141.jpg" crc="4155360339" seo="true" ref="cena">
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-    </file>
-    <file name="98876-1278x223.png" crc="286515441" seo="true" ref="cena">
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-    </file>
-    <file name="29480x88.jpg" crc="3787932040" seo="true" ref="cena">
-      <caption webpage="cena" alt="Цены на реставрацию ванн"/>
-    </file>
-    <file name="blank.gif" crc="4208392903" ref="cena:metodi-restavracii:ekspluataciya:index:photogalereya:restavraciya-akrilovih-vann:vidyi-sovremennyix-vann"/>
-    <file name="1.png" crc="3996144917" seo="true" ref="metodi-restavracii:index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="3.png" crc="25043973" seo="true" ref="metodi-restavracii:index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="2.png" crc="3952189765" seo="true" ref="metodi-restavracii:index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="78656456.jpg" crc="3829303505" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="4578854.jpg" crc="208471496" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="978676575.jpg" crc="4001830355" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="78656456-crop-u8242.jpg" crc="4032468137" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="4578854-crop-u45947.jpg" crc="277318726" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="978676575-crop-u46007.jpg" crc="4039429443" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="4578854-crop-u459472.jpg" crc="3979510812" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="978676575-crop-u460072.jpg" crc="64523402" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="4578854-crop-u459473.jpg" crc="135700776" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="978676575-crop-u460073.jpg" crc="3825196005" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="4578854-crop-u459474.jpg" crc="476412091" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="978676575-crop-u460074.jpg" crc="3779455737" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="4578854-crop-u459475.jpg" crc="439544863" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="978676575-crop-u460075.jpg" crc="4060736974" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="4578854250x188.jpg" crc="509675798" seo="true" ref="metodi-restavracii">
-      <caption webpage="metodi-restavracii" alt="Методы реставрации ванн"/>
-    </file>
-    <file name="pravilnyi-ukhod-za-vannoi.png" crc="3904433166" seo="true" ref="ekspluataciya">
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-    </file>
-    <file name="logo.png" crc="69406595" seo="true" ref="ekspluataciya">
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
-      <caption webpage="ekspluataciya" alt="Уход и эксплуатация ванн"/>
+    <file name="siyanie.jpg" crc="367908982" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="108.jpg" crc="4015499077" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
     </file>
-    <file name="6328222-1.jpg" crc="148569584" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="4-1.png" crc="490302967" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="10-11-ts1453072773.png" crc="3863443985" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="555543911-1.png" crc="3912218501" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="dnepr-1.jpg" crc="337097675" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="kiev-1.jpg" crc="261628908" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="zapor-1.jpg" crc="3930780568" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="harkov-1.jpg" crc="3830375942" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="odessa-1.jpg" crc="138337600" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
+    <file name="2.jpg" crc="469453211" seo="true" ref="index">
+      <caption webpage="index" alt="Мышка в домике"/>
+      <caption webpage="index" alt="Мышка в домике"/>
+      <caption webpage="index" alt="Мышка в домике"/>
     </file>
     <file name="108768x238.jpg" crc="4015499077" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
     </file>
-    <file name="10-11-ts1453072773603x224.png" crc="3866370216" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
-    </file>
-    <file name="555543911-1283x311.png" crc="3912218501" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
+    <file name="2351x264.jpg" crc="205693040" seo="true" ref="index">
+      <caption webpage="index" alt="Мышка в домике"/>
     </file>
     <file name="108480x149.jpg" crc="4002974994" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
     </file>
-    <file name="10-11-ts1453072773413x154.png" crc="26764771" seo="true" ref="index">
-      <caption webpage="index" alt="Реставрация Ванн, Эмалировка Ванн, Наливная Ванна"/>
+    <file name="2220x165.jpg" crc="76505011" seo="true" ref="index">
+      <caption webpage="index" alt="Мышка в домике"/>
     </file>
-    <file name="img_0407.jpg" crc="475669336" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="strelka.png" crc="179065664" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0423.jpg" crc="213504562" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0398.jpg" crc="58474699" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0402.jpg" crc="4269914935" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0204.jpg" crc="362791954" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0209.jpg" crc="3885865318" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0187.jpg" crc="472129087" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0195.jpg" crc="4005680236" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0407283x213.jpg" crc="3869333608" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0423283x212.jpg" crc="4071467453" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0398283x212.jpg" crc="322883571" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0402283x212.jpg" crc="400489823" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0204283x212.jpg" crc="162140871" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0209283x212.jpg" crc="4209453090" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0187283x212.jpg" crc="532162059" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0195283x212.jpg" crc="4116411049" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0407177x133.jpg" crc="468997404" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0423177x133.jpg" crc="61733564" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0398177x133.jpg" crc="4230575659" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0402177x133.jpg" crc="182179136" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0204177x133.jpg" crc="10590527" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0209177x133.jpg" crc="4228911123" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0187177x133.jpg" crc="3972636645" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="img_0195177x133.jpg" crc="287178952" seo="true" ref="photogalereya">
-      <caption webpage="photogalereya" alt="Фотогалерея отреставрированных ванн"/>
-    </file>
-    <file name="шаблон-б-favicon.ico" crc="213043613" ref="restavraciya-akrilovih-vann"/>
-    <file name="15-1.jpg" crc="3874751880" seo="true" ref="restavraciya-akrilovih-vann">
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-    </file>
-    <file name="6.jpg" crc="4248136464" seo="true" ref="restavraciya-akrilovih-vann">
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-    </file>
-    <file name="6404x196.jpg" crc="241340707" seo="true" ref="restavraciya-akrilovih-vann">
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-    </file>
-    <file name="15-1431x133.jpg" crc="4050475972" seo="true" ref="restavraciya-akrilovih-vann">
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-    </file>
-    <file name="6252x122.jpg" crc="240068620" seo="true" ref="restavraciya-akrilovih-vann">
-      <caption webpage="restavraciya-akrilovih-vann" alt="Реставрация акриловых ванн"/>
-    </file>
-    <file name="11.jpg" crc="3839849900" seo="true" ref="vidyi-sovremennyix-vann">
-      <caption webpage="vidyi-sovremennyix-vann" alt="Виды современных ванн"/>
-      <caption webpage="vidyi-sovremennyix-vann" alt="Виды современных ванн"/>
-      <caption webpage="vidyi-sovremennyix-vann" alt="Виды современных ванн"/>
-    </file>
-    <file name="11564x174.jpg" crc="398949032" seo="true" ref="vidyi-sovremennyix-vann">
-      <caption webpage="vidyi-sovremennyix-vann" alt="Виды современных ванн"/>
-    </file>
-    <file name="11352x109.jpg" crc="411161027" seo="true" ref="vidyi-sovremennyix-vann">
-      <caption webpage="vidyi-sovremennyix-vann" alt="Виды современных ванн"/>
-    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="cena.html" crc="81925329" seo="true" mt="1489366359807" redirect="true"/>
-  <file name="metodi-restavracii.html" crc="474452930" seo="true" mt="1489366359807" redirect="true"/>
-  <file name="ekspluataciya.html" crc="4129779900" seo="true" mt="1489366359807" redirect="true"/>
-  <file name="index.html" crc="3915634254" seo="true" mt="1489366359807" redirect="true"/>
-  <file name="photogalereya.html" crc="4075040710" seo="true" mt="1489366359807" redirect="true"/>
-  <file name="restavraciya-akrilovih-vann.html" crc="3926069518" seo="true" mt="1489367401173" redirect="true"/>
-  <file name="vidyi-sovremennyix-vann.html" crc="73520643" seo="true" mt="1489367401173" redirect="true"/>
+  <file name="index.html" crc="4066524269" seo="true" mt="1498724744678" redirect="true"/>
 </manifest>
