@@ -1062,6 +1062,7 @@ pre {
 }
 .cid-qoxMC3vOyI P {
   color: #232323;
+  text-align: center;
 }
 .cid-qoxMC3vOyI B {
   color: #7f1933;
@@ -1128,4 +1129,45 @@ pre {
 }
 .cid-qoxY0YLf59 .icon-description B {
   color: #f24614;
+}
+.cid-qoy0BysDGE {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(45deg, #ffffff, #ffffff);
+}
+.cid-qoy0BysDGE .mbr-section-subtitle {
+  font-style: italic;
+  letter-spacing: 1rem;
+}
+.cid-qoy0BysDGE .mbr-section-title,
+.cid-qoy0BysDGE .mbr-section-btn {
+  text-align: left;
+  color: #7f1933;
+}
+.cid-qoy0BysDGE P {
+  color: #232323;
+}
+.cid-qoy1OlJn5a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/akc-bg-kopiya-1920x1046.png");
+}
+.cid-qoy1OlJn5a h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-qoy1OlJn5a p {
+  color: #767676;
+  text-align: left;
+}
+.cid-qoy1OlJn5a .card-box {
+  padding-top: 2rem;
+}
+.cid-qoy1OlJn5a .card-title {
+  color: #7f1933;
+}
+.cid-qoy1OlJn5a P {
+  color: #232323;
+  text-align: left;
 }
