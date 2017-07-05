@@ -1,5 +1,6 @@
 @import url(../../../https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 
@@ -30,7 +31,7 @@ body {
   font-size: 2rem;
 }
 .display-4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 .display-5 {
@@ -92,7 +93,7 @@ body {
   font-size: 1.6rem;
 }
 .navbar .btn {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 .btn-sm {
@@ -596,7 +597,7 @@ pre {
   white-space: pre-wrap;
 }
 .navbar-caption {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 .inactive {
@@ -1014,6 +1015,10 @@ pre {
     border-left: .30em solid transparent;
   }
 }
+.cid-qooqH3vwnj .nav-link,
+.cid-qooqH3vwnj .dropdown-item {
+  font-size: 20px;
+}
 .cid-qooqX3Ehir {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1053,8 +1058,8 @@ pre {
   text-align: center;
 }
 .cid-qoozroV2c3 P {
-  text-align: left;
-  color: #232323;
+  text-align: center;
+  color: #465052;
 }
 .cid-qoxcXPfFYR {
   padding-top: 15px;

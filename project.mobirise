@@ -21,7 +21,7 @@
         "display5Size": "1.2",
         "display7Font": "Titillium Web",
         "display7Size": "1",
-        "display4Font": "Open Sans",
+        "display4Font": "Montserrat",
         "display4Size": "1",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
@@ -31,7 +31,7 @@
     "versionFirst": "4.0.10",
     "uniqCompNum": 53,
     "versionPublish": "4.0.10",
-    "favicon": "@PROJECT_PATH@/assets/images/82-128x128-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/82-128x128-2.png",
     "noImageResize": "",
     "google-analytics": ""
   },
@@ -418,6 +418,9 @@
                   "border-left": ".30em solid transparent"
                 }
               }
+            },
+            ".nav-link,.dropdown-item": {
+              "font-size": "20px"
             }
           },
           "_name": "menu2",
@@ -494,12 +497,12 @@
               "text-align": "center"
             },
             "P": {
-              "text-align": "left",
-              "color": "#232323"
+              "text-align": "center",
+              "color": "#465052"
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article><p>&nbsp;Реставрация ванн  — это наше единственное направление в работе, если вы хотите обновить свою ванну мы готовы вам помочь! Сотни отреставрированных ванн и довольных результатом заказчиков часть нашего успеха. Восстановление эмали и реставрация ванны – это очень удобная и эффективная услуга в быту не требующая больших финансовых и временных затрат (всего 3 часа бес пыльной работы специалиста) и ваша старая<b><i> ванна</i></b> вновь преобразится в новую и красивую! Наше предприятие специализируется исключительно на реставрации чугунных ванн, стальных и акриловых с 2005 года. Мы изначально поставили себе за цель не количество а результат и не ошиблись! Качественное провидение работ позволило нашей компании стремительно развиваться. Наши клиенты рекомендовали нас своим друзьям и знакомым живущих в других городах. Именно поэтому наша компания оказывает профессиональную помощь по реставрации ванн в Украине. Реставрация ванн - Харьков, Киев, Одесса, Днепропетровск, Запорожье, Житомир, Ровно, Черкассы, Сумы, Луцк, Винница, Николаев, Львов, Херсон, Хмельницкий, Полтава, Кривой Рог, Чернигов, Кировоград честные отзывы и прозрачная цена.</p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article><p>&nbsp;Реставрация ванн  — это наше единственное направление в работе, если вы хотите обновить свою ванну мы готовы вам помочь! Сотни отреставрированных ванн и довольных результатом заказчиков часть нашего успеха. Восстановление эмали и реставрация ванны – это очень удобная и эффективная услуга в быту не требующая больших финансовых и временных затрат (всего 3 часа бес пыльной работы специалиста) и ваша старая<b><i> ванна</i></b> вновь преобразится в новую и красивую! Наше предприятие специализируется исключительно на реставрации чугунных ванн, стальных и акриловых с 2005 года.&nbsp;<br><span style=\"font-size: 1rem;\">Мы изначально поставили себе за цель не количество а результат и не ошиблись! Качественное провидение работ позволило нашей компании стремительно развиваться. Наши клиенты рекомендовали нас своим друзьям и знакомым живущих в других городах. Именно поэтому наша компания оказывает профессиональную помощь по реставрации ванн в Украине. Реставрация ванн - Харьков, Киев, Одесса, Днепропетровск, Запорожье, Житомир, Ровно, Черкассы, Сумы, Луцк, Винница, Николаев, Львов, Херсон, Хмельницкий, Полтава, Кривой Рог, Чернигов, Кировоград честные отзывы и прозрачная цена.</span></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qoozroV2c3",
           "_anchor": "content2-5",
           "_protectedParams": [],
