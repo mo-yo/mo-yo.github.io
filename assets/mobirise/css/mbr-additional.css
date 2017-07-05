@@ -1132,7 +1132,7 @@ pre {
 }
 .cid-qoy0BysDGE {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background: linear-gradient(45deg, #ffffff, #ffffff);
 }
 .cid-qoy0BysDGE .mbr-section-subtitle {
@@ -1170,4 +1170,44 @@ pre {
 .cid-qoy1OlJn5a P {
   color: #232323;
   text-align: left;
+}
+.cid-qoy5jMf88P {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(45deg, #ffffff, #ffffff);
+}
+.cid-qoy5jMf88P .mbr-section-subtitle {
+  font-style: italic;
+  letter-spacing: 1rem;
+}
+.cid-qoy5jMf88P .mbr-section-title,
+.cid-qoy5jMf88P .mbr-section-btn {
+  text-align: left;
+  color: #7f1933;
+}
+.cid-qoy5jMf88P P {
+  color: #232323;
+}
+.cid-qoy60db7Lc {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/akc-bg-kopiya-1920x1046.png");
+}
+.cid-qoy60db7Lc h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-qoy60db7Lc p {
+  color: #767676;
+  text-align: left;
+}
+.cid-qoy60db7Lc .card-box {
+  padding-top: 2rem;
+}
+.cid-qoy60db7Lc .card-title {
+  color: #7f1933;
+}
+.cid-qoy60db7Lc P {
+  color: #232323;
 }
