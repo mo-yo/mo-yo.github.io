@@ -25,7 +25,7 @@
         "display4Size": "1",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       }
     },
     "versionFirst": "4.0.10",
