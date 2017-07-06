@@ -29,7 +29,7 @@
       }
     },
     "versionFirst": "4.0.10",
-    "uniqCompNum": 79,
+    "uniqCompNum": 83,
     "versionPublish": "4.0.10",
     "favicon": "@PROJECT_PATH@/assets/images/1-128x94.png",
     "noImageResize": "",
@@ -499,11 +499,11 @@
               "text-align": "center"
             },
             "B": {
-              "color": "#7f1933"
+              "color": "#232323"
             }
           },
           "_name": "header11",
-          "_customHTML": "<section class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->     \n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container align-left\">\n        <div class=\"media-container-column mbr-white col-md-12\">\n             <h3 class=\"mbr-section-subtitle py-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                 MOBIRISE WEBSITES BUILDER\n            </h3>\n            <h1 class=\"mbr-section-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\">Единая служба реставрации ванн в Украине</h1>\n            <p class=\"mbr-text py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                Реставрация ванн  — это наше единственное направление в работе, если вы хотите обновить свою ванну мы готовы вам помочь! Сотни отреставрированных ванн и довольных результатом заказчиков часть нашего успеха. Восстановление эмали и реставрация ванны – это очень удобная и эффективная услуга в быту не требующая больших финансовых и временных затрат (всего 3 часа бес пыльной работы специалиста) и ваша старая ванна вновь преобразится в новую и красивую! Наше предприятие специализируется исключительно на реставрации чугунных ванн, стальных и акриловых с 2005 года. Мы изначально поставили себе за цель не количество а результат и не ошиблись! Качественное провидение работ позволило нашей компании стремительно развиваться. Наши клиенты рекомендовали нас своим друзьям и знакомым живущих в других городах. Именно поэтому наша компания оказывает профессиональную помощь по реставрации ванн в Украине. Реставрация ванн - Харьков, Киев, Одесса, Днепропетровск, Запорожье, Житомир, Ровно, Черкассы, Сумы, Луцк, Винница, Николаев, Львов, Херсон, Хмельницкий, Полтава, Кривой Рог, Чернигов, Кировоград честные отзывы и прозрачная цена.<br><br><a href=\"#\"><b>ВЫ ОСТАНЕТЕСЬ ДОВОЛЬНЫ !</b></a><br><br>... Нам удалось вывести технологию позволяющая на молекулярном уровне скрепить новую эмаль с поверхностью ванны. Теперь новое покрытие не отслаивается со временем! Наша технология обеспечит усиленное сцепление покрытия с ванной. Избавит Вас от пыли в квартире в процессе работы. Существенно увеличит срок службы нового покрытия минимум на 5 лет.<br><br><br>\n            </p>\n            <div class=\"mbr-section-btn py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons>\n                    <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a data-app-btn=\"true\" class=\"btn btn-md btn-white btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->     \n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container align-left\">\n        <div class=\"media-container-column mbr-white col-md-12\">\n             <h3 class=\"mbr-section-subtitle py-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                 MOBIRISE WEBSITES BUILDER\n            </h3>\n            <h1 class=\"mbr-section-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\">Единая служба реставрации ванн в Украине</h1>\n            <p class=\"mbr-text py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                Реставрация ванн  — это наше единственное направление в работе, если вы хотите обновить свою ванну мы готовы вам помочь! Сотни отреставрированных ванн и довольных результатом заказчиков часть нашего успеха. Восстановление эмали и реставрация ванны – это очень удобная и эффективная услуга в быту не требующая больших финансовых и временных затрат (всего 3 часа бес пыльной работы специалиста) и ваша старая ванна вновь преобразится в новую и красивую! Наше предприятие специализируется исключительно на реставрации чугунных ванн, стальных и акриловых с 2005 года. Мы изначально поставили себе за цель не количество а результат и не ошиблись! Качественное провидение работ позволило нашей компании стремительно развиваться. Наши клиенты рекомендовали нас своим друзьям и знакомым живущих в других городах. Именно поэтому наша компания оказывает профессиональную помощь по реставрации ванн в Украине. Реставрация ванн - Харьков, Киев, Одесса, Днепропетровск, Запорожье, Житомир, Ровно, Черкассы, Сумы, Луцк, Винница, Николаев, Львов, Херсон, Хмельницкий, Полтава, Кривой Рог, Чернигов, Кировоград честные отзывы и прозрачная цена.<br><br><b>ВЫ ОСТАНЕТЕСЬ ДОВОЛЬНЫ !</b><br><br>... Нам удалось вывести технологию позволяющая на молекулярном уровне скрепить новую эмаль с поверхностью ванны. Теперь новое покрытие не отслаивается со временем! Наша технология обеспечит усиленное сцепление покрытия с ванной. Избавит Вас от пыли в квартире в процессе работы. Существенно увеличит срок службы нового покрытия минимум на 5 лет.<br><br><br>\n            </p>\n            <div class=\"mbr-section-btn py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons>\n                    <a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a data-app-btn=\"true\" class=\"btn btn-md btn-white btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qoxMC3vOyI",
           "_protectedParams": [],
           "_params": {},
@@ -856,7 +856,8 @@
               "color": "#7f1933"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "left"
             }
           },
           "_name": "header3",
@@ -895,7 +896,8 @@
               "color": "#7f1933"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "left"
             }
           },
           "_name": "header3",
@@ -934,7 +936,8 @@
               "color": "#7f1933"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "left"
             }
           },
           "_name": "header3",
@@ -973,7 +976,8 @@
               "color": "#7f1933"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "left"
             }
           },
           "_name": "header3",
