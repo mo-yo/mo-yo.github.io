@@ -1,5 +1,4 @@
 @import url(../../../https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(../../../https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
@@ -39,7 +38,7 @@ body {
   font-size: 1.2rem;
 }
 .display-7 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
@@ -71,7 +70,7 @@ body {
 }
 /* Buttons */
 .btn {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   border-width: 2px;
@@ -527,8 +526,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-#scrollToTop a {
-  border-radius: 100px;
+.scrollToTop_wraper {
+  opacity: 0 !important;
 }
 /* Others*/
 .note-check a[data-value=Rubik] {
@@ -569,7 +568,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
