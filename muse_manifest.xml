@@ -1,12 +1,12 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1499423631557">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1499426693976">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_______-a.css" crc="474383118" ref="вторая:index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="вторая:index"/>
     <file name="______.css" crc="4136858585" ref="вторая"/>
     <file name="nomq_______.css" crc="384893990" ref="вторая"/>
-    <file name="index.css" crc="4200833856" ref="index"/>
-    <file name="nomq_index.css" crc="351620936" ref="index"/>
+    <file name="index.css" crc="3854825284" ref="index"/>
+    <file name="nomq_index.css" crc="362185598" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:вторая"/>
@@ -35,7 +35,13 @@
     <file name="22132435-1-u307-fr3.png" crc="508639530" ref="index"/>
     <file name="22132435-1-u307-fr4.png" crc="4227367111" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index:вторая"/>
+    <file name="akc-bg-kopiya.jpg" crc="497121731" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="akc-bg-kopiya-u828-fr.jpg" crc="194922463" ref="index"/>
+    <file name="akc-bg-kopiya-u828-fr2.jpg" crc="514206528" ref="index"/>
+    <file name="akc-bg-kopiya-u828-fr3.jpg" crc="4268077806" ref="index"/>
   </folder>
-  <file name="index.html" crc="123232940" seo="true" mt="1499423605470" redirect="true"/>
+  <file name="index.html" crc="4046294948" seo="true" mt="1499426669837" redirect="true"/>
   <file name="вторая.html" crc="3759212350" seo="true" mt="1499422057234" redirect="true"/>
 </manifest>
