@@ -1,12 +1,12 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1499436309682">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1499440934053">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_______-a.css" crc="474383118" ref="вторая:index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="вторая:index"/>
     <file name="______.css" crc="4136858585" ref="вторая"/>
     <file name="nomq_______.css" crc="384893990" ref="вторая"/>
-    <file name="index.css" crc="3869539096" ref="index"/>
-    <file name="nomq_index.css" crc="28154060" ref="index"/>
+    <file name="index.css" crc="4211823810" ref="index"/>
+    <file name="nomq_index.css" crc="3942060299" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:вторая"/>
@@ -66,6 +66,6 @@
       <caption webpage="index" alt="Акриловый вкладыш"/>
     </file>
   </folder>
-  <file name="index.html" crc="319306793" seo="true" mt="1499436219277" redirect="true"/>
+  <file name="index.html" crc="115878738" seo="true" mt="1499440850787" redirect="true"/>
   <file name="вторая.html" crc="3759212350" seo="true" mt="1499422057234" redirect="true"/>
 </manifest>
