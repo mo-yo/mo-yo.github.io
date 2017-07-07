@@ -8,6 +8,18 @@
     <image:image>
       <image:loc>https://mo-yo.github.io/images/cropped-logo-180x180.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/emalirovka-vann-1-300x269.jpg</image:loc>
+      <image:caption>Эмалировка ванн</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/nalivnaya-vanna-2-300x269.jpg</image:loc>
+      <image:caption>Наливная ванна</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/akrilovyj-vkladysh-1-300x267.jpg</image:loc>
+      <image:caption>Акриловый вкладыш</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://mo-yo.github.io/%D0%B2%D1%82%D0%BE%D1%80%D0%B0%D1%8F.html</loc>
