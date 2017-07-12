@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mo-yo.github.io/index.html</loc>
+    <lastmod>2017-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/cropped-logo-180x180.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/emalirovka-vann-1-300x269.jpg</image:loc>
+      <image:caption>Эмалировка ванн</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/nalivnaya-vanna-2-300x269.jpg</image:loc>
+      <image:caption>Наливная ванна</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/akrilovyj-vkladysh-1-300x267.jpg</image:loc>
+      <image:caption>Акриловый вкладыш</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/restavratsiya-vann-v-odesse-otzyvy-300x269.jpg</image:loc>
+      <image:caption>Реставрация ванн г. Киев</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/restavratsiya-vann-v-kieve-otzyvy-300x269.jpg</image:loc>
+      <image:caption>Реставрация ванн г. Днепр</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/restavratsiya-vann-v-harkove-otzyvy-300x269.jpg</image:loc>
+      <image:caption>Реставрация ванн г. Харьков</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/7-prichin-1-e1485515538423.png</image:loc>
+      <image:caption>Закажите реставрацию ванны</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/iavr-300x225.jpg</image:loc>
+      <image:caption>Реставрация ванн Киев</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/restavratsiya-vann-dnepr-1-300x225.jpg</image:loc>
+      <image:caption>Реставрация ванн Днепропетровск</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/harkov-300x225.jpg</image:loc>
+      <image:caption>Реставрация ванн Харьков</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/odessa-300x220.jpg</image:loc>
+      <image:caption>Реставрация ванн Одесса</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/lvov-300x214.jpg</image:loc>
+      <image:caption>Реставрація ванн Львів</image:caption>
+    </image:image>
+  </url>
+</urlset>

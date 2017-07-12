@@ -1,0 +1,126 @@
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1499897488329">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_______-a.css" crc="3997389917" ref="index"/>
+    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="534724134" ref="index"/>
+    <file name="nomq_index.css" crc="357635709" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="46400467" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="436936948" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3936200140" ref="index"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="410690402" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="52098982" ref="index"/>
+    <file name="require.js" crc="85721165" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="шаблон-a-favicon.ico" crc="4211155366" ref="index"/>
+    <file name="cropped-logo-180x180.png" crc="4180352454" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="22132435-1-u1916-fr.png" crc="1193129" ref="index"/>
+    <file name="akc-bg-kopiya.jpg" crc="497121731" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="emalirovka-vann-1-300x269.jpg" crc="200721811" seo="true" ref="index">
+      <caption webpage="index" alt="Эмалировка ванн"/>
+      <caption webpage="index" alt="Эмалировка ванн"/>
+      <caption webpage="index" alt="Эмалировка ванн"/>
+      <caption webpage="index" alt="Эмалировка ванн"/>
+      <caption webpage="index" alt="Эмалировка ванн"/>
+    </file>
+    <file name="nalivnaya-vanna-2-300x269.jpg" crc="308143859" seo="true" ref="index">
+      <caption webpage="index" alt="Наливная ванна"/>
+      <caption webpage="index" alt="Наливная ванна"/>
+      <caption webpage="index" alt="Наливная ванна"/>
+      <caption webpage="index" alt="Наливная ванна"/>
+      <caption webpage="index" alt="Наливная ванна"/>
+    </file>
+    <file name="akrilovyj-vkladysh-1-300x267.jpg" crc="287421480" seo="true" ref="index">
+      <caption webpage="index" alt="Акриловый вкладыш"/>
+      <caption webpage="index" alt="Акриловый вкладыш"/>
+      <caption webpage="index" alt="Акриловый вкладыш"/>
+      <caption webpage="index" alt="Акриловый вкладыш"/>
+      <caption webpage="index" alt="Акриловый вкладыш"/>
+    </file>
+    <file name="restavratsiya-vann-v-odesse-otzyvy-300x269.jpg" crc="200802232" seo="true" ref="index">
+      <caption webpage="index" alt="Реставрация ванн г. Киев "/>
+      <caption webpage="index" alt="Реставрация ванн г. Киев "/>
+      <caption webpage="index" alt="Реставрация ванн г. Киев "/>
+      <caption webpage="index" alt="Реставрация ванн г. Киев "/>
+      <caption webpage="index" alt="Реставрация ванн г. Киев "/>
+    </file>
+    <file name="restavratsiya-vann-v-kieve-otzyvy-300x269.jpg" crc="336661414" seo="true" ref="index">
+      <caption webpage="index" alt="Реставрация ванн г. Днепр"/>
+      <caption webpage="index" alt="Реставрация ванн г. Днепр"/>
+      <caption webpage="index" alt="Реставрация ванн г. Днепр"/>
+      <caption webpage="index" alt="Реставрация ванн г. Днепр"/>
+      <caption webpage="index" alt="Реставрация ванн г. Днепр"/>
+    </file>
+    <file name="restavratsiya-vann-v-harkove-otzyvy-300x269.jpg" crc="4119582682" seo="true" ref="index">
+      <caption webpage="index" alt="Реставрация ванн г. Харьков"/>
+      <caption webpage="index" alt="Реставрация ванн г. Харьков"/>
+      <caption webpage="index" alt="Реставрация ванн г. Харьков"/>
+      <caption webpage="index" alt="Реставрация ванн г. Харьков"/>
+      <caption webpage="index" alt="Реставрация ванн г. Харьков"/>
+    </file>
+    <file name="7-prichin-1-e1485515538423.png" crc="218518691" seo="true" ref="index">
+      <caption webpage="index" alt="Закажите реставрацию ванны"/>
+      <caption webpage="index" alt="Закажите реставрацию ванны"/>
+      <caption webpage="index" alt="Закажите реставрацию ванны"/>
+    </file>
+    <file name="iavr-300x225.jpg" crc="3796186182" seo="true" ref="index">
+      <caption webpage="index" alt="Реставрация ванн Киев"/>
+      <caption webpage="index" alt="Реставрация ванн Киев"/>
+      <caption webpage="index" alt="Реставрация ванн Киев"/>
+      <caption webpage="index" alt="Реставрация ванн Киев"/>
+      <caption webpage="index" alt="Реставрация ванн Киев"/>
+    </file>
+    <file name="restavratsiya-vann-dnepr-1-300x225.jpg" crc="315530660" seo="true" ref="index">
+      <caption webpage="index" alt="Реставрация ванн Днепропетровск"/>
+      <caption webpage="index" alt="Реставрация ванн Днепропетровск"/>
+      <caption webpage="index" alt="Реставрация ванн Днепропетровск"/>
+      <caption webpage="index" alt="Реставрация ванн Днепропетровск"/>
+      <caption webpage="index" alt="Реставрация ванн Днепропетровск"/>
+    </file>
+    <file name="harkov-300x225.jpg" crc="434880759" seo="true" ref="index">
+      <caption webpage="index" alt="Реставрация ванн Харьков"/>
+      <caption webpage="index" alt="Реставрация ванн Харьков"/>
+      <caption webpage="index" alt="Реставрация ванн Харьков"/>
+      <caption webpage="index" alt="Реставрация ванн Харьков"/>
+      <caption webpage="index" alt="Реставрация ванн Харьков"/>
+    </file>
+    <file name="odessa-300x220.jpg" crc="477284636" seo="true" ref="index">
+      <caption webpage="index" alt="Реставрация ванн Одесса"/>
+      <caption webpage="index" alt="Реставрация ванн Одесса"/>
+      <caption webpage="index" alt="Реставрация ванн Одесса"/>
+      <caption webpage="index" alt="Реставрация ванн Одесса"/>
+      <caption webpage="index" alt="Реставрация ванн Одесса"/>
+    </file>
+    <file name="lvov-300x214.jpg" crc="167226054" seo="true" ref="index">
+      <caption webpage="index" alt="Реставрація ванн Львів"/>
+      <caption webpage="index" alt="Реставрація ванн Львів"/>
+      <caption webpage="index" alt="Реставрація ванн Львів"/>
+      <caption webpage="index" alt="Реставрація ванн Львів"/>
+      <caption webpage="index" alt="Реставрація ванн Львів"/>
+    </file>
+    <file name="22132435-1-u1916-fr2.png" crc="3881078319" ref="index"/>
+    <file name="akc-bg-kopiya-u1885-fr.jpg" crc="194922463" ref="index"/>
+    <file name="22132435-1-u1916-fr3.png" crc="508639530" ref="index"/>
+    <file name="akc-bg-kopiya-u1885-fr2.jpg" crc="514206528" ref="index"/>
+    <file name="22132435-1-u1916-fr4.png" crc="4227367111" ref="index"/>
+    <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3769953536" seo="true" mt="1499526507787" redirect="true"/>
+</manifest>
