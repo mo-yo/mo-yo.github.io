@@ -1,23 +1,23 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1499898817736">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1499938813195">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="master_______-a.css" crc="3997389917" ref="index"/>
+    <file name="master_______-a.css" crc="273842720" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="123307891" ref="index"/>
-    <file name="nomq_index.css" crc="357635709" ref="index"/>
+    <file name="index.css" crc="3894326590" ref="index"/>
+    <file name="nomq_index.css" crc="498383632" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="46400467" ref="index"/>
+    <file name="museutils.js" crc="4216313831" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="436936948" ref="index"/>
-    <file name="jquery.musemenu.js" crc="3936200140" ref="index"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="410690402" ref="index"/>
+    <file name="museconfig.js" crc="474374037" ref="index"/>
+    <file name="jquery.musemenu.js" crc="493622299" ref="index"/>
+    <file name="jquery.watch.js" crc="460461809" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="128250821" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="52098982" ref="index"/>
-    <file name="require.js" crc="85721165" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
+    <file name="require.js" crc="3951022091" ref="index"/>
   </folder>
   <folder name="images">
     <file name="шаблон-a-favicon.ico" crc="4211155366" ref="index"/>
@@ -122,5 +122,5 @@
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="471525634" seo="true" mt="1499898776088" redirect="true"/>
+  <file name="index.html" crc="369083577" seo="true" mt="1499938679345" redirect="true"/>
 </manifest>
