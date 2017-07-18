@@ -1,10 +1,10 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1500374363810">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1500376967886">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_______-a.css" crc="368585768" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="289183595" ref="index"/>
-    <file name="nomq_index.css" crc="119597369" ref="index"/>
+    <file name="index.css" crc="4242169327" ref="index"/>
+    <file name="nomq_index.css" crc="498383632" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -18,11 +18,6 @@
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
     <file name="require.js" crc="3951022091" ref="index"/>
-    <file name="webpro.js" crc="4143865194" ref="index"/>
-    <file name="form_check.php" crc="154010282" ref="index"/>
-    <file name="form_throttle.php" crc="266437015" ref="index"/>
-    <file name="form_process.php" crc="512629711" ref="index"/>
-    <file name="form-u5487.php" crc="60995934" ref="index"/>
   </folder>
   <folder name="images">
     <file name="шаблон-a-favicon.ico" crc="4211155366" ref="index"/>
@@ -127,5 +122,5 @@
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="292465829" seo="true" mt="1500374150362" redirect="true"/>
+  <file name="index.html" crc="485882704" seo="true" mt="1500376900771" redirect="true"/>
 </manifest>
