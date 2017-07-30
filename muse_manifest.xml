@@ -1,9 +1,9 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1501417761536">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1501417943156">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_______-a.css" crc="523588673" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="256574166" ref="index"/>
+    <file name="index.css" crc="345515437" ref="index"/>
     <file name="nomq_index.css" crc="493815249" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -122,5 +122,5 @@
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4216669229" seo="true" mt="1501416965661" redirect="true"/>
+  <file name="index.html" crc="4256501321" seo="true" mt="1501417861707" redirect="true"/>
 </manifest>
