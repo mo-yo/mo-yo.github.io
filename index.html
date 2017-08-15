@@ -140,7 +140,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          <p id="u1926-5" class="shared_content" data-content-guid="u1926-5_content">Эмалировка ванн</p>
          <p id="u1926-8" class="shared_content" data-content-guid="u1926-8_content">Эмалировка ванн — это простой метод реставрации, который применяется с 80-х годов. В то время большого ассортимента материалов не было поэтому покрывали ванны обычной краской при помощи кисти. И за чего в народе его называют просто покраска ванны. По сей день &quot;Эмалировка ванной&quot; остается актуальным методом реставрации и за низкой цены и доступности. <span id="u1926-7">Эмалировка ванн цена от 700 грн.</span></p>
         </div>
-        <div class="clearfix grpelem" id="u1933-10"><!-- content -->
+        <div class="clearfix grpelem shared_content" id="u1933-10" data-content-guid="u1933-10_content"><!-- content -->
          <p id="u1933-3"><span id="u1933" class="shared_content" data-content-guid="u1933_content">​</span><span class="actAsInlineDiv normal_text" id="u1934"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u1935"><!-- image --><img class="temp_no_img_src" id="u1935_img" data-orig-src="images/nalivnaya-vanna-2-300x269.jpg?crc=308143859" alt="Наливная ванна" title="Наливная ванна" width="300" height="269" src="images/blank.gif?crc=4208392903"/></span></span><span class="shared_content" data-content-guid="u1933-3_2_content"></span></p>
          <p id="u1933-5" class="shared_content" data-content-guid="u1933-5_content">Наливная ванна</p>
          <p id="u1933-8" class="shared_content" data-content-guid="u1933-8_content">Наливная ванна — это однозначно самый лучший метод реставрации. Покрытие ванны акрилом внешне ничем не отличается от нового изделия, а толщина покрытия позволяет выдерживать большие нагрузки и обеспечивает долгий срок службы. Наливная реставрация ванн — это выбор рассудительных и здравомыслящих людей. <span id="u1933-7">Наливная ванна цена от 1400 грн.</span></p>
@@ -548,11 +548,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="browser_width colelem placeholder" data-placeholder-for="u1885-bw_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u1883-18_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u1926-10_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="u1933-10"><!-- content -->
-      <p class="temp_no_id" data-orig-id="u1933-3"><span class="temp_no_id" data-orig-id="u1933">​</span><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u1934"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-orig-id="u1935"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/nalivnaya-vanna-2-300x269.jpg?crc=308143859" alt="Наливная ванна" title="Наливная ванна" width="300" height="269" data-orig-id="u1935_img" src="images/blank.gif?crc=4208392903"/></span></span></p>
-      <span class="placeholder" data-placeholder-for="u1933-5_content"><!-- placeholder node --></span>
-      <span class="placeholder" data-placeholder-for="u1933-8_content"><!-- placeholder node --></span>
-     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u1933-10_content"><!-- placeholder node --></span>
      <div class="clearfix colelem temp_no_id" data-orig-id="u1907-10"><!-- content -->
       <p class="temp_no_id" data-orig-id="u1907-3"><span class="temp_no_id" data-orig-id="u1907">​</span><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u1908"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-orig-id="u1909"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/akrilovyj-vkladysh-1-300x267.jpg?crc=287421480" alt="Акриловый вкладыш" title="Акриловый вкладыш" width="300" height="267" data-orig-id="u1909_img" src="images/blank.gif?crc=4208392903"/></span></span></p>
       <span class="placeholder" data-placeholder-for="u1907-5_content"><!-- placeholder node --></span>
@@ -612,20 +608,16 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1330', '#bp_980', '#bp_768'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-$('#bp_768').one('muse_this_bp_activate', function(){
-$('#u1916').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
-$('#u1885').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1255.05]},{"speed":[0,0],"in":[1255.05,Infinity]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_480').one('muse_this_bp_activate', function(){
 $('#u1916').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
 $('#u1885').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1539.9]},{"speed":[0,0],"in":[1539.9,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_980').one('muse_this_bp_activate', function(){
+$('#bp_1330').one('muse_this_bp_activate', function(){
 $('#u1916').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
-$('#u1885').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,997.05]},{"speed":[0,0],"in":[997.05,Infinity]}], $(this)); /* scroll effect */
-$('#u1890').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1992.95]},{"speed":[0,0],"in":[1992.95,Infinity]}], $(this)); /* scroll effect */
-$('#u1876').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3198.75]},{"speed":[0,0],"in":[3198.75,Infinity]}], $(this)); /* scroll effect */
-$('#u1931').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,4850.55]},{"speed":[0,0],"in":[4850.55,Infinity]}], $(this)); /* scroll effect */
+$('#u1885').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1058.65]},{"speed":[0,0],"in":[1058.65,Infinity]}], $(this)); /* scroll effect */
+$('#u1890').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,2036.55]},{"speed":[0,0],"in":[2036.55,Infinity]}], $(this)); /* scroll effect */
+$('#u1876').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3177.4]},{"speed":[0,0],"in":[3177.4,Infinity]}], $(this)); /* scroll effect */
+$('#u1931').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,4712.3]},{"speed":[0,0],"in":[4712.3,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u1916').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
@@ -634,12 +626,16 @@ $('#u1890').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infini
 $('#u1876').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3167.75]},{"speed":[0,0],"in":[3167.75,Infinity]}], $(this)); /* scroll effect */
 $('#u1931').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,4593.9]},{"speed":[0,0],"in":[4593.9,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_1330').one('muse_this_bp_activate', function(){
+$('#bp_980').one('muse_this_bp_activate', function(){
 $('#u1916').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
-$('#u1885').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1058.65]},{"speed":[0,0],"in":[1058.65,Infinity]}], $(this)); /* scroll effect */
-$('#u1890').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,2036.55]},{"speed":[0,0],"in":[2036.55,Infinity]}], $(this)); /* scroll effect */
-$('#u1876').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3177.4]},{"speed":[0,0],"in":[3177.4,Infinity]}], $(this)); /* scroll effect */
-$('#u1931').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,4712.3]},{"speed":[0,0],"in":[4712.3,Infinity]}], $(this)); /* scroll effect */
+$('#u1885').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,997.05]},{"speed":[0,0],"in":[997.05,Infinity]}], $(this)); /* scroll effect */
+$('#u1890').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1992.95]},{"speed":[0,0],"in":[1992.95,Infinity]}], $(this)); /* scroll effect */
+$('#u1876').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3198.75]},{"speed":[0,0],"in":[3198.75,Infinity]}], $(this)); /* scroll effect */
+$('#u1931').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,4850.55]},{"speed":[0,0],"in":[4850.55,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_768').one('muse_this_bp_activate', function(){
+$('#u1916').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
+$('#u1885').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1255.05]},{"speed":[0,0],"in":[1255.05,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -663,13 +659,13 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 				}
 				
 				if(true){
-					vdo_mp4 = 'https://mo-yo.github.io/2233.mp4';
+					vdo_mp4 = 'https://mo-yo.github.io/12345.mp4';
 				}else{
 					vdo_mp4 = ' ';
 				}
 				
 				if(true){
-					vdo_webm = 'https://mo-yo.github.io/_How_to_Clean_Acrylic_Bathtub_.webm';
+					vdo_webm = 'https://mo-yo.github.io/12345.webm';
 				}else{
 					vdo_webm = ' ';
 				}
