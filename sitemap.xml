@@ -57,16 +57,4 @@
       <image:caption>Реставрація ванн Львів</image:caption>
     </image:image>
   </url>
-  <url>
-    <loc>https://mo-yo.github.io/assets/12345.mp4</loc>
-    <lastmod>2017-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://mo-yo.github.io/assets/12345.webm</loc>
-    <lastmod>2017-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
 </urlset>
