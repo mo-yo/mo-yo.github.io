@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1502824896468">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1502825335100">
   <folder name="assets">
     <file name="111.jpg" crc="3958290762" seo="true" mt="1491727762000"/>
   </folder>
@@ -6,8 +6,8 @@
     <file name="site_global.css" crc="443350757"/>
     <file name="master_______-a.css" crc="523588673" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="4155161439" ref="index"/>
-    <file name="nomq_index.css" crc="352816358" ref="index"/>
+    <file name="index.css" crc="3871147399" ref="index"/>
+    <file name="nomq_index.css" crc="347609959" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -125,5 +125,5 @@
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3952054802" seo="true" mt="1502824871805" redirect="true"/>
+  <file name="index.html" crc="3942327392" seo="true" mt="1502825322363" redirect="true"/>
 </manifest>
