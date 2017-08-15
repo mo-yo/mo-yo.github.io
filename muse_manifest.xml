@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1502826715611">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1502827372922">
   <folder name="assets">
     <file name="12345.mp4" crc="493939685" seo="true" mt="1502818276000"/>
     <file name="12345.webm" crc="4010378537" seo="true" mt="1502820259000"/>
@@ -126,5 +126,5 @@
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="522557269" seo="true" mt="1502826689418" redirect="true"/>
+  <file name="index.html" crc="352800035" seo="true" mt="1502827336123" redirect="true"/>
 </manifest>
