@@ -1077,6 +1077,11 @@ pre {
   padding-top: 90px;
   padding-bottom: 90px;
 }
+.cid-qst4oeBxzS {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/jumbotron.jpg");
+}
 .cid-qst3EmhPuQ {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1134,7 +1139,4 @@ pre {
 }
 .cid-qst3EmhPuQ .media-container-row .row-copirayt {
   word-break: break-word;
-}
-.cid-qst4oeBxzS {
-  background-image: url("../../../assets/images/jumbotron.jpg");
 }
