@@ -23,10 +23,10 @@ body {
 }
 .display-1 {
   font-family: 'Roboto Slab', serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 4.8rem;
+  font-size: 4rem;
 }
 .display-2 {
   font-family: 'Roboto Slab', serif;
@@ -63,9 +63,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2rem;
+    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.6rem;
@@ -1077,6 +1077,9 @@ pre {
   padding-top: 90px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/background5.jpg");
+}
+.cid-qssEvOs4US H3 {
+  text-align: left;
 }
 .cid-qssYYyYUK7 {
   padding-top: 90px;
