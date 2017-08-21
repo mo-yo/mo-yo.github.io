@@ -1082,7 +1082,11 @@ pre {
   }
 }
 .cid-qsTnbYX8Af {
-  background-color: #0f7699;
+  background-image: url("../../../assets/images/mbr-1555x1080.jpg");
+}
+.cid-qsTnbYX8Af .mbr-text,
+.cid-qsTnbYX8Af .mbr-section-btn {
+  text-align: center;
 }
 .cid-qsTqrke5ND {
   padding-top: 90px;
