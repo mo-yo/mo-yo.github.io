@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515367318911">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515367863186">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="index.css" crc="274679876" ref="index"/>
@@ -57,5 +57,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3934927701" seo="true" mt="1515366771315" redirect="true"/>
+  <file name="index.html" crc="3934927701" seo="true" mt="1515367738627" redirect="true"/>
 </manifest>
