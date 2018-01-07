@@ -6,6 +6,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
+      <image:loc>https://mo-yo.github.io/images/223.jpg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://mo-yo.github.io/images/111.jpg</image:loc>
     </image:image>
     <image:image>
@@ -19,9 +22,6 @@
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.github.io/images/111310x165.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://mo-yo.github.io/images/223980x287.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.github.io/images/223768x225.jpg</image:loc>
@@ -46,6 +46,9 @@
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.github.io/images/v2160x100.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v2371x232.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
