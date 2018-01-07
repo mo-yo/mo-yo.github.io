@@ -6,9 +6,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/223.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://mo-yo.github.io/images/111.jpg</image:loc>
     </image:image>
     <image:image>
@@ -18,37 +15,28 @@
       <image:loc>https://mo-yo.github.io/images/v2.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/223768x225.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://mo-yo.github.io/images/223480x141.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://mo-yo.github.io/images/111470x250.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.github.io/images/111310x165.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/223980x287.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v3289x217.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v3368x276.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v2287x180.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v2366x229.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v3240x180.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v3226x170.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v2226x141.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v2226x142.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v3133x100.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v3151x114.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://mo-yo.github.io/images/v2151x95.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v2153x96.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

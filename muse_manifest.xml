@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515358637167">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515361327268">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4260727082" ref="index"/>
-    <file name="nomq_index.css" crc="4178575399" ref="index"/>
+    <file name="index.css" crc="158193050" ref="index"/>
+    <file name="nomq_index.css" crc="263991030" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -12,25 +12,20 @@
     <file name="jquery.watch.js" crc="460461809" ref="index"/>
     <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
     <file name="require.js" crc="3951022091" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="223.jpg" crc="194560600" seo="true" ref="index">
+    <file name="223.jpg" crc="194560600" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="111.jpg" crc="222937229" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v3.jpg" crc="359462377" seo="true" ref="index">
+    <file name="v3.jpg" crc="448474394" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v2.jpg" crc="83773052" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="223768x225.jpg" crc="180277563" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="223480x141.jpg" crc="15113984" seo="true" ref="index">
+    <file name="v2.jpg" crc="97822340" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="111470x250.jpg" crc="379457814" seo="true" ref="index">
@@ -40,27 +35,27 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="223980x287.jpg" crc="4244301787" seo="true" ref="index">
+    <file name="223-u1223-fr.jpg" crc="4244301787" ref="index"/>
+    <file name="v3289x217.jpg" crc="427372887" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v3368x276.jpg" crc="4127244957" seo="true" ref="index">
+    <file name="v2287x180.jpg" crc="54337957" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v2366x229.jpg" crc="4158069910" seo="true" ref="index">
+    <file name="223-u1223-fr2.jpg" crc="180277563" ref="index"/>
+    <file name="v3240x180.jpg" crc="4242408994" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v3226x170.jpg" crc="44329512" seo="true" ref="index">
+    <file name="v2226x141.jpg" crc="3784208524" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v2226x142.jpg" crc="4164250389" seo="true" ref="index">
+    <file name="223-u1223-fr3.jpg" crc="15113984" ref="index"/>
+    <file name="v3133x100.jpg" crc="4042311259" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v3151x114.jpg" crc="4174550641" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="v2151x95.jpg" crc="3844137186" seo="true" ref="index">
+    <file name="v2153x96.jpg" crc="400436221" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="106317312" seo="true" mt="1515356691115" redirect="true"/>
+  <file name="index.html" crc="4271982857" seo="true" mt="1515361251929" redirect="true"/>
 </manifest>
