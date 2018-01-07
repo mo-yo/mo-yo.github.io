@@ -1,0 +1,81 @@
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515351732477">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="3891812485" ref="index"/>
+    <file name="nomq_index.css" crc="64830372" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4216313831" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="474374037" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
+    <file name="jquery.watch.js" crc="460461809" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
+    <file name="require.js" crc="3951022091" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="223.jpg" crc="194560600" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="111.jpg" crc="3958290762" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v3.jpg" crc="359462377" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v2.jpg" crc="83773052" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="223980x287.jpg" crc="4244301787" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v3394x296.jpg" crc="424858840" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v2472x295.jpg" crc="505996926" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="223-u592-fr.jpg" crc="4244301787" ref="index"/>
+    <file name="223768x225.jpg" crc="180277563" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v3370x278.jpg" crc="3999728974" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v2370x231.jpg" crc="27404436" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="223-u592-fr2.jpg" crc="180277563" ref="index"/>
+    <file name="223480x141.jpg" crc="15113984" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="111470x250.jpg" crc="172072599" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v3231x174.jpg" crc="3968878380" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v2231x145.jpg" crc="4150856386" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="223-u592-fr3.jpg" crc="15113984" ref="index"/>
+    <file name="223320x94.jpg" crc="3843541750" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="111310x165.jpg" crc="4071460523" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v3154x116.jpg" crc="160896474" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v2154x97.jpg" crc="4201762869" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="193845657" seo="true" mt="1515349932274" redirect="true"/>
+</manifest>
