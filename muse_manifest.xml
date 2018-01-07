@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515354183419">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515358637167">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="497347697" ref="index"/>
+    <file name="index.css" crc="4260727082" ref="index"/>
     <file name="nomq_index.css" crc="4178575399" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -30,37 +30,37 @@
     <file name="223768x225.jpg" crc="180277563" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v3370x278.jpg" crc="3999728974" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="v2370x231.jpg" crc="27404436" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="223480x141.jpg" crc="15113984" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="111470x250.jpg" crc="379457814" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v3231x174.jpg" crc="3968878380" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="v2231x145.jpg" crc="4150856386" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="223320x94.jpg" crc="3843541750" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="111310x165.jpg" crc="3899294151" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="v3154x116.jpg" crc="160896474" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="v2154x97.jpg" crc="4201762869" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="223980x287.jpg" crc="4244301787" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v3368x276.jpg" crc="4127244957" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v2366x229.jpg" crc="4158069910" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v3226x170.jpg" crc="44329512" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v2226x142.jpg" crc="4164250389" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v3151x114.jpg" crc="4174550641" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v2151x95.jpg" crc="3844137186" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4067877062" seo="true" mt="1515354042191" redirect="true"/>
+  <file name="index.html" crc="106317312" seo="true" mt="1515356691115" redirect="true"/>
 </manifest>
