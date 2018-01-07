@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515352136334">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.github.io" resolutions="1x" timestamp="1515354183419">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3839686775" ref="index"/>
-    <file name="nomq_index.css" crc="4070924721" ref="index"/>
+    <file name="index.css" crc="497347697" ref="index"/>
+    <file name="nomq_index.css" crc="4178575399" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -17,8 +17,7 @@
     <file name="223.jpg" crc="194560600" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="111.jpg" crc="3958290762" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="111.jpg" crc="222937229" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -26,15 +25,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="v2.jpg" crc="83773052" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="223980x287.jpg" crc="4244301787" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="v3394x296.jpg" crc="424858840" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="v2472x295.jpg" crc="505996926" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="223768x225.jpg" crc="180277563" seo="true" ref="index">
@@ -49,7 +39,7 @@
     <file name="223480x141.jpg" crc="15113984" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="111470x250.jpg" crc="172072599" seo="true" ref="index">
+    <file name="111470x250.jpg" crc="379457814" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="v3231x174.jpg" crc="3968878380" seo="true" ref="index">
@@ -61,7 +51,7 @@
     <file name="223320x94.jpg" crc="3843541750" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="111310x165.jpg" crc="4071460523" seo="true" ref="index">
+    <file name="111310x165.jpg" crc="3899294151" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="v3154x116.jpg" crc="160896474" seo="true" ref="index">
@@ -72,5 +62,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4097420149" seo="true" mt="1515352123079" redirect="true"/>
+  <file name="index.html" crc="4067877062" seo="true" mt="1515354042191" redirect="true"/>
 </manifest>
