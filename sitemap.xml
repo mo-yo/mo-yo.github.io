@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mo-yo.github.io/index.html</loc>
-    <lastmod>2018-01-07</lastmod>
+    <lastmod>2018-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -21,22 +21,31 @@
       <image:loc>https://mo-yo.github.io/images/111310x165.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v3289x217.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/223980x287.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v2287x180.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/223768x225.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v3240x180.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v3347x261.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v2226x141.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/223480x141.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v3133x100.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v3218x163.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/v2153x96.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/v2216x135.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/223322x95.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v3145x109.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v2160x100.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
