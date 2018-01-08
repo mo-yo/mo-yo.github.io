@@ -6,7 +6,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/111.jpg</image:loc>
+      <image:loc>https://mo-yo.github.io/images/223.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.github.io/images/v3.jpg</image:loc>
@@ -15,22 +15,31 @@
       <image:loc>https://mo-yo.github.io/images/v2.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/111470x250.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://mo-yo.github.io/images/111310x165.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://mo-yo.github.io/images/223480x141.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.github.io/images/223980x287.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://mo-yo.github.io/images/223602x177.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://mo-yo.github.io/images/223320x94.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/2232.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v2291x182.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v3272x204.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v2240x150.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v3224x168.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v2151x94.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.github.io/images/v3147x110.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
