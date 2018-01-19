@@ -569,6 +569,9 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
+.scrollToTop_wraper {
+  opacity: 0 !important;
+}
 #scrollToTop a i:before {
   content: '';
   position: absolute;
@@ -1280,7 +1283,7 @@ body {
   min-height: 100vh;
 }
 .cid-qGQVDmoy5M {
-  background-image: url("../../../assets/images/mbr-1618x1080.jpg");
+  background-color: #073b4c;
 }
 .cid-qtvoq28gTi {
   padding-top: 90px;
@@ -1308,6 +1311,7 @@ body {
 }
 .cid-qtvoq28gTi .mbr-text {
   color: #767676;
+  text-align: left;
 }
 .cid-qtvoq28gTi .card-wrapper {
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
