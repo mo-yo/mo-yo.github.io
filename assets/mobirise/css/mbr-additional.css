@@ -1285,6 +1285,16 @@ body {
 .cid-qGQVDmoy5M {
   background-image: url("../../../assets/images/555-2000x1600.jpg");
 }
+.cid-qGQVDmoy5M .mbr-text,
+.cid-qGQVDmoy5M .mbr-section-btn {
+  color: #ff3366;
+}
+.cid-qGQVDmoy5M H3 {
+  color: #073b4c;
+}
+.cid-qGQVDmoy5M H1 {
+  color: #dd1111;
+}
 .cid-qtvoq28gTi {
   padding-top: 0px;
   padding-bottom: 0px;
