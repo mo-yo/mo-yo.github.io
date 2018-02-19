@@ -1519,6 +1519,44 @@ body {
 .cid-qJ4OojEuN7 .mbr-text SPAN {
   color: #ff3366;
 }
+#modal-block-29 .panel-body {
+  padding: 15px;
+}
+#modal-block-29 modal {
+  display: mone;
+  position: fixed;
+  zIndex: 1;
+  paddingTop: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  backgroundColor: rgba(0, 0, 0, 0.4);
+}
+#modal-block-29 modal_content {
+  backgroundColor: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+#modal-block-29 close {
+  color: #aaaaaa;
+  float: right;
+  fontSize: 28px;
+  fontWeight: bold;
+}
+#modal-block-29 close_hover {
+  color: #000;
+  textDecoration: none;
+  cursor: pointer;
+}
+#modal-block-29 close_focus {
+  color: #000;
+  textDecoration: none;
+  cursor: pointer;
+}
 .cid-qK6H5qIh0q {
   padding-top: 60px;
   padding-bottom: 60px;
