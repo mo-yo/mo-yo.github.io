@@ -1721,6 +1721,10 @@ body {
     -webkit-justify-content: center;
   }
 }
+#deltapieditor-21 P {
+  color: #ff3366;
+  text-align: right;
+}
 .cid-qJ4ODxlpbz .navbar {
   padding: .5rem 0;
   background: #333333;
