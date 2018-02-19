@@ -1456,6 +1456,7 @@ body {
 }
 .cid-qJ4OmBgmtx .mbr-text {
   color: #767676;
+  text-align: center;
 }
 .cid-qJ4OnafAI4 {
   padding-top: 60px;
@@ -1497,6 +1498,7 @@ body {
 }
 .cid-qJ4OojEuN7 .mbr-text {
   color: #767676;
+  text-align: center;
 }
 .cid-qJ4OojEuN7 .card-wrapper {
   height: 100%;
@@ -1513,6 +1515,9 @@ body {
     max-width: 20%;
     padding: 15px;
   }
+}
+.cid-qJ4OojEuN7 .mbr-text SPAN {
+  color: #ff3366;
 }
 .cid-qK6H5qIh0q {
   padding-top: 60px;
