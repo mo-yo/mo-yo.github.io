@@ -1426,6 +1426,13 @@ body {
 }
 .cid-qJ4OkuMg1z .mbr-section-subtitle {
   color: #767676;
+  text-align: center;
+}
+.cid-qJ4OkuMg1z H2 {
+  text-align: center;
+}
+.cid-qJ4OkuMg1z SPAN {
+  color: #ff3366;
 }
 .cid-qJ4Olmt1pK {
   padding-top: 60px;
@@ -1610,6 +1617,7 @@ body {
 }
 .cid-qJ4OsIpokI .mbr-section-subtitle {
   color: #767676;
+  text-align: right;
 }
 .cid-qJ4OsIpokI .card {
   -webkit-flex-basis: 100%;
@@ -1627,6 +1635,9 @@ body {
     -webkit-flex-basis: 33%;
     flex-basis: 33%;
   }
+}
+.cid-qJ4OsIpokI .mbr-section-title {
+  text-align: center;
 }
 .cid-qJ4OubEQYk .google-map {
   height: 25rem;
@@ -1654,76 +1665,14 @@ body {
 .cid-qJ4OubEQYk .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-qJ4OxPAFrx {
+.cid-qK6H5qIh0q {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #2e2e2e;
+  background-color: #ffffff;
 }
-@media (max-width: 767px) {
-  .cid-qJ4OxPAFrx .content {
-    text-align: center;
-  }
-  .cid-qJ4OxPAFrx .content > div:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-qJ4OxPAFrx .media-wrap {
-    margin-bottom: 1rem;
-  }
-}
-.cid-qJ4OxPAFrx .media-wrap .mbr-iconfont-logo {
-  font-size: 7.5rem;
-  color: #f36;
-}
-.cid-qJ4OxPAFrx .media-wrap img {
-  height: 6rem;
-}
-@media (max-width: 767px) {
-  .cid-qJ4OxPAFrx .footer-lower .copyright {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-}
-.cid-qJ4OxPAFrx .footer-lower hr {
-  margin: 1rem 0;
-  border-color: #fff;
-  opacity: .05;
-}
-.cid-qJ4OxPAFrx .footer-lower .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
-}
-.cid-qJ4OxPAFrx .footer-lower .social-list .mbr-iconfont-social {
-  font-size: 1.3rem;
-  color: #fff;
-}
-.cid-qJ4OxPAFrx .footer-lower .social-list .soc-item {
-  margin: 0 .5rem;
-}
-.cid-qJ4OxPAFrx .footer-lower .social-list a {
-  margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-}
-.cid-qJ4OxPAFrx .footer-lower .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-qJ4OxPAFrx .footer-lower .social-list {
-    justify-content: center;
-    -webkit-justify-content: center;
-  }
-}
-#deltapieditor-21 P {
-  color: #ff3366;
-  text-align: right;
+.cid-qK6H5qIh0q .mbr-text,
+.cid-qK6H5qIh0q blockquote {
+  color: #767676;
 }
 .cid-qJ4ODxlpbz .navbar {
   padding: .5rem 0;
