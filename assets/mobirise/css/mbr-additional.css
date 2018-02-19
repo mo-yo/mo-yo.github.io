@@ -1436,6 +1436,12 @@ body {
 .cid-qJ4Olmt1pK blockquote {
   color: #767676;
 }
+.cid-qJ4Olmt1pK .mbr-text {
+  text-align: left;
+}
+.cid-qJ4Olmt1pK .mbr-text B {
+  color: #ff3366;
+}
 .cid-qJ4OmBgmtx {
   padding-top: 60px;
   padding-bottom: 60px;
