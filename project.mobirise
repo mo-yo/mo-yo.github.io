@@ -801,15 +801,6 @@
           "_params": {}
         },
         {
-          "_params": {},
-          "alias": "deltapiblockeditor",
-          "_tags": [
-            "Расширения"
-          ],
-          "_name": "deltapiblockeditor",
-          "_anchor": "deltapiblockeditor-22"
-        },
-        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
