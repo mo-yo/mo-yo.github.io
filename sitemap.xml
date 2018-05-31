@@ -5,6 +5,7 @@
     <lastmod>2018-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://mo-yo.github.io/phone/index.html"/>
     <image:image>
       <image:loc>https://mo-yo.github.io/images/cropped-logo-180x180.png</image:loc>
     </image:image>
