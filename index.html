@@ -21,11 +21,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=523588673"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=223296868" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=454268794" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4017569886" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3998505475" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -59,7 +59,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="browser_width colelem shared_content" id="u1916-bw" data-content-guid="u1916-bw_content">
       <div class="museBGSize rgba-background" id="u1916"><!-- group -->
        <div class="clearfix" id="u1916_align_to_page">
-        <div class="clearfix grpelem shared_content" id="u1879" data-content-guid="u1879_content"><!-- group -->
+        <div class="clearfix grpelem shared_content" id="u7447" data-content-guid="u7447_content"><!-- group -->
          <div class="rgba-background rounded-corners clearfix grpelem" id="u1880"><!-- group -->
           <div class="clearfix grpelem" id="u1881-15"><!-- content -->
            <p id="u1881-2">Информационно-техническое обеспечение</p>
@@ -544,7 +544,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </nav>
      </div>
      <div class="museBGSize rgba-background clearfix colelem temp_no_id" data-orig-id="u1916"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u1879_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u7447_content"><!-- placeholder node --></span>
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="u1930-13_content"><!-- placeholder node --></span>
      <div class="museBGSize clearfix colelem temp_no_id" data-orig-id="u1885"><!-- group -->
@@ -630,13 +630,6 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1330', '#bp_980', '#bp_768', '#bp_480'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_980').one('muse_this_bp_activate', function(){
-$('#u1916').registerBackgroundPositionScrollEffect([{"in":[-Infinity,70],"speed":[0,0.6]},{"in":[70,Infinity],"speed":[0,0.6]}], $(this)); /* scroll effect */
-$('#u1885').registerBackgroundPositionScrollEffect([{"in":[-Infinity,915.1],"speed":[0,0]},{"in":[915.1,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-$('#u1890').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1561],"speed":[0,0]},{"in":[1561,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-$('#u1876').registerBackgroundPositionScrollEffect([{"in":[-Infinity,2599.7],"speed":[0,0]},{"in":[2599.7,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-$('#u1931').registerBackgroundPositionScrollEffect([{"in":[-Infinity,3783.45],"speed":[0,0]},{"in":[3783.45,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_768').one('muse_this_bp_activate', function(){
 $('#u1916').registerBackgroundPositionScrollEffect([{"in":[-Infinity,70],"speed":[0,0.6]},{"in":[70,Infinity],"speed":[0,0.6]}], $(this)); /* scroll effect */
 $('#u1885').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1081.05],"speed":[0,0]},{"in":[1081.05,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
@@ -654,6 +647,13 @@ $('#u1885').registerBackgroundPositionScrollEffect([{"in":[-Infinity,997],"speed
 $('#u1890').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1670.95],"speed":[0,0]},{"in":[1670.95,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
 $('#u1876').registerBackgroundPositionScrollEffect([{"in":[-Infinity,2616.8],"speed":[0,0.2]},{"in":[2616.8,Infinity],"speed":[0,0.2]}], $(this)); /* scroll effect */
 $('#u1931').registerBackgroundPositionScrollEffect([{"in":[-Infinity,3663.4],"speed":[0,0]},{"in":[3663.4,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_980').one('muse_this_bp_activate', function(){
+$('#u1916').registerBackgroundPositionScrollEffect([{"in":[-Infinity,70],"speed":[0,0.6]},{"in":[70,Infinity],"speed":[0,0.6]}], $(this)); /* scroll effect */
+$('#u1885').registerBackgroundPositionScrollEffect([{"in":[-Infinity,915.1],"speed":[0,0]},{"in":[915.1,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
+$('#u1890').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1561],"speed":[0,0]},{"in":[1561,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
+$('#u1876').registerBackgroundPositionScrollEffect([{"in":[-Infinity,2599.7],"speed":[0,0]},{"in":[2599.7,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
+$('#u1931').registerBackgroundPositionScrollEffect([{"in":[-Infinity,3783.45],"speed":[0,0]},{"in":[3783.45,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
