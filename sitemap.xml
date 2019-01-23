@@ -63,10 +63,4 @@
       <image:loc>https://mo-yo.github.io/images/team_member_02-crop-u109113.jpg</image:loc>
     </image:image>
   </url>
-  <url>
-    <loc>https://mo-yo.github.io/assets/free-form.php</loc>
-    <lastmod>2018-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
 </urlset>
