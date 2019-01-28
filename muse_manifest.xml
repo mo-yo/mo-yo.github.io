@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548718535167">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548718792494">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="3927890647" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="4040544666" ref="index"/>
+    <file name="index.css" crc="3861112252" ref="index"/>
     <file name="nomq_index.css" crc="4268344873" ref="index"/>
     <file name="dva.css" crc="3927779703" ref="dva"/>
     <file name="nomq_dva.css" crc="3791892018" ref="dva"/>
@@ -134,7 +134,7 @@
     <file name="team_member_02-crop-u109112.jpg" crc="528776285" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="22132435-1-u1916-fr3.png" crc="4079484289" ref="index"/>
+    <file name="22132435-1-u1916-fr3.png" crc="4199342344" ref="index"/>
     <file name="akc-bg-kopiya-u1885-fr2.jpg" crc="514206528" ref="index"/>
     <file name="team_member_02-crop-u109113.jpg" crc="528776285" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -142,6 +142,6 @@
     <file name="22132435-1-u1916-fr4.png" crc="35156440" ref="index"/>
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
   </folder>
-  <file name="index.html" crc="271535177" seo="true" mt="1548718352830" redirect="true"/>
+  <file name="index.html" crc="3788390788" seo="true" mt="1548718761515" redirect="true"/>
   <file name="dva.html" crc="3947512737" seo="true" mt="1548718505087" redirect="true"/>
 </manifest>
