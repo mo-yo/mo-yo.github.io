@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548716655718">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548716957920">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="3982405783" ref="index"/>
@@ -140,6 +140,6 @@
     <file name="22132435-1-u1916-fr4.png" crc="35156440" ref="index"/>
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
   </folder>
-  <file name="index.html" crc="186481838" seo="true" mt="1548693003983" redirect="true"/>
-  <file name="без-имени-2.html" crc="264081402" seo="true" mt="1548693631669" redirect="true"/>
+  <file name="index.html" crc="264308161" seo="true" mt="1548716909674" redirect="true"/>
+  <file name="без-имени-2.html" crc="264081402" seo="true" mt="1548716909680" redirect="true"/>
 </manifest>
