@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548717559004">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548717946962">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="3982405783" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
     <file name="index.css" crc="462507405" ref="index"/>
     <file name="nomq_index.css" crc="437297066" ref="index"/>
-    <file name="dva.css" crc="4240178345" ref="dva"/>
-    <file name="nomq_dva.css" crc="3758227725" ref="dva"/>
+    <file name="dva.css" crc="340420490" ref="dva"/>
+    <file name="nomq_dva.css" crc="497079541" ref="dva"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:dva"/>
@@ -141,5 +141,5 @@
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
   </folder>
   <file name="index.html" crc="302957301" seo="true" mt="1548717138072" redirect="true"/>
-  <file name="dva.html" crc="3980908589" seo="true" mt="1548717549330" redirect="true"/>
+  <file name="dva.html" crc="311529777" seo="true" mt="1548717928321" redirect="true"/>
 </manifest>
