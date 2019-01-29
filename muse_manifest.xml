@@ -1,13 +1,13 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548722913636">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548801920890">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="3927890647" ref="index"/>
-    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="254292652" ref="index"/>
-    <file name="nomq_index.css" crc="4051133709" ref="index"/>
-    <file name="dva.css" crc="105041244" ref="dva"/>
-    <file name="nomq_dva.css" crc="4254079290" ref="dva"/>
-    <file name="master_______-b.css" crc="4132211117" ref="dva"/>
+    <file name="master_______-a.css" crc="86412374" ref="index"/>
+    <file name="nomq_preview_master_______-a.css" crc="508156544" ref="index"/>
+    <file name="index.css" crc="35817252" ref="index"/>
+    <file name="nomq_index.css" crc="269730982" ref="index"/>
+    <file name="dva.css" crc="245307291" ref="dva"/>
+    <file name="nomq_dva.css" crc="4192081926" ref="dva"/>
+    <file name="master_______-b.css" crc="4108301062" ref="dva"/>
     <file name="nomq_preview_master_______-b.css" crc="3824530138" ref="dva"/>
   </folder>
   <folder name="scripts">
@@ -114,7 +114,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:dva"/>
     <file name="client_03.jpg" crc="3933949643" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -142,6 +142,6 @@
     <file name="22132435-1-u1916-fr4.png" crc="35156440" ref="index"/>
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
   </folder>
-  <file name="index.html" crc="208420216" seo="true" mt="1548722869122" redirect="true"/>
-  <file name="dva.html" crc="391808934" seo="true" mt="1548721256585" redirect="true"/>
+  <file name="index.html" crc="410122525" seo="true" mt="1548801729896" redirect="true"/>
+  <file name="dva.html" crc="4070394134" seo="true" mt="1548800699072" redirect="true"/>
 </manifest>
