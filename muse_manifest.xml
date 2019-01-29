@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548720973630">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1548721286191">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="3927890647" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
     <file name="index.css" crc="3861112252" ref="index"/>
     <file name="nomq_index.css" crc="4268344873" ref="index"/>
-    <file name="dva.css" crc="260818445" ref="dva"/>
-    <file name="nomq_dva.css" crc="157390823" ref="dva"/>
+    <file name="dva.css" crc="105041244" ref="dva"/>
+    <file name="nomq_dva.css" crc="4254079290" ref="dva"/>
     <file name="master_______-b.css" crc="4132211117" ref="dva"/>
     <file name="nomq_preview_master_______-b.css" crc="3824530138" ref="dva"/>
   </folder>
@@ -16,14 +16,14 @@
     <file name="whatinput.js" crc="86476730" ref="index:dva"/>
     <file name="museconfig.js" crc="4286661555" ref="index:dva"/>
     <file name="jquery.watch.js" crc="51536988" ref="index:dva"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:dva"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
     <file name="webpro.js" crc="4059564322" ref="index"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
     <file name="touchswipe.js" crc="4075097462" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:dva"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="index:dva"/>
     <file name="require.js" crc="7928878" ref="index:dva"/>
   </folder>
@@ -143,5 +143,5 @@
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
   </folder>
   <file name="index.html" crc="3788390788" seo="true" mt="1548718761515" redirect="true"/>
-  <file name="dva.html" crc="211955267" seo="true" mt="1548720920556" redirect="true"/>
+  <file name="dva.html" crc="391808934" seo="true" mt="1548721256585" redirect="true"/>
 </manifest>
