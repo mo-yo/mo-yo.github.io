@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mo-yo.ml/index.html</loc>
-    <lastmod>2019-01-30</lastmod>
+    <lastmod>2019-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -65,7 +65,93 @@
   </url>
   <url>
     <loc>https://mo-yo.ml/dva.html</loc>
-    <lastmod>2019-01-30</lastmod>
+    <lastmod>2019-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/metroui1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/nalivnoi_akril.png</image:loc>
+      <image:caption>Наливная ванна (Жидким акрилом)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/kist_vanna.png</image:loc>
+      <image:caption>Эмалировка ванн (Акриловой эмалью)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/portal-8.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/portal-12.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/portal-15.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/portal-36.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/kak-novaya.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/nizkaya-cena.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/24-chasa.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/lyuboj-cvet.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/15-let.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/bolee-10-let.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/restavraciya-dushevyx-poddonov.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/restavraciya-dzhakuzi.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/polirovka-vanny.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/portal-8-crop-u16148.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/portal-12-crop-u16164.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/portal-8-crop-u161482.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/portal-12-crop-u161642.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://mo-yo.ml/assets/foto-posle-restavracii-1.jpg</loc>
+    <lastmod>2019-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mo-yo.ml/assets/foto-do-restavracii-1.jpg</loc>
+    <lastmod>2019-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mo-yo.ml/assets/1a.jpg</loc>
+    <lastmod>2014-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mo-yo.ml/assets/1b.jpg</loc>
+    <lastmod>2014-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
