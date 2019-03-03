@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551617468689">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551618488442">
   <folder name="assets">
     <file name="2-spspicmgjeyejuqauv93rm4jze4_yftocy4zwqowhgg5_u9aaxrldkhqm0zem3dxz3dhiwxkfeuxxefuvah0dal3zb6o5fwgm7e9ekfcap1a27qxkr2uiqip1m-vm70ff229hbzw=w2400-(2).jpg" crc="4095484155" seo="true" mt="1551538141000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="69162374"/>
-    <file name="index.css" crc="3883549855" ref="index"/>
+    <file name="index.css" crc="451845689" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -36,9 +36,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="2-spspicmgjeyejuqauv93rm4jze4_yftocy4zwqowhgg5_u9aaxrldkhqm0zem3dxz3dhiwxkfeuxxefuvah0dal3zb6o5fwgm7e9ekfcap1a27qxkr2uiqip1m-vm70ff229hbzw=w2400 (2).jpg" crc="3831356212" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="header-mask.png" crc="247406651" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -63,9 +60,6 @@
     <file name="ycqsturdgwr9kczp5ofodcfzezrpikbjw3qhthjtwlys2oyoghgqkb0hll3mrdzvd5kx9wx9lslftlaw-20zl_umsbaa81sxhx4c_q123gazq-fd3o0uuvxswyl_vbkbufzwrtedra=w2400.jpg" crc="4277977960" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="sg-back.jpg" crc="3836522937" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="client_01.jpg" crc="307471851" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -82,6 +76,12 @@
     <file name="loading.gif" crc="3815509949" ref="index"/>
     <file name="главная-favicon.ico" crc="519407201" ref="index"/>
     <file name="158-buttonu1549-fr.png" crc="3834504495" ref="index"/>
+    <file name="trt7658.jpg" crc="489714235" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sg-back22.jpg" crc="169058688" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="54839024" seo="true" mt="1551617292783" redirect="true"/>
+  <file name="index.html" crc="4049997791" seo="true" mt="1551618402429" redirect="true"/>
 </manifest>
