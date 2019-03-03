@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551643715060">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551654076339">
   <folder name="assets">
     <file name="2-spspicmgjeyejuqauv93rm4jze4_yftocy4zwqowhgg5_u9aaxrldkhqm0zem3dxz3dhiwxkfeuxxefuvah0dal3zb6o5fwgm7e9ekfcap1a27qxkr2uiqip1m-vm70ff229hbzw=w2400-(2).jpg" crc="4095484155" seo="true" mt="1551538141000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="69162374"/>
-    <file name="index.css" crc="254527024" ref="index"/>
-    <file name="nomq_index.css" crc="3856131396" ref="index"/>
+    <file name="index.css" crc="3795885309" ref="index"/>
+    <file name="nomq_index.css" crc="266283987" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -134,6 +134,8 @@
     <file name="team_member_02-crop-u7313.jpg" crc="4112528659" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="158-buttonu1549-fr2.png" crc="3834504495" ref="index"/>
+    <file name="158-buttonu1549-fr3.png" crc="469086520" ref="index"/>
   </folder>
-  <file name="index.html" crc="429088293" seo="true" mt="1551643632204" redirect="true"/>
+  <file name="index.html" crc="408124860" seo="true" mt="1551654019696" redirect="true"/>
 </manifest>
