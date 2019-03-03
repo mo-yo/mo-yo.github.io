@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551636168017">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551642915740">
   <folder name="assets">
     <file name="2-spspicmgjeyejuqauv93rm4jze4_yftocy4zwqowhgg5_u9aaxrldkhqm0zem3dxz3dhiwxkfeuxxefuvah0dal3zb6o5fwgm7e9ekfcap1a27qxkr2uiqip1m-vm70ff229hbzw=w2400-(2).jpg" crc="4095484155" seo="true" mt="1551538141000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="69162374"/>
-    <file name="index.css" crc="4047686003" ref="index"/>
-    <file name="nomq_index.css" crc="117143527" ref="index"/>
+    <file name="index.css" crc="3960882809" ref="index"/>
+    <file name="nomq_index.css" crc="3944490395" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -29,8 +29,14 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="auricular-phone-symbol-in-a-circle.png" crc="201572661" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -45,6 +51,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="header-mask.png" crc="247406651" ref="index">
       <caption webpage="index" alt=""/>
@@ -52,29 +60,37 @@
     <file name="f15d39668e.jpg" crc="311944312" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="38a2b55ea8.jpg" crc="4255543452" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="d1615321e7.jpg" crc="4058960832" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="camera11.png" crc="4228709966" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="es2su3nr7fsbpymkwdnuj0dfi1axhkau4msu6j7vbopxtp0yrdzfhf2mqaxr6ylxzzvoozet_kmbh1k1mqouapqqdrwcdxlicfn4voj0oqomneobxehoenr56yyxasd7kvcfg3m3rq=w2400.jpg" crc="3791975614" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="pdkpp6llgjhjguskpl-byjo_i0wovvttf3a6qn8tutvykmxnqdoutdiqiff5gh8aatn1oa2usxqtbcxk0ele2mfjbn_mw25rdi4buseqdsjwsssybc6ucrm6snelqjwgristlqkwmq=w2400.jpg" crc="4155902878" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="ycqsturdgwr9kczp5ofodcfzezrpikbjw3qhthjtwlys2oyoghgqkb0hll3mrdzvd5kx9wx9lslftlaw-20zl_umsbaa81sxhx4c_q123gazq-fd3o0uuvxswyl_vbkbufzwrtedra=w2400.jpg" crc="4277977960" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="client_01.jpg" crc="307471851" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -82,8 +98,10 @@
     <file name="client_03.jpg" crc="3933949643" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="client_09.jpg" crc="535124148" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -112,6 +130,10 @@
     <file name="ycqsturdgwr9kczp5ofodcfzezrpikbjw3qhthjtwlys2oyoghgqkb0hll3mrdzvd5kx9wx9lslftlaw-20zl_umsbaa81sxhx4c_q123gazq-fd3o0uuvxswyl_vbkbufzwrtedra=w2400253x380.jpg" crc="4240583848" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="trt7658-u346-fr2.jpg" crc="4079130441" ref="index"/>
+    <file name="team_member_02-crop-u7313.jpg" crc="4112528659" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="213333374" seo="true" mt="1551636139294" redirect="true"/>
+  <file name="index.html" crc="220868377" seo="true" mt="1551642759265" redirect="true"/>
 </manifest>
