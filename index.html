@@ -18,8 +18,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="shortcut icon" href="images/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f-favicon.ico?crc=519407201"/>
   <title>Вектор Плюс! Звоните: ☎ +38 063 193 71 99 ☎ +38 097 145 91 03</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=35063950"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4162961421" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=69162374"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4286898920" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -152,6 +152,9 @@ to { opacity:1;}
        <img class="block" id="u1565_img" src="images/viber.png?crc=4033636923" alt="" data-heightwidthratio="1" data-image-width="30" data-image-height="30"/>
       </div>
      </div>
+    </div>
+    <div class="size_fixed colelem" id="u1592" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+      
     </div>
    </div>
    <div class="clearfix grpelem" id="pu346"><!-- group -->
@@ -477,6 +480,15 @@ Muse.Utils.prepHyperlinks(true);/* body */
 		Muse.Assert.fail('Error with Widget:Scroll to Top ParamHTMLOnDocReady Handler ' + e.toString());
 	}
 })();/* Widget:Scroll to Top */
+(function(){
+	try{
+ window.Muse.Utils.prepHyperlinks = function(){return false;}; window.Muse.Utils.processHyperlink = function(){return false;}; $('a').on('click', function(e) { var href = this.getAttribute('href').split('#'); $('html, body').animate({ scrollTop: $('#'+href[1]).offset().top }, 1000); return false; }); 
+	}
+	catch(e)
+	{
+		Muse.Assert.fail('Error with Widget:Anchor off ParamHTMLOnDocReady Handler ' + e.toString());
+	}
+})();/* Widget:Anchor off */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
