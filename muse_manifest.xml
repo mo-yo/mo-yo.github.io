@@ -1,7 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551577684875">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551578400330">
+  <folder name="assets">
+    <file name="2-spspicmgjeyejuqauv93rm4jze4_yftocy4zwqowhgg5_u9aaxrldkhqm0zem3dxz3dhiwxkfeuxxefuvah0dal3zb6o5fwgm7e9ekfcap1a27qxkr2uiqip1m-vm70ff229hbzw=w2400-(2).jpg" crc="4095484155" seo="true" mt="1551538141000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="443584108" ref="index"/>
+    <file name="index.css" crc="3946616337" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -19,7 +22,6 @@
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="домашняя-favicon.ico" crc="519407201" ref="index"/>
     <file name="142.jpg" crc="204497166" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -81,6 +83,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="вектор-плюс!-звоните-☎--38-063-193-71-99-☎--38-097-145-91-03-favicon.ico" crc="519407201" ref="index"/>
   </folder>
-  <file name="index.html" crc="3770156464" seo="true" mt="1551577269120" redirect="true"/>
+  <file name="index.html" crc="423521893" seo="true" mt="1551578329252" redirect="true"/>
 </manifest>
