@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551654076339">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1551654499631">
   <folder name="assets">
     <file name="2-spspicmgjeyejuqauv93rm4jze4_yftocy4zwqowhgg5_u9aaxrldkhqm0zem3dxz3dhiwxkfeuxxefuvah0dal3zb6o5fwgm7e9ekfcap1a27qxkr2uiqip1m-vm70ff229hbzw=w2400-(2).jpg" crc="4095484155" seo="true" mt="1551538141000"/>
   </folder>
@@ -137,5 +137,5 @@
     <file name="158-buttonu1549-fr2.png" crc="3834504495" ref="index"/>
     <file name="158-buttonu1549-fr3.png" crc="469086520" ref="index"/>
   </folder>
-  <file name="index.html" crc="408124860" seo="true" mt="1551654019696" redirect="true"/>
+  <file name="index.html" crc="126880855" seo="true" mt="1551654452503" redirect="true"/>
 </manifest>
