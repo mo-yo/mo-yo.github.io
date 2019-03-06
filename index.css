@@ -692,11 +692,13 @@ body {
    font-size: 24px;
    font-style: normal;
    font-weight: normal;
+   height: 100%;
    margin: 0 0 8px 0;
    overflow: hidden;
    padding: 8px;
    position: absolute;
    text-decoration: none;
+   top: 110%;
    width: 100%;
 }
 #NewsFeedTicker1 h4 {
