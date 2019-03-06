@@ -1,3 +1,7 @@
+@font-face {
+   font-family: Calibri;
+   src: url('calibri.woff') format('woff'), url('calibri.ttf') format('truetype'), url('calibri.svg') format('svg'), url('calibri.eot') format('embedded-opentype');
+}
 a {
    color: #0000FF;
    text-decoration: underline;
