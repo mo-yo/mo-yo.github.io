@@ -1,3 +1,7 @@
+@font-face {
+   font-family: Calibri;
+   src: url('calibri.ttf') format('truetype');
+}
 a {
    color: #0000FF;
    text-decoration: underline;
