@@ -1,39 +1,16 @@
 
 $(document).ready(function()
-{$('#wb_indexFontAwesomeIcon1').addClass('visibility-hidden');$('#wb_indexFontAwesomeIcon2').addClass('visibility-hidden');$('#wb_FontAwesomeIcon10').addClass('visibility-hidden');$('#wb_FontAwesomeIcon11').addClass('visibility-hidden');$('#wb_FontAwesomeIcon26').addClass('visibility-hidden');$('#wb_FontAwesomeIcon27').addClass('visibility-hidden');$('#wb_FontAwesomeIcon28').addClass('visibility-hidden');$('#wb_LayoutGrid1').parallax();$("a[href*='#header']").click(function(event)
+{$('#wb_LayoutGrid1').parallax();$("a[href*='#header']").click(function(event)
 {event.preventDefault();$('html, body').stop().animate({scrollTop:$('#wb_header').offset().top},600,'easeOutSine');});$(document).on('click','.ThemeableMenu1-navbar-collapse.in',function(e)
 {if($(e.target).is('a')&&($(e.target).attr('class')!='dropdown-toggle'))
-{$(this).collapse('hide');}});function indexFontAwesomeIcon1Scroll()
-{var $obj=$("#wb_indexFontAwesomeIcon1");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
-{$obj.addClass("in-viewport");AnimateCss('wb_indexFontAwesomeIcon1','transform-lightspeed-in',100,1000);}}
-indexFontAwesomeIcon1Scroll();$(window).scroll(function(event)
-{indexFontAwesomeIcon1Scroll();});function indexFontAwesomeIcon2Scroll()
-{var $obj=$("#wb_indexFontAwesomeIcon2");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
-{$obj.addClass("in-viewport");AnimateCss('wb_indexFontAwesomeIcon2','transform-lightspeed-in',200,1000);}}
-indexFontAwesomeIcon2Scroll();$(window).scroll(function(event)
-{indexFontAwesomeIcon2Scroll();});function FontAwesomeIcon10Scroll()
-{var $obj=$("#wb_FontAwesomeIcon10");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
-{$obj.addClass("in-viewport");AnimateCss('wb_FontAwesomeIcon10','transform-lightspeed-in',300,1000);}}
-FontAwesomeIcon10Scroll();$(window).scroll(function(event)
-{FontAwesomeIcon10Scroll();});function FontAwesomeIcon11Scroll()
-{var $obj=$("#wb_FontAwesomeIcon11");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
-{$obj.addClass("in-viewport");AnimateCss('wb_FontAwesomeIcon11','transform-lightspeed-in',400,1000);}}
-FontAwesomeIcon11Scroll();$(window).scroll(function(event)
-{FontAwesomeIcon11Scroll();});function FontAwesomeIcon26Scroll()
-{var $obj=$("#wb_FontAwesomeIcon26");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
-{$obj.addClass("in-viewport");AnimateCss('wb_FontAwesomeIcon26','transform-lightspeed-in',500,1000);}}
-FontAwesomeIcon26Scroll();$(window).scroll(function(event)
-{FontAwesomeIcon26Scroll();});function FontAwesomeIcon27Scroll()
-{var $obj=$("#wb_FontAwesomeIcon27");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
-{$obj.addClass("in-viewport");AnimateCss('wb_FontAwesomeIcon27','transform-lightspeed-in',600,1000);}}
-FontAwesomeIcon27Scroll();$(window).scroll(function(event)
-{FontAwesomeIcon27Scroll();});function FontAwesomeIcon28Scroll()
-{var $obj=$("#wb_FontAwesomeIcon28");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
-{$obj.addClass("in-viewport");AnimateCss('wb_FontAwesomeIcon28','transform-lightspeed-in',700,1000);}}
-FontAwesomeIcon28Scroll();$(window).scroll(function(event)
-{FontAwesomeIcon28Scroll();});$('#wb_LayoutGrid5').parallax();$("#Progressbar1").progressbar({value:60});$("#Progressbar2").progressbar({value:30});$("#Progressbar3").progressbar({value:10});$("#Progressbar4").progressbar({value:4});$("#Progressbar5").progressbar({value:15});$("a[href*='#services1']").click(function(event)
-{event.preventDefault();$('html, body').stop().animate({scrollTop:$('#wb_services1').offset().top-88},600,'easeOutCirc');});});var messages=new Array
-('Здоровых пациентов в год','Счастливые клиенты','Награды и сертификаты наших специалистов','Благодарные отзывы пациентов');var speed=40;var currentMsg=0;function doScroller(text,pos,direction)
+{$(this).collapse('hide');}});$('#wb_count-up').parallax();});$(document).ready(function()
+{var $countup=$('#count-up h6');$countup.each(function()
+{var $obj=$(this);$obj.data('value',parseInt($obj.html()));$obj.data('done',false);$obj.html('0');});$(window).bind('scroll',function()
+{$countup.each(function()
+{var $obj=$(this);if(!$obj.data('done')&&$(window).scrollTop()+$(window).height()>=$obj.offset().top)
+{$obj.data('done',true);$obj.animate({scroll:1},{duration:2000,step:function(now)
+{var $obj=$(this);var val=Math.round($obj.data('value')*now);$obj.html(val);}});}});}).triggerHandler('scroll');});var messages=new Array
+('Лечение алкоголизма','Лечение наркомании','Бесплатная консультация','Выезд специалиста на дом','Работаем круглосуточно 24/7','Звоните!','Доступные цены');var speed=40;var currentMsg=0;function doScroller(text,pos,direction)
 {var text_scroller=document.getElementById('text_scroller');text_scroller.innerText=''+text.substring(0,pos)+' |';pos+=direction;if(pos>text.length)
 {setTimeout('doScroller("'+text+'",'+pos+','+(-direction)+')',speed*50);}
 else
