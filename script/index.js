@@ -10,15 +10,30 @@ $(document).ready(function()
 {var index=$(e.relatedTarget).index();switch(index)
 {case 0:ShowObjectWithEffect('wb_Name1',1,'slideleft',800,'easeOutQuad');ShowObjectWithEffect('wb_Name2',0,'slideup',500);ShowObjectWithEffect('wb_Name3',0,'slideup',500);ShowObjectWithEffect('Line1',1,'fade',500);ShowObjectWithEffect('Line2',0,'fade',500);ShowObjectWithEffect('Line3',0,'fade',500);break;case 1:ShowObjectWithEffect('wb_Name1',0,'slideup',500);ShowObjectWithEffect('wb_Name2',1,'slideleft',800,'easeOutQuad');ShowObjectWithEffect('wb_Name3',0,'slideup',500);ShowObjectWithEffect('Line1',0,'fade',500);ShowObjectWithEffect('Line2',1,'fade',500);ShowObjectWithEffect('Line3',0,'fade',500);break;case 2:ShowObjectWithEffect('wb_Name1',0,'slideup',500);ShowObjectWithEffect('wb_Name2',0,'slideup',500);ShowObjectWithEffect('wb_Name3',1,'slideleft',800,'easeOutQuad');ShowObjectWithEffect('Line1',0,'fade',500);ShowObjectWithEffect('Line2',0,'fade',500);ShowObjectWithEffect('Line3',1,'fade',500);break;}});$.fn.bootstrapcarousel.Constructor.TRANSITION_DURATION=500;$("#TextSlider").bootstrapcarousel({interval:3000});function indexImage8Scroll()
 {var $obj=$("#wb_indexImage8");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(true))
-{$obj.addClass("in-viewport");AnimateCss('wb_indexImage8','animate-fade-in-left',100,2000);}}
+{$obj.addClass("in-viewport");AnimateCss('wb_indexImage8','animate-fade-in-left',100,2000);}
+else
+if($obj.hasClass("in-viewport")&&!$obj.inViewPort(true))
+{$obj.removeClass("in-viewport");AnimateCss('wb_indexImage8','animate-fade-in-left',100,2000);}}
+if(!$('#wb_indexImage8').inViewPort(true))
+{$('#wb_indexImage8').addClass("in-viewport");}
 indexImage8Scroll();$(window).scroll(function(event)
 {indexImage8Scroll();});function indexImage9Scroll()
 {var $obj=$("#wb_indexImage9");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(true))
-{$obj.addClass("in-viewport");AnimateCss('wb_indexImage9','animate-fade-in-up',100,2000);}}
+{$obj.addClass("in-viewport");AnimateCss('wb_indexImage9','animate-fade-in-up',100,2000);}
+else
+if($obj.hasClass("in-viewport")&&!$obj.inViewPort(true))
+{$obj.removeClass("in-viewport");AnimateCss('wb_indexImage9','animate-fade-in-up',100,2000);}}
+if(!$('#wb_indexImage9').inViewPort(true))
+{$('#wb_indexImage9').addClass("in-viewport");}
 indexImage9Scroll();$(window).scroll(function(event)
 {indexImage9Scroll();});function indexImage10Scroll()
 {var $obj=$("#wb_indexImage10");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(true))
-{$obj.addClass("in-viewport");AnimateCss('wb_indexImage10','animate-fade-in-right',100,2000);}}
+{$obj.addClass("in-viewport");AnimateCss('wb_indexImage10','animate-fade-in-right',100,2000);}
+else
+if($obj.hasClass("in-viewport")&&!$obj.inViewPort(true))
+{$obj.removeClass("in-viewport");AnimateCss('wb_indexImage10','animate-fade-in-right',100,2000);}}
+if(!$('#wb_indexImage10').inViewPort(true))
+{$('#wb_indexImage10').addClass("in-viewport");}
 indexImage10Scroll();$(window).scroll(function(event)
 {indexImage10Scroll();});$("a[href*='#uslugi']").click(function(event)
 {event.preventDefault();$('html, body').stop().animate({scrollTop:$('#wb_uslugi').offset().top},600,'linear');});$("a[href*='#portfolio']").click(function(event)
