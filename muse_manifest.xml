@@ -1,11 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552332333172">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552338972776">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="521587814" ref="index"/>
-    <file name="nomq_index.css" crc="3841506881" ref="index"/>
+    <file name="index.css" crc="3873637188" ref="index"/>
+    <file name="nomq_index.css" crc="43093615" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="pop123321.jpg" crc="4095484155" seo="true" mt="1551538141000"/>
+    <file name="trt7658.jpg" crc="292188833" seo="true" mt="1551618140000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -18,12 +19,17 @@
     <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
     <file name="touchswipe.js" crc="4075097462" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
   </folder>
   <folder name="images">
     <file name="whatsapp-logo.png" crc="3937940479" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -42,14 +48,18 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="viber.png" crc="4033636923" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="trt7658.jpg" crc="489714235" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -102,12 +112,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="team_member_02-crop-u343.jpg" crc="528776285" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="loading.gif" crc="3815509949" ref="index"/>
     <file name="swq22.jpg" crc="3791975614" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -116,25 +122,42 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="qqq13211.jpg" crc="4277977960" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+    </file>
+    <file name="158-buttonu3405-fr.png" crc="4157802069" ref="index"/>
+    <file name="158-buttonu3405-fr2.png" crc="4157802069" ref="index"/>
+    <file name="prew.jpg" crc="4092435319" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="team_member_02-crop-u3432.jpg" crc="528776285" seo="true" ref="index">
+    <file name="team_member_02-crop-u2537.jpg" crc="528776285" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="trt7658-u1750-fr.jpg" crc="134500182" ref="index"/>
-    <file name="team_member_02-crop-u3433.jpg" crc="528776285" seo="true" ref="index">
+    <file name="team_member_02-crop-u25372.jpg" crc="3819982099" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="trt7658-u1750-fr2.jpg" crc="4048033189" ref="index"/>
-    <file name="team_member_02-crop-u3434.jpg" crc="4112528659" seo="true" ref="index">
+    <file name="team_member_02-crop-u25373.jpg" crc="4259828784" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="swq22253x380.jpg" crc="208475003" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eee234253x321.jpg" crc="4013412816" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="qqq13211253x380.jpg" crc="4240583848" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="158-buttonu3405-fr3.png" crc="3984175169" ref="index"/>
+    <file name="team_member_02-crop-u25374.jpg" crc="314169563" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="289545749" seo="true" mt="1552332317512" redirect="true"/>
+  <file name="index.html" crc="4010685934" seo="true" mt="1552338701102" redirect="true"/>
 </manifest>

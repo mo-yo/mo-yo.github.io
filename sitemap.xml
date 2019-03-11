@@ -36,9 +36,6 @@
       <image:loc>https://mo-yo.ml/images/client_09.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/team_member_02-crop-u343.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://mo-yo.ml/images/swq22.jpg</image:loc>
     </image:image>
     <image:image>
@@ -48,18 +45,36 @@
       <image:loc>https://mo-yo.ml/images/qqq13211.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/team_member_02-crop-u3432.jpg</image:loc>
+      <image:loc>https://mo-yo.ml/images/team_member_02-crop-u2537.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/team_member_02-crop-u3433.jpg</image:loc>
+      <image:loc>https://mo-yo.ml/images/team_member_02-crop-u25372.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/team_member_02-crop-u3434.jpg</image:loc>
+      <image:loc>https://mo-yo.ml/images/team_member_02-crop-u25373.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/swq22253x380.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/eee234253x321.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/qqq13211253x380.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/team_member_02-crop-u25374.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://mo-yo.ml/assets/pop123321.jpg</loc>
     <lastmod>2019-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mo-yo.ml/assets/trt7658.jpg</loc>
+    <lastmod>2019-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
