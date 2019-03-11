@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552324871021">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552331911910">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="114577312" ref="index"/>
-    <file name="nomq_index.css" crc="4294871473" ref="index"/>
+    <file name="index.css" crc="521587814" ref="index"/>
+    <file name="nomq_index.css" crc="3841506881" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="pop123321.jpg" crc="4095484155" seo="true" mt="1551538141000"/>
@@ -13,25 +13,17 @@
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="4286661555" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
     <file name="jquery.watch.js" crc="51536988" ref="index"/>
     <file name="webpro.js" crc="4059564322" ref="index"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
     <file name="touchswipe.js" crc="4075097462" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="158-buttonu1339-fr.png" crc="3834504495" ref="index"/>
-    <file name="158-buttonu1339-fr2.png" crc="3834504495" ref="index"/>
     <file name="whatsapp-logo.png" crc="3937940479" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -50,16 +42,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="viber.png" crc="4033636923" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -143,16 +127,14 @@
     <file name="team_member_02-crop-u3432.jpg" crc="528776285" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="158-buttonu1339-fr3.png" crc="3938959212" ref="index"/>
     <file name="trt7658-u1750-fr.jpg" crc="134500182" ref="index"/>
     <file name="team_member_02-crop-u3433.jpg" crc="528776285" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="158-buttonu1339-fr4.png" crc="500142873" ref="index"/>
     <file name="trt7658-u1750-fr2.jpg" crc="4048033189" ref="index"/>
     <file name="team_member_02-crop-u3434.jpg" crc="4112528659" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="363511730" seo="true" mt="1552324730659" redirect="true"/>
+  <file name="index.html" crc="4022052796" seo="true" mt="1552331664857" redirect="true"/>
 </manifest>
