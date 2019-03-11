@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552322077603">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552324871021">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4277515671" ref="index"/>
-    <file name="nomq_index.css" crc="88482198" ref="index"/>
+    <file name="index.css" crc="114577312" ref="index"/>
+    <file name="nomq_index.css" crc="4294871473" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="pop123321.jpg" crc="4095484155" seo="true" mt="1551538141000"/>
@@ -154,5 +154,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4261872429" seo="true" mt="1552321958635" redirect="true"/>
+  <file name="index.html" crc="363511730" seo="true" mt="1552324730659" redirect="true"/>
 </manifest>
