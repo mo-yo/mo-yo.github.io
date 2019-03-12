@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552430995847">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552431792885">
   <folder name="css">
     <file name="site_global.css" crc="430961480"/>
-    <file name="index.css" crc="491806792" ref="index"/>
-    <file name="nomq_index.css" crc="4246035026" ref="index"/>
+    <file name="index.css" crc="384966157" ref="index"/>
+    <file name="nomq_index.css" crc="3896247181" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsansnarrow.woff" crc="3909085451"/>
@@ -68,5 +68,5 @@
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="главная-favicon.ico" crc="67587339" ref="index"/>
   </folder>
-  <file name="index.html" crc="4266185370" seo="true" mt="1552430966286" redirect="true"/>
+  <file name="index.html" crc="131450999" seo="true" mt="1552431772438" redirect="true"/>
 </manifest>
