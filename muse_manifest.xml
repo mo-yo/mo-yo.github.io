@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552511963458">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552515025045">
   <folder name="css">
     <file name="site_global.css" crc="430961480"/>
-    <file name="index.css" crc="17913017" ref="index"/>
-    <file name="nomq_index.css" crc="83962696" ref="index"/>
+    <file name="index.css" crc="3914061859" ref="index"/>
+    <file name="nomq_index.css" crc="495768124" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsansnarrow.woff" crc="3909085451"/>
@@ -67,6 +67,36 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="главная-favicon.ico" crc="67587339" ref="index"/>
+    <file name="qqq13211300x451.jpg" crc="4288409777" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
+    <file name="eee234300x381.jpg" crc="169183764" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
+    <file name="swq22300x451.jpg" crc="24836471" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
+    <file name="qqq13211230x346.jpg" crc="388518726" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
+    <file name="eee234230x292.jpg" crc="3833657591" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
+    <file name="swq22230x346.jpg" crc="4203080308" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
+    <file name="qqq13211.jpg" crc="4076406551" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
+    <file name="eee234.jpg" crc="4105341697" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
+    <file name="swq22.jpg" crc="114294546" seo="true" ref="index">
+      <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
+    </file>
   </folder>
-  <file name="index.html" crc="3907439794" seo="true" mt="1552511930510" redirect="true"/>
+  <file name="index.html" crc="501171807" seo="true" mt="1552514997268" redirect="true"/>
 </manifest>
