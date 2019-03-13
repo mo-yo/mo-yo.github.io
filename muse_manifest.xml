@@ -1,16 +1,13 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552518220502">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552519044701">
   <folder name="css">
     <file name="site_global.css" crc="430961480"/>
-    <file name="index.css" crc="371778409" ref="index"/>
-    <file name="nomq_index.css" crc="32983489" ref="index"/>
+    <file name="index.css" crc="4243977365" ref="index"/>
+    <file name="nomq_index.css" crc="4242823883" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsansnarrow.woff" crc="3909085451"/>
     <file name="ptsansnarrow.eot" crc="3889177114"/>
     <file name="ptsansnarrow.svg" crc="3897928463"/>
-  </folder>
-  <folder name="assets">
-    <file name="sg-back.jpg" crc="3836522937" seo="true" mt="1551537919000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -104,6 +101,12 @@
     </file>
     <file name="trt7658-u9130-fr.jpg" crc="219730116" ref="index"/>
     <file name="trt7658-u9130-fr2.jpg" crc="147237767" ref="index"/>
+    <file name="sg-back22.jpg" crc="169058688" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sg-back22-u9192-fr.jpg" crc="3959678492" ref="index"/>
+    <file name="sg-back22-u9192-fr2.jpg" crc="3853480723" ref="index"/>
+    <file name="sg-back22-u9192-fr3.jpg" crc="4039161589" ref="index"/>
   </folder>
-  <file name="index.html" crc="290890550" seo="true" mt="1552518194842" redirect="true"/>
+  <file name="index.html" crc="28473668" seo="true" mt="1552519007190" redirect="true"/>
 </manifest>
