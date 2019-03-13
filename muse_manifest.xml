@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552515025045">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552516057881">
   <folder name="css">
     <file name="site_global.css" crc="430961480"/>
-    <file name="index.css" crc="3914061859" ref="index"/>
-    <file name="nomq_index.css" crc="495768124" ref="index"/>
+    <file name="index.css" crc="410065402" ref="index"/>
+    <file name="nomq_index.css" crc="4201920845" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsansnarrow.woff" crc="3909085451"/>
@@ -98,5 +98,5 @@
       <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
     </file>
   </folder>
-  <file name="index.html" crc="501171807" seo="true" mt="1552514997268" redirect="true"/>
+  <file name="index.html" crc="3933424954" seo="true" mt="1552516000375" redirect="true"/>
 </manifest>
