@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552519044701">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1552519334828">
   <folder name="css">
     <file name="site_global.css" crc="430961480"/>
-    <file name="index.css" crc="4243977365" ref="index"/>
-    <file name="nomq_index.css" crc="4242823883" ref="index"/>
+    <file name="index.css" crc="183160890" ref="index"/>
+    <file name="nomq_index.css" crc="4273286408" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsansnarrow.woff" crc="3909085451"/>
@@ -21,12 +21,6 @@
     <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="prew.jpg" crc="4092435319" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="logo4326.png" crc="3989500526" seo="true" ref="index">
       <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
       <caption webpage="index" alt="Кодирование от алкоголизма в Одессе"/>
@@ -108,5 +102,5 @@
     <file name="sg-back22-u9192-fr2.jpg" crc="3853480723" ref="index"/>
     <file name="sg-back22-u9192-fr3.jpg" crc="4039161589" ref="index"/>
   </folder>
-  <file name="index.html" crc="28473668" seo="true" mt="1552519007190" redirect="true"/>
+  <file name="index.html" crc="274941451" seo="true" mt="1552519308735" redirect="true"/>
 </manifest>
