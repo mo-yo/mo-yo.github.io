@@ -623,7 +623,7 @@ a.text-black:focus {
 }
 
 .mbr-section-btn a.btn:not(.btn-form) {
-    border-radius: 15;
+    border-radius: 100px;
 }
 
 .mbr-section-btn a.btn:not(.btn-form):hover,
