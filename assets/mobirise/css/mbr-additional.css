@@ -22,7 +22,7 @@ body {
 .display-1 {
     font-family: 'Rubik', sans-serif;
     font-size: 4.25rem;
-    color: #d91b1b;
+    color: #e71153;
 }
 
 .display-1 > .mbr-iconfont {
@@ -1662,8 +1662,8 @@ body {
 }
 
 .cid-rmLEzarT6e {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #ffffff;
 }
 
@@ -1732,8 +1732,8 @@ body {
 }
 
 .cid-rmLEAXPGBE {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #ffffff;
 }
 
@@ -1937,4 +1937,42 @@ body {
     -webkit-transition: 0.2s background ease-in-out;
     transition: 0.2s background ease-in-out;
     background: linear-gradient(to left, #554346, #45505b) !important;
+}
+
+.cid-rmMnX3aS7F {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url("../../../assets/images/background4.jpg");
+}
+
+.cid-rmMnZwKPzm {
+    background-image: url("../../../assets/images/background1.jpg");
+}
+
+.cid-rmMnZwKPzm .icons-media-container {
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+
+.cid-rmMnZwKPzm .icons-media-container .mbr-iconfont {
+    font-size: 96px;
+    color: #ffffff;
+}
+
+.cid-rmMnZwKPzm .icons-media-container .icon-block {
+    padding-bottom: 1rem;
+}
+
+.cid-rmMnZwKPzm .mbr-text {
+    color: #ffffff;
+}
+
+.cid-rmMnZwKPzm .card {
+    padding-bottom: 1.5rem;
 }
