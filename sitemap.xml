@@ -11,6 +11,12 @@
     <image:image>
       <image:loc>http://mo-yo.ml/images/1266x214.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://mo-yo.ml/images/4-crop-u398.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mo-yo.ml/images/4-crop-u3982.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mo-yo.ml/dva.html</loc>
@@ -23,5 +29,11 @@
     <image:image>
       <image:loc>http://mo-yo.ml/images/4-crop-u2892.jpg</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://mo-yo.ml/%D0%B1%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-4.html</loc>
+    <lastmod>2019-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
