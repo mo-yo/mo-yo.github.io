@@ -18,7 +18,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mo-yo.ml/images/1.jpg</image:loc>
+      <image:loc>http://mo-yo.ml/images/4-crop-u289.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mo-yo.ml/images/4-crop-u2892.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

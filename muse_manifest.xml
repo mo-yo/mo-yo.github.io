@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1554651173662">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1554651414333">
   <folder name="css">
     <file name="site_global.css" crc="495889209"/>
     <file name="master_______-a.css" crc="161523152" ref="dva:index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="dva:index"/>
-    <file name="dva.css" crc="4261672857" ref="dva"/>
-    <file name="nomq_dva.css" crc="10747465" ref="dva"/>
+    <file name="dva.css" crc="449956301" ref="dva"/>
+    <file name="nomq_dva.css" crc="464680371" ref="dva"/>
     <file name="index.css" crc="95768548" ref="index"/>
     <file name="nomq_index.css" crc="509820919" ref="index"/>
   </folder>
@@ -21,7 +21,7 @@
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="519407201" ref="index"/>
-    <file name="1.jpg" crc="152506226" seo="true" ref="index:dva">
+    <file name="1.jpg" crc="152506226" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="dva" alt=""/>
       <caption webpage="dva" alt=""/>
@@ -31,7 +31,13 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index:dva"/>
     <file name="вторая-favicon.ico" crc="519407201" ref="dva"/>
+    <file name="4-crop-u289.jpg" crc="4037798826" seo="true" ref="dva">
+      <caption webpage="dva" alt=""/>
+    </file>
+    <file name="4-crop-u2892.jpg" crc="3870933368" seo="true" ref="dva">
+      <caption webpage="dva" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="3967382337" seo="true" mt="1554651091385" redirect="true"/>
-  <file name="dva.html" crc="300819211" seo="true" mt="1554651055610" redirect="true"/>
+  <file name="dva.html" crc="3922808170" seo="true" mt="1554651402866" redirect="true"/>
 </manifest>
