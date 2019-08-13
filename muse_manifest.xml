@@ -1,0 +1,119 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565718437514">
+  <folder name="css">
+    <file name="site_global.css" crc="344712218"/>
+    <file name="index.css" crc="438353838" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4286661555" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u111.php" crc="4002886917" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="64.jpg" crc="53672934" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icon.png" crc="3855326328" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="03-1.png" crc="3893500624" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="79.jpg" crc="3811672926" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="81.jpg" crc="3905693922" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="95.jpg" crc="4027407090" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="placeholder.jpg" crc="4051531941" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="126.jpg" crc="3771768090" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="popular.png" crc="4107662696" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ic.jpg" crc="3876398499" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="placeholdersmall.jpg" crc="3770145882" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="check-icon.png" crc="4134584060" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="01-1.png" crc="194015341" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="02-1.png" crc="4161264665" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="04.png" crc="4124831433" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="05.png" crc="4049850069" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook.png" crc="317936629" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter.png" crc="4102706121" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pinterest.png" crc="4214682508" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="youtube.png" crc="442611654" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="skype.png" crc="4267061425" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="heart.png" crc="117585526" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3849991430" seo="true" mt="1565718084154" redirect="true"/>
+</manifest>
