@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565694626479">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565695050176">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="194429314" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="217664850" seo="true" mt="1565694294772" redirect="true"/>
+    <file name="index.html" crc="217664850" seo="true" mt="1565695012651" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
@@ -39,6 +39,7 @@
     <file name="blank.gif" crc="4208392903" ref="index:phone>index"/>
     <file name="pexels-photo-large.jpg" crc="4034303520" ref="index:phone>index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="pexels-photo-29781-large.jpg" crc="507014965" ref="index:phone>index">
       <caption webpage="index" alt=""/>
@@ -56,5 +57,5 @@
     <file name="landscape-nature-clouds-cloudy-u8209-fr.jpg" crc="286119134" ref="phone>index"/>
     <file name="11-u6226-fr.png" crc="400549448" ref="index"/>
   </folder>
-  <file name="index.html" crc="117805222" seo="true" mt="1565694612583" redirect="true"/>
+  <file name="index.html" crc="3935704446" seo="true" mt="1565694930476" redirect="true"/>
 </manifest>
