@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565693746925">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565694064889">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="317057194" ref="phone>index"/>
@@ -8,8 +8,7 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4049854420" ref="index"/>
-    <file name="master_a-master.css" crc="3778142194" ref="index"/>
+    <file name="index.css" crc="510902298" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrowbold.woff" crc="4208788712"/>
@@ -28,9 +27,9 @@
     <file name="musewpslideshow.js" crc="3862962738" ref="index:phone>index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index:phone>index"/>
     <file name="touchswipe.js" crc="4075097462" ref="index:phone>index"/>
-    <file name="form_check.php" crc="4020933626" ref="phone>index"/>
-    <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
-    <file name="form_process.php" crc="37464564" ref="phone>index"/>
+    <file name="form_check.php" crc="4020933626" ref="phone>index:index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="phone>index:index"/>
+    <file name="form_process.php" crc="37464564" ref="phone>index:index"/>
     <file name="form-u6154.php" crc="447560616" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:phone>index"/>
     <file name="require.js" crc="7928878" ref="index:phone>index"/>
@@ -39,7 +38,6 @@
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index:phone>index"/>
     <file name="pexels-photo-large.jpg" crc="4034303520" ref="index:phone>index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="pexels-photo-29781-large.jpg" crc="507014965" ref="index:phone>index">
@@ -50,14 +48,13 @@
     </file>
     <file name="979d963c.jpg" crc="482073878" ref="index:phone>index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="heart.png" crc="117585526" seo="true" ref="index:phone>index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
-    <file name="11-u8257-fr.png" crc="400549448" ref="phone>index:index"/>
+    <file name="11-u8257-fr.png" crc="400549448" ref="phone>index"/>
     <file name="landscape-nature-clouds-cloudy-u8209-fr.jpg" crc="286119134" ref="phone>index"/>
+    <file name="11-u6226-fr.png" crc="400549448" ref="index"/>
   </folder>
-  <file name="index.html" crc="4182926221" seo="true" mt="1565691009591" redirect="true"/>
+  <file name="index.html" crc="168313993" seo="true" mt="1565694039295" redirect="true"/>
 </manifest>
