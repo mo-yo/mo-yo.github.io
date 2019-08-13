@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565731813749">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565733891390">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="4039004936" ref="index"/>
-    <file name="index.css" crc="4108618742" ref="index"/>
+    <file name="index.css" crc="139859787" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrowbold.woff" crc="4208788712"/>
@@ -25,7 +25,7 @@
     <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
     <file name="form_process.php" crc="37464564" ref="phone>index"/>
     <file name="form-u10907.php" crc="3990151820" ref="phone>index"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="phone>index:index"/>
     <file name="require.js" crc="7928878" ref="phone>index:index"/>
     <file name="form-u6154.php" crc="447560616" ref="index"/>
@@ -58,9 +58,9 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="399950396" ref="phone>index"/>
+      <file name="index.css" crc="346608301" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3783537232" seo="true" mt="1565731756481" redirect="true"/>
+    <file name="index.html" crc="28701481" seo="true" mt="1565733802233" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4158668991" seo="true" mt="1565731712905" redirect="true"/>
+  <file name="index.html" crc="4028681134" seo="true" mt="1565733866359" redirect="true"/>
 </manifest>
