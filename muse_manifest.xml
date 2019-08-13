@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565658545157">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565659438899">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4262307006" ref="index"/>
+    <file name="index.css" crc="433258121" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrowbold.woff" crc="4208788712"/>
@@ -47,5 +47,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4060152227" seo="true" mt="1565658449527" redirect="true"/>
+  <file name="index.html" crc="161707725" seo="true" mt="1565659408924" redirect="true"/>
 </manifest>
