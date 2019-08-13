@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565659438899">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="mo-yo.ml" resolutions="1x" timestamp="1565660820884">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="433258121" ref="index"/>
+    <file name="index.css" crc="3854009822" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrowbold.woff" crc="4208788712"/>
@@ -29,12 +29,11 @@
   </folder>
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="pexels-photo-large.jpg" crc="4005355680" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="pexels-photo-large.jpg" crc="4034303520" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="11-u6226-fr.png" crc="400549448" ref="index"/>
-    <file name="pexels-photo-29781-large.jpg" crc="3939858201" ref="index">
+    <file name="pexels-photo-29781-large.jpg" crc="507014965" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="landscape-nature-clouds-cloudy.jpg" crc="3872063557" ref="index">
@@ -47,5 +46,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="161707725" seo="true" mt="1565659408924" redirect="true"/>
+  <file name="index.html" crc="3934455401" seo="true" mt="1565660777282" redirect="true"/>
 </manifest>
