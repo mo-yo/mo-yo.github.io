@@ -7,8 +7,8 @@
 */
 
 $imSettings['general'] = array(
-	'url' => 'https://mo-yo.ml/blog/',
-	'homepage_url' => 'https://mo-yo.ml/blog/index.html',
+	'url' => 'https://mo-yo.ml/blog/index.html/',
+	'homepage_url' => 'https://mo-yo.ml/blog/index.html/index.html',
 	'icon' => '',
 	'version' => '14.0.3.1',
 	'sitename' => 'Проба пера',

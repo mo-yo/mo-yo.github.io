@@ -3,4 +3,4 @@ Disallow: /admin
 Disallow: /captcha
 Disallow: /menu
 Disallow: /imemail
-Sitemap: https://mo-yo.ml/blog/sitemap.xml
+Sitemap: https://mo-yo.ml/blog/index.html/sitemap.xml
