@@ -324,9 +324,9 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	#imHeader_imCell_3 { width: 191px; min-height: 40px;  padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCellStyle_3 { width: 191px; min-height: 40px; padding: 0px 0px 0px 0px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
 	#imHeader_imCellStyleGraphics_3 { left: 0px; right: 0px; }
-	#imHeader_imMenuObject_07_wrapper { position: absolute; top: 0px; left: 0px; width: 1149px; height: 60px; z-index: 1005;  }
-	#imHeader_imCell_7 { width: 1149px; min-height: 52px;  padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
-	#imHeader_imCellStyle_7 { width: 1149px; min-height: 52px; padding: 0px 0px 0px 0px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imHeader_imMenuObject_07_wrapper { position: absolute; top: 0px; left: 0px; width: 949px; height: 60px; z-index: 1005;  }
+	#imHeader_imCell_7 { width: 949px; min-height: 52px;  padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
+	#imHeader_imCellStyle_7 { width: 949px; min-height: 52px; padding: 0px 0px 0px 0px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
 	#imHeader_imCellStyleGraphics_7 { left: 0px; right: 0px; }
 	/* Main menu background */
 	#imHeader_imMenuObject_07 { border-style: solid; border-width: 0px 0px 0px 0px; border-color: transparent transparent transparent transparent; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; background-color: transparent; padding: 0px 0px 0px 0px; }
@@ -386,8 +386,8 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	left: 170px;
 	}
 	#imHeader_imMenuObject_07 ul > li > ul, #imHeader_imMenuObject_07 .multiple-column { display: none; }
-	#imHeader_imMenuObject_07 > ul > li:nth-child(8n+1) {margin-left: 0;}
-	#imHeader_imMenuObject_07 > ul > li:nth-child(n+9) {margin-top: 0px; }
+	#imHeader_imMenuObject_07 > ul > li:nth-child(6n+1) {margin-left: 0;}
+	#imHeader_imMenuObject_07 > ul > li:nth-child(n+7) {margin-top: 0px; }
 	#imHeader_imMenuObject_07-menu-opened { display: none; }
 	#imHeader_imMenuObject_07 .hamburger-component { display: none; }
 	

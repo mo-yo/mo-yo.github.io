@@ -17,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css?14-0-3-1" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?14-0-3-1" media="screen" />
 		<link rel="stylesheet" type="text/css" href="imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?14-0-3-1-637019272426352524" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?14-0-3-1-637019277992412201" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?14-0-3-1"></script>
 		<script type="text/javascript" src="res/x5engine.js?14-0-3-1" data-files-version="14-0-3-1"></script>
 		<script type="text/javascript" src="imHeader_pluginAppObj_03/main.js"></script>
@@ -60,11 +60,12 @@
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden" data-flip-direction="1">
-	<li class="imMnMnFirst imPage" data-link-paths="/blog/index.html/mo-yo.ml.html,/blog/index.html/">
+	<li class="imMnMnFirst imLevel" data-link-hash="1066174184"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="https://mo-yo.ml/" class="label">Главная</a></div></div><ul data-flip-direction="1">
+	</ul></li><li class="imMnMnMiddle imPage" data-link-paths="/blog/index.html/index.html,/blog/index.html/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="mo-yo.ml.html">
-Главная		</a>
+		<a class="label" href="index.html">
+Блог		</a>
 </div>
 </div>
 	</li><li class="imMnMnMiddle imPage" data-link-paths="/blog/index.html/---------1.html">
@@ -104,11 +105,12 @@ $(function () {$('#imHeader_imMenuObject_07 ul li').each(function () {    var $t
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden" data-flip-direction="1">
-	<li class="imMnMnFirst imPage" data-link-paths="/blog/index.html/mo-yo.ml.html,/blog/index.html/">
+	<li class="imMnMnFirst imLevel" data-link-hash="1066174184"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="https://mo-yo.ml/" class="label">Главная</a></div></div><ul data-flip-direction="1">
+	</ul></li><li class="imMnMnMiddle imPage" data-link-paths="/blog/index.html/index.html,/blog/index.html/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="mo-yo.ml.html">
-Главная		</a>
+		<a class="label" href="index.html">
+Блог		</a>
 </div>
 </div>
 	</li><li class="imMnMnMiddle imPage" data-link-paths="/blog/index.html/---------1.html">
