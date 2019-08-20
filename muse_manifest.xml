@@ -1,11 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1566319540647">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1566336643351">
   <folder name="css">
     <file name="site_global.css" crc="69162374"/>
-    <file name="index.css" crc="4252083335" ref="index"/>
-    <file name="nomq_index.css" crc="3788509590" ref="index"/>
+    <file name="index.css" crc="4098489753" ref="index"/>
+    <file name="nomq_index.css" crc="4137414890" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="trt7658.jpg" crc="292188833" seo="true" mt="1551618140000"/>
     <file name="pop123321.jpg" crc="4095484155" seo="true" mt="1551538141000"/>
   </folder>
   <folder name="scripts">
@@ -58,15 +57,12 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="prew.jpg" crc="4092435319" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="header-mask.png" crc="247406651" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="sg-back22.jpg" crc="169058688" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="f15d39668e.jpg" crc="311944312" seo="true" ref="index">
@@ -137,6 +133,13 @@
     <file name="team_member_02-crop-u7313.jpg" crc="4112528659" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="trt7658.jpg" crc="489714235" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="trt7658-u4824-fr.jpg" crc="219730116" ref="index"/>
+    <file name="trt7658-u4824-fr2.jpg" crc="3819223855" ref="index"/>
   </folder>
-  <file name="index.html" crc="319019661" seo="true" mt="1566319300085" redirect="true"/>
+  <file name="index.html" crc="4282296439" seo="true" mt="1566336601360" redirect="true"/>
 </manifest>
