@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1566318175553">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1566318319731">
   <folder name="css">
     <file name="site_global.css" crc="69162374"/>
     <file name="index.css" crc="242902071" ref="index"/>
@@ -138,5 +138,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4261129186" seo="true" mt="1566318089853" redirect="true"/>
+  <file name="index.html" crc="3793067694" seo="true" mt="1566318296998" redirect="true"/>
 </manifest>
