@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1566336643351">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1566337146771">
   <folder name="css">
     <file name="site_global.css" crc="69162374"/>
-    <file name="index.css" crc="4098489753" ref="index"/>
+    <file name="index.css" crc="3936144285" ref="index"/>
     <file name="nomq_index.css" crc="4137414890" ref="index"/>
   </folder>
   <folder name="assets">
@@ -129,7 +129,7 @@
     <file name="qqq13211253x380.jpg" crc="4240583848" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="158-buttonu1549-fr3.png" crc="469086520" ref="index"/>
+    <file name="158-buttonu1549-fr3.png" crc="291116080" ref="index"/>
     <file name="team_member_02-crop-u7313.jpg" crc="4112528659" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -141,5 +141,5 @@
     <file name="trt7658-u4824-fr.jpg" crc="219730116" ref="index"/>
     <file name="trt7658-u4824-fr2.jpg" crc="3819223855" ref="index"/>
   </folder>
-  <file name="index.html" crc="4282296439" seo="true" mt="1566336601360" redirect="true"/>
+  <file name="index.html" crc="73428698" seo="true" mt="1566337100867" redirect="true"/>
 </manifest>
