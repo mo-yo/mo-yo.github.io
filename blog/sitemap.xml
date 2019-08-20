@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 	<url>
-		<loc>https://mo-yo.ml/blog/index.html/index.html</loc>
+		<loc>https://mo-yo.ml/blog/index.html/mo-yo.ml.html</loc>
 		<lastmod>2019-08-20</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://mo-yo.ml/blog/index.html/---------1.html</loc>
-		<lastmod>2019-08-18</lastmod>
+		<lastmod>2019-08-20</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://mo-yo.ml/blog/index.html/---------2.html</loc>
-		<lastmod>2019-08-18</lastmod>
+		<lastmod>2019-08-20</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://mo-yo.ml/blog/index.html/---------3.html</loc>
-		<lastmod>2019-08-18</lastmod>
+		<lastmod>2019-08-20</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

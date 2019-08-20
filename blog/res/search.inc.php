@@ -6,7 +6,7 @@
 $imSettings['search']['general'] = array(
 	'menu_position' => 'left',
 	'defaultScope' => array(
-		'0' => 'index.html',
+		'0' => 'mo-yo.ml.html',
 		'3' => '---------1.html',
 		'4' => '---------2.html',
 		'5' => '---------3.html'
