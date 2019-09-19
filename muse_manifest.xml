@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1568495746185">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1568931056420">
   <folder name="css">
     <file name="site_global.css" crc="347579958"/>
     <file name="master_______-a.css" crc="4024740612" ref="index"/>
-    <file name="index.css" crc="4241653302" ref="index"/>
+    <file name="index.css" crc="3969728112" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="dyfa-new-york-pivot-.jpg" crc="462953359" seo="true" mt="1568318505000"/>
@@ -18,18 +18,15 @@
     <file name="require.js" crc="7928878" ref="phone>index:index"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3873193833" ref="phone>index"/>
+    <file name="favicon.ico" crc="3873193833" ref="phone>index:index"/>
     <file name="up.png" crc="456847235" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="dyfa-new-york-pivot--u2284-fr.jpg" crc="88234857" ref="phone>index"/>
     <file name="telephone1white.png" crc="181332400" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="overproject.png" crc="182380325" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="dyfa-58-2_2-u2285-fr.jpg" crc="42449151" ref="phone>index"/>
@@ -38,50 +35,38 @@
     <file name="dyfa-143-sh_priime_c-u2282-fr.jpg" crc="480848289" ref="phone>index"/>
     <file name="house.png" crc="134767582" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="building2.png" crc="23358561" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="bar.png" crc="4185163087" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="office-block.png" crc="4068708106" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="shop.png" crc="43249322" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="cityscape.png" crc="3805704904" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="diamond_2.png" crc="230743243" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="timer (1).png" crc="4094823897" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="shield (1).png" crc="136518679" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="money (1).png" crc="4236059166" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="img_2709.png" crc="4021592981" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="cropped-dyfa-square- (1).gif" crc="3852708143" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="dyfa-new-york-pivot-.jpg" crc="462953359" ref="phone>index:index">
@@ -89,10 +74,8 @@
     </file>
     <file name="dyfa-new-york-foldin (1).gif" crc="160529696" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="img_2710.png" crc="3931671224" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="dyfa-58-2_2.jpg" crc="4195346576" ref="index">
@@ -115,5 +98,5 @@
     </folder>
     <file name="index.html" crc="4278404708" seo="true" mt="1568475760056" redirect="true"/>
   </folder>
-  <file name="index.html" crc="89612793" seo="true" mt="1568474342369" redirect="true"/>
+  <file name="index.html" crc="4004701360" seo="true" mt="1568930923788" redirect="true"/>
 </manifest>
