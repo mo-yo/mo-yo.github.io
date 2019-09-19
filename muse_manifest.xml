@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1568935172724">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1568935319219">
   <folder name="css">
     <file name="site_global.css" crc="347579958"/>
     <file name="master_______-a.css" crc="4024740612" ref="index"/>
     <file name="index.css" crc="389426155" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
     <file name="nomq_index.css" crc="3824530138" ref="index"/>
-    <file name="444.css" crc="3786972213" ref="444"/>
-    <file name="nomq_444.css" crc="142145646" ref="444"/>
+    <file name="444.css" crc="251489041" ref="444"/>
+    <file name="nomq_444.css" crc="383625158" ref="444"/>
   </folder>
   <folder name="assets">
     <file name="dyfa-new-york-pivot-.jpg" crc="462953359" seo="true" mt="1568318505000"/>
@@ -25,7 +25,7 @@
     <file name="jquery.museresponsive.js" crc="527716135" ref="444"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3873193833" ref="phone>index"/>
+    <file name="favicon.ico" crc="3873193833" ref="phone>index:444"/>
     <file name="up.png" crc="456847235" seo="true" ref="phone>index:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -125,5 +125,5 @@
     <file name="index.html" crc="3974936357" seo="true" mt="1568935137811" redirect="true"/>
   </folder>
   <file name="index.html" crc="529029542" seo="true" mt="1568935137806" redirect="true"/>
-  <file name="444.html" crc="149031865" seo="true" mt="1568935137824" redirect="true"/>
+  <file name="444.html" crc="94337934" seo="true" mt="1568935311184" redirect="true"/>
 </manifest>
