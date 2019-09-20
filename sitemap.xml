@@ -9,18 +9,14 @@
       <image:loc>https://mo-yo.ml/images/up.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/telephone1white.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://mo-yo.ml/images/overproject.png</image:loc>
       <image:caption>LOFT-PART</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/house.png</image:loc>
-      <image:caption>LOFT-PART</image:caption>
+      <image:loc>https://mo-yo.ml/images/telephone1white.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/building2.png</image:loc>
+      <image:loc>https://mo-yo.ml/images/house.png</image:loc>
       <image:caption>LOFT-PART</image:caption>
     </image:image>
     <image:image>
@@ -28,11 +24,15 @@
       <image:caption>LOFT-PART</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/office-block.png</image:loc>
+      <image:loc>https://mo-yo.ml/images/building2.png</image:loc>
       <image:caption>LOFT-PART</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.ml/images/shop.png</image:loc>
+      <image:caption>LOFT-PART</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/office-block.png</image:loc>
       <image:caption>LOFT-PART</image:caption>
     </image:image>
     <image:image>
@@ -44,11 +44,11 @@
       <image:caption>LOFT-PART</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/timer%20(1).png</image:loc>
+      <image:loc>https://mo-yo.ml/images/shield%20(1).png</image:loc>
       <image:caption>LOFT-PART</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/shield%20(1).png</image:loc>
+      <image:loc>https://mo-yo.ml/images/timer%20(1).png</image:loc>
       <image:caption>LOFT-PART</image:caption>
     </image:image>
     <image:image>
