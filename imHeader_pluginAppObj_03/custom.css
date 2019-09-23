@@ -1,0 +1,176 @@
+
+#imHeader_pluginAppObj_03_container{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 160px;
+    width: 100%;
+    height: 50px;
+    
+}
+
+#imHeader_pluginAppObj_03 .imHeader_pluginAppObj_03-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    font-family: Tahoma;
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: normal;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 16pt;
+    display:block;
+    position: relative;
+    overflow:hidden;
+    
+}
+
+#imHeader_pluginAppObj_03 .imHeader_pluginAppObj_03-button:hover {
+	font-weight:normal;
+	font-style:normal;
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(255, 255, 255, 1);
+	border-color: rgba(255, 255, 255, 1);
+}
+
+#imHeader_pluginAppObj_03 .flex-container {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:   row 
+}
+
+#imHeader_pluginAppObj_03 .flex-item {
+    max-height:100%;    
+    max-width: 100%;
+}
+
+#imHeader_pluginAppObj_03 .item-txt {
+    order:1;
+    display: block;
+}
+
+#imHeader_pluginAppObj_03 .item-icon {
+    order:2;
+    flex: 0 0 18.62px;
+    display: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#imHeader_pluginAppObj_03 .div-icon {
+    background-image: url('../');
+    background-repeat: no-repeat;
+    background-size: contain;
+        
+}
+
+#imHeader_pluginAppObj_03 .button-wrapper-over {
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-weight:normal;
+	
+}
+
+#imHeader_pluginAppObj_03 .button-wrapper-over.fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+#imHeader_pluginAppObj_03 .button-wrapper-over.fade.animated {
+    opacity: 1;
+}
+
+#imHeader_pluginAppObj_03 .sweeper {
+    position: absolute;
+    top: 0; left: 0; width: 0; height: 100%;
+    overflow: hidden;
+    transition: all 300ms;
+}
+#imHeader_pluginAppObj_03 .sweeper .button-wrapper-over{
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#imHeader_pluginAppObj_03 .sweeper.animated {
+    width: 100%;
+}
+
+#imHeader_pluginAppObj_03 .shutter {
+    position: absolute;
+    overflow: hidden;
+    transition: all 300ms;
+    transform: translate3d(0, 0, 0);
+ 	top: 50%; left: 50%; border-radius: 100%; width: 0; height: 0;
+}
+#imHeader_pluginAppObj_03 .shutter .button-wrapper-over {
+    position: absolute;    
+    transition: all 300ms;
+    top: 0; left: 0; transform: translate3d(-50%, -50%, 0);
+}
+#imHeader_pluginAppObj_03 .shutter.animated {
+    left: 0; width: 100%; top: 0; height: 100%; border-radius: 0;
+}
+#imHeader_pluginAppObj_03 .shutter.animated .button-wrapper-over {
+    transform: translate3d(0, 0, 0);
+}
+
+#imHeader_pluginAppObj_03 .button-wrapper-over.rotate-under {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#imHeader_pluginAppObj_03 .rotate-u:not(.rotate-under) {
+    transform-origin: 50% 100%;
+    transform: rotate3d(0, 0, 0, 0deg);
+    transition: all 300ms;
+}
+#imHeader_pluginAppObj_03 .rotate-u:not(.rotate-under).animated {
+    transform: rotate3d(-1, 0, 0, 85deg);
+}
+
+#imHeader_pluginAppObj_03 .button-wrapper-over.rotate-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 50% 0;
+    transform: rotateX(270deg);
+    transition: all 300ms;
+}
+#imHeader_pluginAppObj_03 .button-wrapper-over.rotate-over.animated {
+    transform: rotateX(0);
+}
