@@ -17,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css?14-0-3-1" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?14-0-3-1" media="screen" />
 		<link rel="stylesheet" type="text/css" href="imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?14-0-3-1-637048642879561557" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?14-0-3-1-637048648806197587" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?14-0-3-1"></script>
 		<script type="text/javascript" src="res/x5engine.js?14-0-3-1" data-files-version="14-0-3-1"></script>
 		<script type="text/javascript" src="imHeader_pluginAppObj_03/main.js"></script>
@@ -26,7 +26,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?14-0-3-1-637048642879249033" type="image/png" />
+		<link rel="icon" href="favicon.png?14-0-3-1-637048648806197587" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -88,10 +88,10 @@
 Главная		</a>
 </div>
 </div>
-	</li><li class="imMnMnLast imPage" data-link-paths="/page-3.html">
+	</li><li class="imMnMnLast imPage" data-link-paths="/prosto.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="page-3.html">
+		<a class="label" href="prosto.html">
 Простая		</a>
 </div>
 </div>
@@ -168,7 +168,7 @@ $(function () {$('#imStickyBar_imMenuObject_01 ul li').each(function () {    var
 				<span class="imHidden"><a href="#imGoToCont" title="Прочесть эту страницу заново">Назад к содержимому</a></span>
 			</div>
 		</div>
-		<script type="text/javascript" src="cart/x5cart.js?14-0-3-1-637048642879561557"></script>
+		<script type="text/javascript" src="cart/x5cart.js?14-0-3-1-637048648806197587"></script>
 
 		<noscript class="imNoScript"><div class="alert alert-red">Для использования этого сайта необходимо включить JavaScript.</div></noscript>
 	</body>

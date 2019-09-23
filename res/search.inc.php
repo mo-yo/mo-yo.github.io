@@ -7,7 +7,7 @@ $imSettings['search']['general'] = array(
 	'menu_position' => 'left',
 	'defaultScope' => array(
 		'0' => 'index.html',
-		'3' => 'page-3.html'
+		'3' => 'prosto.html'
 	),
 	'extendedScope' => array(
 	)
@@ -21,7 +21,7 @@ $imSettings['search']['products'] = array(
 		'name' => 'Товар 1',
 		'description' => 'Tous les produits Facilitas sont fabriqués en acier INOX à l\'aide de technologies spécifiques qui, en évitant la présence des dangereuses bavures tranchantes typiques de l\'usinage des métaux, rendent ces meubles en acier INOX particulièrement adaptés à différents secteurs :<br />',
 		'category' => 'Новая категория',
-		'image' => '<a href="page-3.html" onclick="return x5engine.utils.location(\'page-3.html\', null, false)"><img src="images/dyfa-58-2_2_v2plrzt9.jpg" alt="Товар 1" title="Товар 1"/></a>',
+		'image' => '<a href="prosto.html" onclick="return x5engine.utils.location(\'prosto.html\', null, false)"><img src="images/dyfa-58-2_2_v2plrzt9.jpg" alt="Товар 1" title="Товар 1"/></a>',
 		'price' => '100 ₴'
 	),
 	'nzlxt3cn' => array(
