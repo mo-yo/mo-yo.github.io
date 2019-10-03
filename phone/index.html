@@ -21,9 +21,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=347579958"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=440212698"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=448038514" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=12907559" id="pagesheet"/>
     <!--HTML Widget code-->
-  <style>[title*=fix] {position:fixed !important;}</style>
+  
   <!-- Global Canonical -->
    <script type="application/ld+json">{"@context": "http://schema.org","@type": "WebPage","url": "https://mo-yo.ml/phone/index.html",
     "name": "Перегородки в стиле лофт",
@@ -83,15 +83,10 @@ false
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="ppu7579"><!-- column -->
-    <div class="clearfix colelem" id="pu7579"><!-- group -->
-     <div class="size_fixed grpelem" id="u7579"><!-- custom html -->
-       
-     </div>
-     <div class="size_fixed grpelem" id="u7045"><!-- custom html -->
-      
+   <div class="clearfix grpelem" id="pu7045"><!-- column -->
+    <div class="size_fixed colelem" id="u7045"><!-- custom html -->
+     
 
-     </div>
     </div>
     <div class="size_fixed colelem" id="u7051"><!-- custom html -->
      
@@ -138,9 +133,6 @@ false
           <p>Перегородки в стиле лофт.</p>
          </div>
         </div>
-        <div class="clearfix colelem" id="u7014-4"><!-- content -->
-         <p>LOFT-PART</p>
-        </div>
         <div class="size_fixed colelem" id="u7019"><!-- custom html -->
          <p class='onescreen animated fadeIn it1 ad3 adu4 '><span>Впишите Фразу или предложение. Если не требуется индексация поисковиками, то очистите это поле.</span></p>
         </div>
@@ -149,18 +141,6 @@ false
         </div>
        </div>
       </div>
-     </div>
-     <div class="browser_width grpelem" id="u7046-bw">
-      <div class="shadow ose_pre_init" id="u7046" title="fix"><!-- simple frame --></div>
-     </div>
-     <div class="Button clearfix ose_pre_init grpelem" id="buttonu7047" title="fix"><!-- container box -->
-      <div class="clearfix grpelem" id="u7048-4"><!-- content -->
-       <p>Заказать замер</p>
-      </div>
-     </div>
-     <div class="clearfix ose_pre_init grpelem" id="u7049-6" title="fix"><!-- content -->
-      <p>+38 495 772 69 79</p>
-      <p>info@loftpart.com</p>
      </div>
     </div>
     <div class="browser_width colelem" id="u7023-bw">
@@ -361,6 +341,23 @@ false
      </div>
     </div>
    </div>
+   <div class="clearfix grpelem" id="pu7014-4"><!-- group -->
+    <div class="clearfix mse_pre_init" id="u7014-4"><!-- content -->
+     <p>LOFT-PART</p>
+    </div>
+    <div class="browser_width mse_pre_init" id="u7046-bw">
+     <div class="shadow ose_pre_init" id="u7046"><!-- simple frame --></div>
+    </div>
+    <div class="Button clearfix ose_pre_init mse_pre_init" id="buttonu7047"><!-- container box -->
+     <div class="clearfix grpelem" id="u7048-4"><!-- content -->
+      <p>Заказать замер</p>
+     </div>
+    </div>
+    <div class="clearfix ose_pre_init mse_pre_init" id="u7049-6"><!-- content -->
+     <p>+38 495 772 69 79</p>
+     <p>info@loftpart.com</p>
+    </div>
+   </div>
    <div class="verticalspacer" data-offset-top="7300" data-content-above-spacer="7299" data-content-below-spacer="160"></div>
    <div class="browser_width grpelem" id="u6936-bw">
     <div id="u6936"><!-- group -->
@@ -428,10 +425,14 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $('#u7012').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-100.05]},{"speed":[0,0],"in":[-100.05,Infinity]}]);/* scroll effect */
-$('#u7046').registerOpacityScrollEffect([{"in":[-Infinity,149.95],"fade":80,"opacity":0},{"in":[149.95,149.95],"opacity":100},{"in":[149.95,Infinity],"fade":0,"opacity":100}]);/* scroll effect */
-$('#buttonu7047').registerOpacityScrollEffect([{"in":[-Infinity,154.5],"fade":80,"opacity":0},{"in":[154.5,154.5],"opacity":100},{"in":[154.5,Infinity],"fade":0,"opacity":100}]);/* scroll effect */
-$('#u7049-6').registerOpacityScrollEffect([{"in":[-Infinity,152.64],"fade":80,"opacity":0},{"in":[152.64,152.64],"opacity":100},{"in":[152.64,Infinity],"fade":0,"opacity":100}]);/* scroll effect */
 $('#u6973').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,5017.55]},{"speed":[0,0],"in":[5017.55,Infinity]}]);/* scroll effect */
+$('#u7014-4').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-0.05]},{"speed":[0,0],"in":[-0.05,Infinity]}]);/* scroll effect */
+$('#u7046-bw').registerPositionScrollEffect([{"speed":[null,0],"in":[-Infinity,0]},{"speed":[null,0],"in":[0,Infinity]}]);/* scroll effect */
+$('#u7046').registerOpacityScrollEffect([{"in":[-Infinity,0],"fade":80,"opacity":0},{"in":[0,0],"opacity":0},{"in":[0,Infinity],"fade":200,"opacity":100}]);/* scroll effect */
+$('#buttonu7047').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}]);/* scroll effect */
+$('#buttonu7047').registerOpacityScrollEffect([{"in":[-Infinity,0],"fade":80,"opacity":0},{"in":[0,0],"opacity":0},{"in":[0,Infinity],"fade":200,"opacity":100}]);/* scroll effect */
+$('#u7049-6').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}]);/* scroll effect */
+$('#u7049-6').registerOpacityScrollEffect([{"in":[-Infinity,0],"fade":80,"opacity":0},{"in":[0,0],"opacity":0},{"in":[0,Infinity],"fade":200,"opacity":100}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};

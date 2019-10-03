@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1570142947742">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1570145770571">
   <folder name="phone">
     <folder name="css">
       <file name="master_______-a.css" crc="440212698" ref="phone>index"/>
-      <file name="index.css" crc="448038514" ref="phone>index"/>
+      <file name="index.css" crc="12907559" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="270439795" seo="true" mt="1570142925470" redirect="true"/>
+    <file name="index.html" crc="4009900754" seo="true" mt="1570145740944" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="347579958"/>
