@@ -6,9 +6,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>https://mo-yo.ml/images/up.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://mo-yo.ml/images/overproject.png</image:loc>
       <image:caption>LOFT-PART</image:caption>
     </image:image>
