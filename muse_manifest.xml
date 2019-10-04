@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1570199054959">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1570199912423">
   <folder name="css">
     <file name="site_global.css" crc="347579958"/>
     <file name="master_______-a.css" crc="3879010542" ref="index"/>
@@ -150,5 +150,5 @@
     <file name="black-new-york-style-u4679-fr.jpg" crc="373234705" ref="index"/>
     <file name="dyfa-143-sh_priime_c-u4700-fr.jpg" crc="480955620" ref="index"/>
   </folder>
-  <file name="index.html" crc="3987522095" seo="true" mt="1570199037305" redirect="true"/>
+  <file name="index.html" crc="3987522095" seo="true" mt="1570199792954" redirect="true"/>
 </manifest>
