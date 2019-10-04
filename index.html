@@ -20,11 +20,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=347579958"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=3879010542"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4078677875" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4054098616" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4163477811" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=27026855" id="nomq_pagesheet"/>
   <![endif]-->
     <!--HTML Widget code-->
   
@@ -371,8 +371,8 @@ false
      </div>
     </div>
     <div class="clearfix grpelem shared_content" id="pu4885" data-content-guid="pu4885_content"><!-- group -->
-     <div class="browser_width shared_content" id="u4885-bw" data-content-guid="u4885-bw_content">
-      <div class="shadow ose_pre_init" id="u4885"><!-- simple frame --></div>
+     <div class="browser_width" id="u4885-bw">
+      <div class="shadow ose_pre_init shared_content" id="u4885" data-content-guid="u4885_content"><!-- simple frame --></div>
      </div>
      <div class="Button clearfix ose_pre_init shared_content" id="buttonu4886" data-content-guid="buttonu4886_content"><!-- container box -->
       <div class="clearfix grpelem" id="u4887-4"><!-- content -->
@@ -648,7 +648,7 @@ false
      </div>
     </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu4885"><!-- group -->
-     <span class="browser_width mse_pre_init placeholder" data-placeholder-for="u4885-bw_content"><!-- placeholder node --></span>
+     <span class="shadow ose_pre_init mse_pre_init placeholder" data-placeholder-for="u4885_content"><!-- placeholder node --></span>
      <span class="Button clearfix ose_pre_init mse_pre_init placeholder" data-placeholder-for="buttonu4886_content"><!-- placeholder node --></span>
      <span class="clearfix ose_pre_init mse_pre_init placeholder" data-placeholder-for="u4883-6_content"><!-- placeholder node --></span>
     </div>
@@ -791,7 +791,7 @@ false
      </div>
     </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu4885"><!-- group -->
-     <span class="browser_width mse_pre_init placeholder" data-placeholder-for="u4885-bw_content"><!-- placeholder node --></span>
+     <span class="shadow ose_pre_init mse_pre_init placeholder" data-placeholder-for="u4885_content"><!-- placeholder node --></span>
      <span class="Button clearfix ose_pre_init mse_pre_init placeholder" data-placeholder-for="buttonu4886_content"><!-- placeholder node --></span>
      <span class="clearfix ose_pre_init mse_pre_init placeholder" data-placeholder-for="u4883-6_content"><!-- placeholder node --></span>
     </div>
@@ -847,20 +847,10 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_480').one('muse_this_bp_activate', function(){
-$('#u4675').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-100]},{"speed":[0,0],"in":[-100,Infinity]}], $(this)); /* scroll effect */
-$('#u4728').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,4957.6]},{"speed":[0,0],"in":[4957.6,Infinity]}], $(this)); /* scroll effect */
-$('#u4885-bw').registerPositionScrollEffect([{"speed":[null,0],"in":[-Infinity,0]},{"speed":[null,0],"in":[0,Infinity]}], $(this)); /* scroll effect */
-$('#u4885').registerOpacityScrollEffect([{"in":[-Infinity,0],"fade":80,"opacity":0},{"in":[0,0],"opacity":0},{"in":[0,Infinity],"fade":200,"opacity":100}], $(this)); /* scroll effect */
-$('#buttonu4886').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}], $(this)); /* scroll effect */
-$('#buttonu4886').registerOpacityScrollEffect([{"in":[-Infinity,0],"fade":80,"opacity":0},{"in":[0,0],"opacity":0},{"in":[0,Infinity],"fade":200,"opacity":100}], $(this)); /* scroll effect */
-$('#u4883-6').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}], $(this)); /* scroll effect */
-$('#u4883-6').registerOpacityScrollEffect([{"in":[-Infinity,0],"fade":80,"opacity":0},{"in":[0,0],"opacity":0},{"in":[0,Infinity],"fade":200,"opacity":100}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_820').one('muse_this_bp_activate', function(){
 $('#u4675').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-100]},{"speed":[0,0],"in":[-100,Infinity]}], $(this)); /* scroll effect */
 $('#u4728').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,4204.05]},{"speed":[0,0],"in":[4204.05,Infinity]}], $(this)); /* scroll effect */
-$('#u4885-bw').registerPositionScrollEffect([{"speed":[null,0],"in":[-Infinity,70]},{"speed":[null,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
+$('#u4885').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
 $('#u4885').registerOpacityScrollEffect([{"in":[-Infinity,70],"fade":70,"opacity":0},{"in":[70,70],"opacity":0},{"in":[70,Infinity],"fade":130,"opacity":100}], $(this)); /* scroll effect */
 $('#buttonu4886').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
 $('#buttonu4886').registerOpacityScrollEffect([{"in":[-Infinity,70],"fade":70,"opacity":0},{"in":[70,70],"opacity":0},{"in":[70,Infinity],"fade":130,"opacity":100}], $(this)); /* scroll effect */
@@ -872,6 +862,16 @@ $('#u4675').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infini
 $('#u4728').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3808]},{"speed":[0,0],"in":[3808,Infinity]}], $(this)); /* scroll effect */
 $('#u4885').registerOpacityScrollEffect([{"in":[-Infinity,70],"fade":70,"opacity":0},{"in":[70,70],"opacity":0},{"in":[70,Infinity],"fade":130,"opacity":100}], $(this)); /* scroll effect */
 $('#buttonu4886').registerOpacityScrollEffect([{"in":[-Infinity,70],"fade":70,"opacity":0},{"in":[70,70],"opacity":0},{"in":[70,Infinity],"fade":130,"opacity":100}], $(this)); /* scroll effect */
+$('#u4883-6').registerOpacityScrollEffect([{"in":[-Infinity,70],"fade":70,"opacity":0},{"in":[70,70],"opacity":0},{"in":[70,Infinity],"fade":130,"opacity":100}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_480').one('muse_this_bp_activate', function(){
+$('#u4675').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-100]},{"speed":[0,0],"in":[-100,Infinity]}], $(this)); /* scroll effect */
+$('#u4728').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,4957.6]},{"speed":[0,0],"in":[4957.6,Infinity]}], $(this)); /* scroll effect */
+$('#u4885').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
+$('#u4885').registerOpacityScrollEffect([{"in":[-Infinity,70],"fade":70,"opacity":0},{"in":[70,70],"opacity":0},{"in":[70,Infinity],"fade":130,"opacity":100}], $(this)); /* scroll effect */
+$('#buttonu4886').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
+$('#buttonu4886').registerOpacityScrollEffect([{"in":[-Infinity,70],"fade":70,"opacity":0},{"in":[70,70],"opacity":0},{"in":[70,Infinity],"fade":130,"opacity":100}], $(this)); /* scroll effect */
+$('#u4883-6').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
 $('#u4883-6').registerOpacityScrollEffect([{"in":[-Infinity,70],"fade":70,"opacity":0},{"in":[70,70],"opacity":0},{"in":[70,Infinity],"fade":130,"opacity":100}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
