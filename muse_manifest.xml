@@ -1,10 +1,13 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1570204980803">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1570205295302">
+  <folder name="assets">
+    <file name="dyfa-new-york-pivot-.jpg" crc="462953359" seo="true" mt="1568318505000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
     <file name="master_______-a.css" crc="3807044693" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="362063538" ref="index"/>
-    <file name="nomq_index.css" crc="3783946692" ref="index"/>
+    <file name="index.css" crc="487665875" ref="index"/>
+    <file name="nomq_index.css" crc="494084537" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -14,6 +17,8 @@
     <file name="jquery.watch.js" crc="522499760" ref="index"/>
     <file name="jquery.museresponsive.js" crc="95814420" ref="index"/>
     <file name="require.js" crc="4177726516" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="index"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3873193833" ref="index"/>
@@ -24,6 +29,48 @@
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="up.png" crc="456847235" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dyfa-new-york-pivot-.jpg" crc="462953359" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="overproject.png" crc="182380325" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
+    </file>
+    <file name="telephone1white.png" crc="181332400" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dyfa-58-2_2.jpg" crc="4195346576" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="built-in-new-york-st.jpg" crc="4270276525" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="black-new-york-style.jpg" crc="287490878" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dyfa-143-sh_priime_c.jpg" crc="453933268" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dyfa-new-york-pivot--u2563-fr.jpg" crc="3855499597" ref="index"/>
+    <file name="dyfa-58-2_2-u2577-fr.jpg" crc="317127612" ref="index"/>
+    <file name="built-in-new-york-st-u2578-fr.jpg" crc="355407724" ref="index"/>
+    <file name="black-new-york-style-u2581-fr.jpg" crc="373234705" ref="index"/>
+    <file name="dyfa-143-sh_priime_c-u2580-fr.jpg" crc="480955620" ref="index"/>
+    <file name="dyfa-new-york-pivot--u2563-fr2.jpg" crc="3881696619" ref="index"/>
   </folder>
-  <file name="index.html" crc="52562219" seo="true" mt="1570204963342" redirect="true"/>
+  <file name="index.html" crc="143056188" seo="true" mt="1570205237763" redirect="true"/>
 </manifest>

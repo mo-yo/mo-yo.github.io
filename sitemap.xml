@@ -9,5 +9,21 @@
       <image:loc>https://mo-yo.ml/images/img_2710.png</image:loc>
       <image:caption>LOFT-PART</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/up.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/overproject.png</image:loc>
+      <image:caption>LOFT-PART</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mo-yo.ml/images/telephone1white.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://mo-yo.ml/assets/dyfa-new-york-pivot-.jpg</loc>
+    <lastmod>2019-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
