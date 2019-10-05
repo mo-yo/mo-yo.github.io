@@ -223,7 +223,7 @@ body {
    margin: 0;
 }
 #indexLayer1 {
-   background-attachment: fixed;
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(../images/dyfa%2dnew%2dyork%2dpivot%2d.jpg);
    background-position: center center;
@@ -281,7 +281,6 @@ body {
 #indexLayer1 {
    height: 410px;
    left: 0px;
-   overflow: hidden;
    position: absolute;
    text-align: center;
    top: 0px;
@@ -394,214 +393,7 @@ body {
 #wb_uid0 {
    color: #000000;
 }
-@media only screen and (min-width: 480px) and (max-width: 999px) {
-div#container {
-   width: 480px;
-}
-body {
-   background-color: #FFFFFF;
-   background-image: none;
-}
-#wb_indexText1 {
-   background-color: transparent;
-   background-image: none;
-   display: inline;
-   height: 24px;
-   left: 79px;
-   top: 442px;
-   visibility: visible;
-   width: 323px;
-}
-#wb_indexText1 {
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#wb_indexText2 {
-   background-color: transparent;
-   background-image: none;
-   display: inline;
-   height: 24px;
-   left: 81px;
-   top: 521px;
-   visibility: visible;
-   width: 318px;
-}
-#wb_indexText2 {
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#wb_indexText3 {
-   background-color: transparent;
-   background-image: none;
-   display: inline;
-   height: 24px;
-   left: 81px;
-   top: 600px;
-   visibility: visible;
-   width: 318px;
-}
-#wb_indexText3 {
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#wb_indexText4 {
-   background-color: transparent;
-   background-image: none;
-   display: inline;
-   height: 24px;
-   left: 81px;
-   top: 679px;
-   visibility: visible;
-   width: 318px;
-}
-#wb_indexText4 {
-   font-family: Arial;
-   font-size: 21px;
-   font-weight: normal;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#wb_indexText5 {
-   background-clip: padding-box;
-   background-color: #FFFF00;
-   background-image: none;
-   border-radius: 5px;
-   display: inline;
-   height: 90px;
-   left: 97px;
-   top: 760px;
-   visibility: visible;
-   width: 284px;
-}
-#wb_indexText5 {
-   margin: 0;
-   padding: 0;
-}
-#wb_indexHeading1 {
-   background-color: transparent;
-   background-image: none;
-   color: #FF0000;
-   display: inline;
-   font-family: "PT Sans Narrow";
-   font-size: 85px;
-   font-style: normal;
-   font-weight: bold;
-   height: 454px;
-   left: 63px;
-   margin: 0;
-   padding: 0;
-   text-decoration: none;
-   top: 1126px;
-   visibility: visible;
-   width: 355px;
-}
-#wb_indexHeading1 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   text-align: center;
-}
-#indexHeading1 {
-   color: #FF0000;
-   font-family: "PT Sans Narrow";
-   font-size: 85px;
-   font-weight: bold;
-   text-shadow: 4px 4px 4px rgba(0,0,0,0.50);
-}
-#wb_indexPhotoCollage1 {
-   display: inline;
-   height: 294px;
-   left: 93px;
-   margin: 0;
-   top: 1639px;
-   visibility: visible;
-   width: 294px;
-}
-#wb_indexImage2 {
-   display: inline;
-   height: 208px;
-   left: 106px;
-   margin: 0;
-   padding: 0;
-   top: 893px;
-   visibility: visible;
-   width: 269px;
-}
-#indexRollOver1 {
-   display: inline;
-   height: 240px;
-   left: 101px;
-   top: 2000px;
-   visibility: visible;
-   width: 279px;
-}
-#indexRollOverText1 {
-   display: inline;
-   height: 230px;
-   left: 101px;
-   top: 2260px;
-   visibility: visible;
-   width: 279px;
-}
-#indexLayer1 {
-   background-attachment: fixed;
-   background-color: transparent;
-   background-image: url(../images/dyfa%2dnew%2dyork%2dpivot%2d.jpg);
-   background-position: center center;
-   background-repeat: repeat;
-   background-size: cover;
-   display: inline;
-   font-family: Arial;
-   font-size: 21px;
-   font-style: normal;
-   font-weight: normal;
-   height: 410px;
-   left: 0px;
-   text-decoration: none;
-   top: 0px;
-   visibility: visible;
-}
-#indexLayer1 {
-   width: 100%;
-}
-#indexLayer1_Container {
-   width: 480px;
-}
-#wb_indexImage1 {
-   display: inline;
-   height: 90px;
-   left: 0px;
-   margin: 0;
-   padding: 0;
-   top: 0px;
-   visibility: visible;
-   width: 95px;
-}
-#wb_indexPicture1 {
-   display: inline;
-   height: 90px;
-   left: 391px;
-   margin: 0;
-   padding: 0;
-   top: 0px;
-   visibility: visible;
-   width: 89px;
-}
-}
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 999px) {
 div#container {
    width: 320px;
 }
@@ -703,10 +495,10 @@ body {
    color: #FF0000;
    display: inline;
    font-family: "PT Sans Narrow";
-   font-size: 85px;
+   font-size: 48px;
    font-style: normal;
    font-weight: bold;
-   height: 450px;
+   height: 160px;
    left: 5px;
    margin: 0;
    padding: 0;
@@ -724,7 +516,7 @@ body {
 #indexHeading1 {
    color: #FF0000;
    font-family: "PT Sans Narrow";
-   font-size: 85px;
+   font-size: 48px;
    font-weight: bold;
    text-shadow: 4px 4px 4px rgba(0,0,0,0.50);
 }
@@ -764,10 +556,10 @@ body {
    width: 279px;
 }
 #indexLayer1 {
-   background-attachment: fixed;
+   background-attachment: scroll;
    background-color: transparent;
    background-image: url(../images/dyfa%2dnew%2dyork%2dpivot%2d.jpg);
-   background-position: center center;
+   background-position: center center  !important;
    background-repeat: repeat;
    background-size: cover;
    display: inline;
@@ -775,7 +567,7 @@ body {
    font-size: 8px;
    font-style: normal;
    font-weight: normal;
-   height: 410px;
+   height: 200px;
    left: 0px;
    text-decoration: none;
    top: 0px;
