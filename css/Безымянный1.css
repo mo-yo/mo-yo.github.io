@@ -1,3 +1,33 @@
+@-webkit-keyframes animate-fade-in-left {
+0% {
+   -webkit-transform: translate(-100px,0px) rotate(0deg);
+   opacity: 0;
+}
+100% {
+   -webkit-transform: translate(0px,0px) rotate(0deg);
+   opacity: 1;
+}
+}
+@-moz-keyframes animate-fade-in-left {
+0% {
+   -moz-transform: translate(-100px,0px) rotate(0deg);
+   opacity: 0;
+}
+100% {
+   -moz-transform: translate(0px,0px) rotate(0deg);
+   opacity: 1;
+}
+}
+@keyframes animate-fade-in-left {
+0% {
+   opacity: 0;
+   transform: translate(-100px,0px) rotate(0deg);
+}
+100% {
+   opacity: 1;
+   transform: translate(0px,0px) rotate(0deg);
+}
+}
 a {
    color: #0000FF;
    text-decoration: underline;
@@ -100,29 +130,4 @@ h6,
    font-size: 16px;
    font-weight: bold;
    text-decoration: none;
-}
-.style1 {
-   background-color: transparent;
-   text-decoration: none;
-}
-@media only screen and (min-width: 1350px) {
-.style1 {
-   background-color: transparent;
-   font-size: 128px;
-   text-decoration: none;
-}
-}
-@media only screen and (min-width: 820px) and (max-width: 1349px) {
-.style1 {
-   background-color: transparent;
-   font-size: 64px;
-   text-decoration: none;
-}
-}
-@media only screen and (max-width: 819px) {
-.style1 {
-   background-color: transparent;
-   font-size: 43px;
-   text-decoration: none;
-}
 }
