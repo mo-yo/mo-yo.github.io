@@ -396,7 +396,7 @@ body {
 }
 @media only screen and (max-width: 999px) {
 div#container {
-   width: 480px;
+   width: 320px;
 }
 body {
    background-color: #FFFFFF;
@@ -406,11 +406,11 @@ body {
    background-color: transparent;
    background-image: none;
    display: inline;
-   height: 24px;
-   left: 55px;
-   top: 590px;
+   height: 48px;
+   left: 24px;
+   top: 442px;
    visibility: visible;
-   width: 370px;
+   width: 230px;
 }
 #wb_indexText1 {
    font-family: Arial;
@@ -425,10 +425,10 @@ body {
    background-image: none;
    display: inline;
    height: 24px;
-   left: 55px;
-   top: 661px;
+   left: 7px;
+   top: 537px;
    visibility: visible;
-   width: 370px;
+   width: 280px;
 }
 #wb_indexText2 {
    font-family: Arial;
@@ -443,10 +443,10 @@ body {
    background-image: none;
    display: inline;
    height: 24px;
-   left: 55px;
-   top: 732px;
+   left: 7px;
+   top: 611px;
    visibility: visible;
-   width: 370px;
+   width: 273px;
 }
 #wb_indexText3 {
    font-family: Arial;
@@ -461,10 +461,10 @@ body {
    background-image: none;
    display: inline;
    height: 24px;
-   left: 119px;
-   top: 803px;
+   left: 17px;
+   top: 679px;
    visibility: visible;
-   width: 242px;
+   width: 220px;
 }
 #wb_indexText4 {
    font-family: Arial;
@@ -481,10 +481,10 @@ body {
    border-radius: 5px;
    display: inline;
    height: 90px;
-   left: 130px;
-   top: 870px;
+   left: 17px;
+   top: 760px;
    visibility: visible;
-   width: 218px;
+   width: 284px;
 }
 #wb_indexText5 {
    margin: 0;
@@ -496,17 +496,17 @@ body {
    color: #FF0000;
    display: inline;
    font-family: "PT Sans Narrow";
-   font-size: 85px;
+   font-size: 64px;
    font-style: normal;
    font-weight: bold;
-   height: 300px;
-   left: 30px;
+   height: 267px;
+   left: 5px;
    margin: 0;
    padding: 0;
    text-decoration: none;
-   top: 1070px;
+   top: 1126px;
    visibility: visible;
-   width: 420px;
+   width: 269px;
 }
 #wb_indexHeading1 {
    background-color: transparent;
@@ -517,44 +517,44 @@ body {
 #indexHeading1 {
    color: #FF0000;
    font-family: "PT Sans Narrow";
-   font-size: 85px;
+   font-size: 64px;
    font-weight: bold;
    text-shadow: 4px 4px 4px rgba(0,0,0,0.50);
 }
 #wb_indexPhotoCollage1 {
    display: inline;
-   height: 350px;
-   left: 68px;
+   height: 294px;
+   left: 0px;
    margin: 0;
-   top: 1410px;
+   top: 1639px;
    visibility: visible;
-   width: 350px;
+   width: 294px;
 }
 #wb_indexImage2 {
    display: inline;
-   height: 67px;
-   left: 190px;
+   height: 208px;
+   left: 5px;
    margin: 0;
    padding: 0;
-   top: 980px;
+   top: 893px;
    visibility: visible;
-   width: 100px;
+   width: 269px;
 }
 #indexRollOver1 {
    display: inline;
-   height: 199px;
-   left: 63px;
-   top: 1866px;
+   height: 240px;
+   left: 0px;
+   top: 2000px;
    visibility: visible;
-   width: 360px;
+   width: 279px;
 }
 #indexRollOverText1 {
    display: inline;
-   height: 189px;
-   left: 101px;
-   top: 2170px;
+   height: 230px;
+   left: 0px;
+   top: 2260px;
    visibility: visible;
-   width: 284px;
+   width: 279px;
 }
 #indexLayer1 {
    background-attachment: fixed;
@@ -578,7 +578,7 @@ body {
    width: 100%;
 }
 #indexLayer1_Container {
-   width: 480px;
+   width: 320px;
 }
 #wb_indexImage1 {
    display: inline;
@@ -588,16 +588,16 @@ body {
    padding: 0;
    top: 0px;
    visibility: visible;
-   width: 90px;
+   width: 95px;
 }
 #wb_indexPicture1 {
    display: inline;
    height: 90px;
-   left: 390px;
+   left: 230px;
    margin: 0;
    padding: 0;
    top: 0px;
    visibility: visible;
-   width: 90px;
+   width: 89px;
 }
 }
