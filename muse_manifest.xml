@@ -1,11 +1,8 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1570235699075">
-  <folder name="assets">
-    <file name="dyfa-new-york-pivot-.jpg" crc="462953359" seo="true" mt="1568318505000"/>
-  </folder>
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1570235807431">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
-    <file name="index.css" crc="4104638020" ref="index"/>
-    <file name="nomq_index.css" crc="3946098850" ref="index"/>
+    <file name="index.css" crc="4024942546" ref="index"/>
+    <file name="nomq_index.css" crc="136337383" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -27,17 +24,11 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="up.png" crc="456847235" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="dyfa-new-york-pivot-.jpg" crc="462953359" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="dyfa-new-york-pivot--u115-fr.jpg" crc="3855499597" ref="index"/>
     <file name="dyfa-new-york-pivot--u115-fr2.jpg" crc="164817167" ref="index"/>
   </folder>
-  <file name="index.html" crc="521836593" seo="true" mt="1570235686390" redirect="true"/>
+  <file name="index.html" crc="170466768" seo="true" mt="1570235800080" redirect="true"/>
 </manifest>
