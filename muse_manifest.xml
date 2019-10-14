@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1571072045895">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1571072833631">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
     <file name="master_______-a.css" crc="3879010542" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="518472243" ref="index"/>
+    <file name="index.css" crc="4100743774" ref="index"/>
     <file name="nomq_index.css" crc="4240299116" ref="index"/>
   </folder>
   <folder name="assets">
@@ -27,11 +27,13 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="dyfa-new-york-pivot-.jpg" crc="462953359" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="overproject.png" crc="182380325" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -63,8 +65,10 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="bar.png" crc="162096104" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -75,8 +79,10 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="shop.png" crc="363713340" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -87,8 +93,10 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="cityscape.png" crc="4206611823" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -99,8 +107,10 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="shield (1).png" crc="136518679" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -111,8 +121,10 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="money (1).png" crc="4236059166" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -123,8 +135,10 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="cropped-dyfa-square- (1).gif" crc="3852708143" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -135,8 +149,10 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
     </file>
     <file name="img_2710.png" crc="3931671224" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -150,5 +166,5 @@
     <file name="dyfa-new-york-pivot--u4675-fr2.jpg" crc="3881696619" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="142389200" seo="true" mt="1571071911501" redirect="true"/>
+  <file name="index.html" crc="1659548" seo="true" mt="1571072800646" redirect="true"/>
 </manifest>
