@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1571514063792">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1571514330965">
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
-    <file name="index.css" crc="97815124" ref="index"/>
+    <file name="index.css" crc="45326870" ref="index"/>
     <file name="nomq_index.css" crc="3760614076" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -13,5 +13,5 @@
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
-  <file name="index.html" crc="5590223" seo="true" mt="1571514057964" redirect="true"/>
+  <file name="index.html" crc="211492480" seo="true" mt="1571514315898" redirect="true"/>
 </manifest>
