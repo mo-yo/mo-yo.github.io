@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1572018085952">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1572024722947">
   <folder name="css">
     <file name="site_global.css" crc="347579958"/>
-    <file name="master_______-a.css" crc="307241602" ref="index"/>
+    <file name="master_______-a.css" crc="58745221" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="159301395" ref="index"/>
-    <file name="nomq_index.css" crc="3981060059" ref="index"/>
+    <file name="index.css" crc="201766365" ref="index"/>
+    <file name="nomq_index.css" crc="262448280" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="dyfa-new-york-pivot-.jpg" crc="462953359" seo="true" mt="1568318505000"/>
@@ -154,5 +154,5 @@
     </folder>
     <file name="index.html" crc="3912165910" seo="true" mt="1572016099743" redirect="true"/>
   </folder>
-  <file name="index.html" crc="292586454" seo="true" mt="1572018070196" redirect="true"/>
+  <file name="index.html" crc="4043876866" seo="true" mt="1572019198614" redirect="true"/>
 </manifest>
