@@ -369,27 +369,27 @@ body { margin: 0; padding: 0; text-align: left; height: 100%; }
 	/* Responsive menu button size and position */
 	#imHeader_imMenuObject_01-menu-opened li {position: relative;margin-bottom: 0px; display: inline-block; vertical-align: top; }
 	#imHeader_imMenuObject_01-menu-opened li:last-child {margin-bottom: 0;}
-	#imHeader_imMenuObject_01-menu-opened .label-wrapper { display: block; overflow: hidden; position: relative; width: 154px; height: 78px; padding: 0 8px 0 8px; }
+	#imHeader_imMenuObject_01-menu-opened .label-wrapper { display: block; overflow: hidden; position: relative; width: 160px; height: 50px; padding: 0 5px 0 5px; }
 	#imHeader_imMenuObject_01-menu-opened .label-inner-wrapper { display: table; width: 100%; height: 100%; z-index: 1; position: relative; } #imHeader_imMenuObject_01-menu-opened .label { display: table-cell; vertical-align: middle; }
 	#imHeader_imMenuObject_01-menu-opened .hamburger-menu-background { position: absolute;display: block;top: 0;bottom: 0;width: 170px;left: 0; right: auto;border: border-style: solid; border-width: 0px 0px 0px 0px; border-color: transparent transparent transparent transparent; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;; background-color: rgba(255, 255, 255, 1);transition: left 0.5s, right 0.5s, opacity 0.5s;-webkit-transition: left 0.5s, right 0.5s, opacity 0.5s;}
 	/* Responsive menu default button style */
 	#imHeader_imMenuObject_01-menu-opened ul > li > .label-wrapper {background-color: rgba(255, 255, 255, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul > li > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul > li > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	#imHeader_imMenuObject_01-menu-opened ul ul > li > .label-wrapper {background-color: rgba(235, 235, 235, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	#imHeader_imMenuObject_01-menu-opened ul ul ul > li > .label-wrapper {background-color: rgba(215, 215, 215, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	#imHeader_imMenuObject_01-menu-opened ul ul ul ul > li > .label-wrapper {background-color: rgba(195, 195, 195, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul ul ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul ul ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	/* Responsive menu hover button style */
 	#imHeader_imMenuObject_01-menu-opened ul > li:hover > .label-wrapper {background-color: rgba(83, 175, 215, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul > li:hover > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(255, 255, 255, 1);font-style: normal;font-weight: bold;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul > li:hover > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(255, 255, 255, 1);font-style: normal;font-weight: bold;text-decoration: none;text-align: center; }
 	/* Responsive menu current button style */
 	#imHeader_imMenuObject_01-menu-opened > ul > .imMnMnCurrent > .label-wrapper {background-color: rgba(211, 211, 211, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened > ul > .imMnMnCurrent > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(255, 255, 255, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened > ul > .imMnMnCurrent > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(255, 255, 255, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	/* Responsive menu separator button style */
 	#imHeader_imMenuObject_01-menu-opened ul > .imMnMnSeparator > .label-wrapper {background-color: rgba(255, 255, 255, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul > .imMnMnSeparator > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(61, 113, 177, 1);font-style: normal;font-weight: bold;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul > .imMnMnSeparator > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(61, 113, 177, 1);font-style: normal;font-weight: bold;text-decoration: none;text-align: center; }
 	/* Responsive menu separation line style */
 	#imHeader_imMenuObject_01-menu-opened {  transform: translate3d(-170px, 0 ,0);  transition: transform 1s;  -webkit-transition: transform 1s;}
 	#imHeader_imMenuObject_01-menu-opened.animated {  transform: translate3d(0, 0, 0);}
@@ -441,27 +441,27 @@ body { margin: 0; padding: 0; text-align: left; height: 100%; }
 	/* Responsive menu button size and position */
 	#imHeader_imMenuObject_01-menu-opened li {position: relative;margin-bottom: 0px; display: inline-block; vertical-align: top; }
 	#imHeader_imMenuObject_01-menu-opened li:last-child {margin-bottom: 0;}
-	#imHeader_imMenuObject_01-menu-opened .label-wrapper { display: block; overflow: hidden; position: relative; width: 154px; height: 78px; padding: 0 8px 0 8px; }
+	#imHeader_imMenuObject_01-menu-opened .label-wrapper { display: block; overflow: hidden; position: relative; width: 160px; height: 50px; padding: 0 5px 0 5px; }
 	#imHeader_imMenuObject_01-menu-opened .label-inner-wrapper { display: table; width: 100%; height: 100%; z-index: 1; position: relative; } #imHeader_imMenuObject_01-menu-opened .label { display: table-cell; vertical-align: middle; }
 	#imHeader_imMenuObject_01-menu-opened .hamburger-menu-background { position: absolute;display: block;top: 0;bottom: 0;width: 170px;left: 0; right: auto;border: border-style: solid; border-width: 0px 0px 0px 0px; border-color: transparent transparent transparent transparent; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;; background-color: rgba(255, 255, 255, 1);transition: left 0.5s, right 0.5s, opacity 0.5s;-webkit-transition: left 0.5s, right 0.5s, opacity 0.5s;}
 	/* Responsive menu default button style */
 	#imHeader_imMenuObject_01-menu-opened ul > li > .label-wrapper {background-color: rgba(255, 255, 255, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul > li > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul > li > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	#imHeader_imMenuObject_01-menu-opened ul ul > li > .label-wrapper {background-color: rgba(235, 235, 235, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	#imHeader_imMenuObject_01-menu-opened ul ul ul > li > .label-wrapper {background-color: rgba(215, 215, 215, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	#imHeader_imMenuObject_01-menu-opened ul ul ul ul > li > .label-wrapper {background-color: rgba(195, 195, 195, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul ul ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul ul ul ul > li > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(55, 71, 79, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	/* Responsive menu hover button style */
 	#imHeader_imMenuObject_01-menu-opened ul > li:hover > .label-wrapper {background-color: rgba(83, 175, 215, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul > li:hover > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(255, 255, 255, 1);font-style: normal;font-weight: bold;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul > li:hover > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(255, 255, 255, 1);font-style: normal;font-weight: bold;text-decoration: none;text-align: center; }
 	/* Responsive menu current button style */
 	#imHeader_imMenuObject_01-menu-opened > ul > .imMnMnCurrent > .label-wrapper {background-color: rgba(211, 211, 211, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened > ul > .imMnMnCurrent > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(255, 255, 255, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened > ul > .imMnMnCurrent > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(255, 255, 255, 1);font-style: normal;font-weight: normal;text-decoration: none;text-align: center; }
 	/* Responsive menu separator button style */
 	#imHeader_imMenuObject_01-menu-opened ul > .imMnMnSeparator > .label-wrapper {background-color: rgba(255, 255, 255, 1);background-image: none;border-color: rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1) rgba(211, 211, 211, 1);border-style: solid; }
-	#imHeader_imMenuObject_01-menu-opened ul > .imMnMnSeparator > .label-wrapper .label {font-family: Arial;font-size: 10pt;color: rgba(61, 113, 177, 1);font-style: normal;font-weight: bold;text-decoration: none;text-align: center; }
+	#imHeader_imMenuObject_01-menu-opened ul > .imMnMnSeparator > .label-wrapper .label {font-family: Arial;font-size: 11pt;color: rgba(61, 113, 177, 1);font-style: normal;font-weight: bold;text-decoration: none;text-align: center; }
 	/* Responsive menu separation line style */
 	#imHeader_imMenuObject_01-menu-opened {  transform: translate3d(-170px, 0 ,0);  transition: transform 1s;  -webkit-transition: transform 1s;}
 	#imHeader_imMenuObject_01-menu-opened.animated {  transform: translate3d(0, 0, 0);}
