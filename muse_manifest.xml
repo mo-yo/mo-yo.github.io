@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1572204861364">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1574895703203">
   <folder name="css">
-    <file name="site_global.css" crc="347579958"/>
+    <file name="site_global.css" crc="314571582"/>
     <file name="master_______-a.css" crc="496483917" ref="index"/>
-    <file name="index.css" crc="4134314583" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="nomq_index.css" crc="4214144764" ref="index"/>
+    <file name="index.css" crc="525557161" ref="index"/>
+    <file name="nomq_index.css" crc="3796339570" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="dyfa-new-york-pivot-.jpg" crc="462953359" seo="true" mt="1568318505000"/>
@@ -17,8 +17,8 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
     <file name="jquery.watch.js" crc="51536988" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
-    <file name="require.js" crc="7928878" ref="index"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3873193833" ref="index"/>
@@ -31,19 +31,34 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
+    <file name="telephone1white.png" crc="181332400" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dyfa-58-2_2.jpg" crc="4195346576" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="built-in-new-york-st.jpg" crc="4270276525" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="black-new-york-style.jpg" crc="287490878" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dyfa-143-sh_priime_c.jpg" crc="453933268" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="house.png" crc="391125548" seo="true" ref="index">
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
-    <file name="office-block.png" crc="4151235666" seo="true" ref="index">
-      <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
-      <caption webpage="index" alt="LOFT-PART"/>
-    </file>
-    <file name="shop.png" crc="363713340" seo="true" ref="index">
+    <file name="bar.png" crc="162096104" seo="true" ref="index">
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -55,7 +70,13 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
-    <file name="bar.png" crc="162096104" seo="true" ref="index">
+    <file name="shop.png" crc="363713340" seo="true" ref="index">
+      <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
+      <caption webpage="index" alt="LOFT-PART"/>
+    </file>
+    <file name="office-block.png" crc="4151235666" seo="true" ref="index">
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -73,13 +94,13 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
-    <file name="timer (1).png" crc="4094823897" seo="true" ref="index">
+    <file name="shield (1).png" crc="136518679" seo="true" ref="index">
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
-    <file name="shield (1).png" crc="136518679" seo="true" ref="index">
+    <file name="timer (1).png" crc="4094823897" seo="true" ref="index">
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -109,27 +130,6 @@
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
     </file>
-    <file name="telephone1white.png" crc="181332400" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="dyfa-58-2_2.jpg" crc="4195346576" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="built-in-new-york-st.jpg" crc="4270276525" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="black-new-york-style.jpg" crc="287490878" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="dyfa-143-sh_priime_c.jpg" crc="453933268" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="img_2710.png" crc="3931671224" seo="true" ref="index">
       <caption webpage="index" alt="LOFT-PART"/>
       <caption webpage="index" alt="LOFT-PART"/>
@@ -144,5 +144,5 @@
     <file name="dyfa-new-york-pivot--u4675-fr2.jpg" crc="3881696619" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="380812082" seo="true" mt="1572204838947" redirect="true"/>
+  <file name="index.html" crc="373200536" seo="true" mt="1574895619124" redirect="true"/>
 </manifest>
