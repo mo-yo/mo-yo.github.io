@@ -7,7 +7,8 @@ $imSettings['search']['general'] = array(
 	'menu_position' => 'left',
 	'defaultScope' => array(
 		'0' => 'index.html',
-		'8' => 'page-8.html'
+		'8' => 'page-8.html',
+		'9' => 'otpravleno.html'
 	),
 	'extendedScope' => array(
 	)

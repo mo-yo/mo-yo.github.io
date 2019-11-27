@@ -17,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="style/print.css?14-0-3-1" media="print" />
 		<link rel="stylesheet" type="text/css" href="style/style.css?14-0-3-1" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?14-0-3-1" media="screen" />
-		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?14-0-3-1-637104925400188040" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?14-0-3-1-637104930926201367" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?14-0-3-1"></script>
 		<script type="text/javascript" src="res/x5engine.js?14-0-3-1" data-files-version="14-0-3-1"></script>
 		<script type="text/javascript">
@@ -25,7 +25,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?14-0-3-1-637104925400107991" type="image/png" />
+		<link rel="icon" href="favicon.png?14-0-3-1-637104930926141293" type="image/png" />
 		<style>
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
