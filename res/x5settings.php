@@ -7,9 +7,9 @@
 */
 
 $imSettings['general'] = array(
-	'site_id' => '10BD3CC33EE9846FC98D4E9F78197EA2',
-	'url' => 'https://mo-yo.github.io/',
-	'homepage_url' => 'https://mo-yo.github.io/index.html',
+	'site_id' => 'B0A355D1EA36F7B9717F48614BDE9884',
+	'url' => 'https://mo-yo.ml/',
+	'homepage_url' => 'https://mo-yo.ml/index.html',
 	'icon' => '',
 	'version' => '2020.3.4.0',
 	'sitename' => 'Новый проект 1',
@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"m9kwydxm-imCpt\">Проверочное слово:</label><br />
-			<input type=\"text\" id=\"m9kwydxm-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"iwieqs05-imCpt\">Проверочное слово:</label><br />
+			<input type=\"text\" id=\"iwieqs05-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 
@@ -69,7 +69,7 @@ $couponData['products'] = array();
 $ecommerce->setPublicFolder('');
 $ecommerce->setCouponData($couponData);
 $ecommerce->setSettings(array(
-	'page_url' => 'https://mo-yo.github.io/',
+	'page_url' => 'https://mo-yo.ml/',
 	'force_sender' => false,
 	'mail_btn_css' => 'display: inline-block; text-decoration: none; color: rgba(255, 255, 255, 1); background-color: rgba(191, 144, 0, 1); padding: 10px 30px 10px 30px; border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;',
 	'email_opening' => 'Уважаемый покупатель,Благодарим вас за ваш заказ и напоминаем, что вам нужно его оплатить.<br /><br />Ниже вы найдете список заказанных товаров, данные счета-фактуры и отправки и инструкции по оплате.',
