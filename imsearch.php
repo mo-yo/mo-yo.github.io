@@ -19,7 +19,7 @@
 		
 		
 		<link rel="stylesheet" href="pluginAppObj/imSideBar_pluginAppObj_02/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-3-4-0-637398619033909157" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-3-4-0-637398622382092768" media="screen,print" />
 		<script src="res/jquery.js?2020-3-4-0"></script>
 		<script src="res/x5engine.js?2020-3-4-0" data-files-version="2020-3-4-0"></script>
 		
@@ -30,7 +30,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2020-3-4-0-637398619033789171" type="image/png" />
+		<link rel="icon" href="favicon.png?2020-3-4-0-637398622382012776" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
