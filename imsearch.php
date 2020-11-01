@@ -2,7 +2,7 @@
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="ru-RU" dir="ltr">
 	<head>
-		<title>Поиск - Новый проект 1</title>
+		<title>Поиск</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta property="og:locale" content="ru" />
@@ -19,7 +19,7 @@
 		
 		
 		<link rel="stylesheet" href="pluginAppObj/imSideBar_pluginAppObj_02/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-3-4-0-637398625425512641" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-3-4-0-637398627723391822" media="screen,print" />
 		<script src="res/jquery.js?2020-3-4-0"></script>
 		<script src="res/x5engine.js?2020-3-4-0" data-files-version="2020-3-4-0"></script>
 		
@@ -30,7 +30,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2020-3-4-0-637398625425352654" type="image/png" />
+		<link rel="icon" href="favicon.png?2020-3-4-0-637398627723311764" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -39,7 +39,7 @@
 				<div id="imFooterBg"></div>
 				<div id="imPage">
 					<header id="imHeader">
-						<h1 class="imHidden">Поиск - Новый проект 1</h1>
+						
 						<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text" >FUNERAL</span></div></div><div id="imHeader_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectTitle_02"><span id ="imHeader_imObjectTitle_02_text" >Service</span></div></div><div id="imHeader_imMenuObject_03_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imHeader_imMenuObject_03"><div id="imHeader_imMenuObject_03_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
 	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
 		<div class="hamburger-menu-close-button"><span>&times;</span></div>
@@ -206,7 +206,7 @@ $(function () {$('#imSideBar_imMenuObject_01_container ul li').not('.imMnMnSepar
 					<main id="imContent">
 						<a id="imGoToCont"></a>
 						<div id="imSearchPage">
-						<h2 id="imPgTitle">Результаты поиска</h2>
+						<h1 id="imPgTitle">Результаты поиска</h1>
 						<?php
 						$search = new imSearch();
 						$keys = isset($_GET['search']) ? @htmlspecialchars($_GET['search']) : "";
