@@ -1,0 +1,788 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Freelancer</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base/jquery-ui.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/freelancer.css" rel="stylesheet">
+<link href="css/wb16_freelancer.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="wwb16.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $('#reviewsImage1').addClass('visibility-hidden');
+      $('#portfolio-image2').addClass('visibility-hidden');
+      $('#reviewsImage1').addClass('visibility-hidden');
+      $('#portfolio-image2').addClass('visibility-hidden');
+      $('#reviewsImage1').addClass('visibility-hidden');
+      $('#portfolio-image2').addClass('visibility-hidden');
+      $('#reviewsImage1').addClass('visibility-hidden');
+      $('#portfolio-image2').addClass('visibility-hidden');
+      $("a[href*='#header']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutQuad');
+      });
+      $("a[href*='#intro']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_intro').offset().top-68 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#skills']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_skills').offset().top-68 }, 600, 'easeOutQuad');
+      });
+      $("a[href*='#services']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_services').offset().top-68 }, 600, 'easeOutQuad');
+      });
+      function onScrollservices()
+      {
+         var $obj = $("#wb_services");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+            AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+         }
+      }
+      onScrollservices();
+      $(window).scroll(function(event)
+      {
+         onScrollservices();
+      });
+      $("a[href*='#skillsInner']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_skillsInner').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      function skrollrInit()
+      {
+         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+      }
+      skrollrInit();
+      $("a[href*='#servicesLayoutGrid1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_servicesLayoutGrid1').offset().top-68 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#servicesLayoutGrid2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_servicesLayoutGrid2').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#portfolio']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_portfolio').offset().top-68 }, 600, 'easeOutQuad');
+      });
+      function onScrollportfolio()
+      {
+         var $obj = $("#wb_portfolio");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+            AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+         }
+      }
+      onScrollportfolio();
+      $(window).scroll(function(event)
+      {
+         onScrollportfolio();
+      });
+      $("a[href*='#portfolioLayoutGrid1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_portfolioLayoutGrid1').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      function onScrollportfolioLayoutGrid1()
+      {
+         var $obj = $("#wb_portfolioLayoutGrid1");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+            AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+         }
+      }
+      onScrollportfolioLayoutGrid1();
+      $(window).scroll(function(event)
+      {
+         onScrollportfolioLayoutGrid1();
+      });
+      $("a[href*='#portfolioLayoutGrid2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_portfolioLayoutGrid2').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      function onScrollportfolioLayoutGrid2()
+      {
+         var $obj = $("#wb_portfolioLayoutGrid2");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+            AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+         }
+      }
+      onScrollportfolioLayoutGrid2();
+      $(window).scroll(function(event)
+      {
+         onScrollportfolioLayoutGrid2();
+      });
+      function aspectRatioportfolioRollOverText1()
+      {
+         var $obj = $("#portfolioRollOverText1");
+         var height = $obj.width() / 1;
+         $obj.css('height', height + 'px');
+      }
+      $(window).resize(function()
+      {
+         aspectRatioportfolioRollOverText1();
+      });
+      aspectRatioportfolioRollOverText1();
+      function aspectRatioportfolioRollOverText2()
+      {
+         var $obj = $("#portfolioRollOverText2");
+         var height = $obj.width() / 1;
+         $obj.css('height', height + 'px');
+      }
+      $(window).resize(function()
+      {
+         aspectRatioportfolioRollOverText2();
+      });
+      aspectRatioportfolioRollOverText2();
+      function aspectRatioportfolioRollOverText3()
+      {
+         var $obj = $("#portfolioRollOverText3");
+         var height = $obj.width() / 1;
+         $obj.css('height', height + 'px');
+      }
+      $(window).resize(function()
+      {
+         aspectRatioportfolioRollOverText3();
+      });
+      aspectRatioportfolioRollOverText3();
+      function aspectRatioportfolioRollOverText4()
+      {
+         var $obj = $("#portfolioRollOverText4");
+         var height = $obj.width() / 1;
+         $obj.css('height', height + 'px');
+      }
+      $(window).resize(function()
+      {
+         aspectRatioportfolioRollOverText4();
+      });
+      aspectRatioportfolioRollOverText4();
+      function aspectRatioportfolioRollOverText5()
+      {
+         var $obj = $("#portfolioRollOverText5");
+         var height = $obj.width() / 1;
+         $obj.css('height', height + 'px');
+      }
+      $(window).resize(function()
+      {
+         aspectRatioportfolioRollOverText5();
+      });
+      aspectRatioportfolioRollOverText5();
+      function aspectRatioportfolioRollOverText6()
+      {
+         var $obj = $("#portfolioRollOverText6");
+         var height = $obj.width() / 1;
+         $obj.css('height', height + 'px');
+      }
+      $(window).resize(function()
+      {
+         aspectRatioportfolioRollOverText6();
+      });
+      aspectRatioportfolioRollOverText6();
+      $("#skillsProgressbar1").progressbar(
+      {
+         value: 90,
+         change: function() 
+         {
+            $("#skillsProgressbar1-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#skillsProgressbar2").progressbar(
+      {
+         value: 80,
+         change: function() 
+         {
+            $("#skillsProgressbar2-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#skillsProgressbar3").progressbar(
+      {
+         value: 60,
+         change: function() 
+         {
+            $("#skillsProgressbar3-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("#skillsProgressbar4").progressbar(
+      {
+         value: 75,
+         change: function() 
+         {
+            $("#skillsProgressbar4-label").text($(this).progressbar('value') + '%');
+         }
+      });
+      $("a[href*='#contact']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top-68 }, 600, 'easeOutQuad');
+      });
+      $("a[href*='#contactForm']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_contactForm').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("#faqAccordion").accordion(
+      {
+         event: 'click',
+         animate: 'easeOutSine',
+         active: false,
+         collapsible: true,
+         header: 'h3',
+         heightStyle: 'content'
+      });
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutElastic', dismissible: false, display: 'push', position: 'left'});
+      $('.OverlayMenu1 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+   });
+</script>
+<script>   
+   $(document).ready(function()
+   {
+      var $progressbars = $('.ui-progressbar');
+      
+      $progressbars.each(function() 
+      {
+        var $obj = $(this);
+        $obj.data('value', $obj.progressbar('option', 'value'));
+        $obj.data('done', false);
+        $obj.progressbar('option', 'value', 0);
+      });
+      $(window).bind('scroll', function() 
+      {
+         $progressbars.each(function() 
+         {
+            var $obj = $(this);
+            if (!$obj.data('done') && $(window).scrollTop() + $(window).height() >= $obj.offset().top) 
+            {
+               $obj.data('done', true);
+               $obj.animate({scroll: 1}, 
+               { 
+                  duration: 3000, 
+                  step: function(now) 
+                  {
+                     var $obj = $(this);
+                     var val = Math.round($obj.data('value') * now);
+                     $obj.progressbar('option', 'value', val);
+                  }
+               });
+            }
+         });
+      }).triggerHandler('scroll');
+   });
+</script>
+</head>
+<body>
+   <div id="wb_header">
+      <div id="header">
+         <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-2">
+               <div id="wb_PanelMenu1" style="display:inline-block;width:48px;height:48px;z-index:0;">
+                  <a href="#PanelLayer" id="PanelMenu1">
+                     <span class="line"></span>
+                     <span class="line"></span>
+                     <span class="line"></span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_intro">
+      <div id="intro-divider-top">
+      </div>
+      <div id="intro-divider-bottom">
+      </div>
+      <div id="intro">
+         <div class="col-1">
+            <div id="wb_TextArt3" style="display:inline-block;width:423px;height:35px;z-index:1;position:relative;">
+               <img src="images/img0001.png" id="TextArt3" alt="MY NAME IS ALICIA" title="MY NAME IS ALICIA" style="width:423px;height:35px;">
+            </div>
+            <div id="wb_homeText">
+               <p style="font-size:16px;line-height:18px;color:#7B73C8;">I'm a Free Lancer</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_skills">
+      <div id="skills-overlay"></div>
+      <div id="skills">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_skillsInner">
+                     <div id="skillsInner">
+                        <div class="row">
+                           <div class="col-1">
+                              <div class="col-1-padding">
+                                 <div id="wb_skillsHeading">
+                                    <p style="margin:6.67px 0px 6.67px 0px;font-size:16px;line-height:18px;font-weight:bold;color:#FFFFFF;"><span style="font-size:24px;line-height:27.5px;">Skills</span></p>
+                                 </div>
+                                 <label for="" id="skillsLabel1" style="display:block;width:100%;line-height:16px;z-index:4;">HTML</label>
+                                 <div id="skillsProgressbar1" style="display:block;width:100%;height:14px;z-index:5;">
+                                    <div id="skillsProgressbar1-label">90%</div>
+                                 </div>
+                                 <label for="" id="skillsLabel2" style="display:block;width:100%;line-height:16px;z-index:6;">CSS</label>
+                                 <div id="skillsProgressbar2" style="display:block;width:100%;height:14px;z-index:7;">
+                                    <div id="skillsProgressbar2-label">80%</div>
+                                 </div>
+                                 <label for="" id="skillsLabel3" style="display:block;width:100%;line-height:16px;z-index:8;">JavaScript</label>
+                                 <div id="skillsProgressbar3" style="display:block;width:100%;height:14px;z-index:9;">
+                                    <div id="skillsProgressbar3-label">60%</div>
+                                 </div>
+                                 <label for="" id="skillsLabel4" style="display:block;width:100%;line-height:16px;z-index:10;">PHP:</label>
+                                 <div id="skillsProgressbar4" style="display:block;width:100%;height:14px;z-index:11;">
+                                    <div id="skillsProgressbar4-label">75%</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-2">
+                              <div class="col-2-padding">
+                                 <div id="wb_skillsText">
+                                    <p style="margin:6.67px 0px 6.67px 0px;font-size:24px;line-height:27.5px;font-weight:bold;color:#FFFFFF;">About Me</p>
+                                    <p style="font-size:16px;line-height:18px;color:#FFFFFF;line-height:21.6px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span style="font-size:16px;line-height:18px;color:#FFFFFF;"><br/></span><span style="font-size:16px;line-height:18px;color:#FFFFFF;"><br/></span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <p style="font-size:16px;line-height:18px;font-weight:bold;line-height:21.6px;">&nbsp;</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_services">
+      <div id="services">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_TextArt2" style="display:inline-block;width:229px;height:31px;z-index:15;position:relative;">
+                     <img src="images/img0002.png" id="TextArt2" alt="SERVICES" title="SERVICES" style="width:229px;height:31px;">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:85;">
+      <div id="wb_up-arrow" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:16;">
+         <a href="#intro"><div id="up-arrow"><i class="fa fa-angle-up"></i></div></a></div>
+   </div>
+   <div id="wb_servicesLayoutGrid1">
+      <div id="servicesLayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_servicesCard1" style="display:flex;width:100%;text-align:center;z-index:28;" data--500-bottom="opacity:1.0;" data-100-bottom="opacity:0.0;">
+                     <div id="servicesCard1-card-body">
+                        <div id="servicesCard1-card-item0"><i class="fa fa-globe"></i></div>
+                        <div id="servicesCard1-card-item1">WEB DESIGN</div>
+                        <div id="servicesCard1-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_servicesCard2" style="display:flex;width:100%;text-align:center;z-index:29;" data--500-bottom="opacity:1.0;" data-100-bottom="opacity:0.0;">
+                     <div id="servicesCard2-card-body">
+                        <div id="servicesCard2-card-item0"><i class="fa fa-code"></i></div>
+                        <div id="servicesCard2-card-item1">WEB DEVELOPMENT</div>
+                        <div id="servicesCard2-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3">
+               <div class="col-3-padding">
+                  <div id="wb_servicesCard3" style="display:flex;width:100%;text-align:center;z-index:30;" data--500-bottom="opacity:1.0;" data-100-bottom="opacity:0.0;">
+                     <div id="servicesCard3-card-body">
+                        <div id="servicesCard3-card-item0"><i class="fa fa-paint-brush"></i></div>
+                        <div id="servicesCard3-card-item1">GRAPHIC DESIGN</div>
+                        <div id="servicesCard3-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_servicesLayoutGrid2">
+      <div id="servicesLayoutGrid2">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_servicesCard4" style="display:flex;width:100%;text-align:center;z-index:31;" data--500-bottom="opacity:1.0;" data-100-bottom="opacity:0.0;">
+                     <div id="servicesCard4-card-body">
+                        <div id="servicesCard4-card-item0"><i class="fa fa-mobile"></i></div>
+                        <div id="servicesCard4-card-item1">RESPONSIVE DESIGN</div>
+                        <div id="servicesCard4-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_servicesCard5" style="display:flex;width:100%;text-align:center;z-index:32;" data--500-bottom="opacity:1.0;" data-100-bottom="opacity:0.0;">
+                     <div id="servicesCard5-card-body">
+                        <div id="servicesCard5-card-item0"><i class="fa fa-camera"></i></div>
+                        <div id="servicesCard5-card-item1">PHOTOGRAPHY</div>
+                        <div id="servicesCard5-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3">
+               <div class="col-3-padding">
+                  <div id="wb_servicesCard6" style="display:flex;width:100%;text-align:center;z-index:33;" data--500-bottom="opacity:1.0;" data-100-bottom="opacity:0.0;">
+                     <div id="servicesCard6-card-body">
+                        <div id="servicesCard6-card-item0"><i class="fa fa-comments-o"></i></div>
+                        <div id="servicesCard6-card-item1">MARKETING</div>
+                        <div id="servicesCard6-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_faq">
+      <div id="faq-overlay"></div>
+      <div id="faq">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_TextArt1" style="display:inline-block;width:92px;height:34px;z-index:38;position:relative;">
+                     <img src="images/img0003.png" id="TextArt1" alt="FAQ" title="FAQ" style="width:92px;height:34px;">
+                  </div>
+                  <div id="wb_faqAccordion" style="display:inline-block;width:100%;z-index:39;">
+                     <div id="faqAccordion">
+                        <h3>What payment services do you support?</h3>
+                        <div>
+                           <div id="wb_faqText1">
+                              <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</span>
+                           </div>
+                        </div>
+                        <h3>Is this a secure site for purchases?</h3>
+                        <div>
+                           <div id="wb_faqText2">
+                              <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. </span>
+                           </div>
+                        </div>
+                        <h3>How long are your contracts?</h3>
+                        <div>
+                           <div id="wb_faqText3">
+                              <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. </span>
+                           </div>
+                        </div>
+                        <h3>Can I cancel my subscription?</h3>
+                        <div>
+                           <div id="wb_faqText4">
+                              <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus.</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_portfolio">
+      <div id="portfolio">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_TextArt4" style="display:inline-block;width:229px;height:31px;z-index:40;position:relative;">
+                     <img src="images/img0004.png" id="TextArt4" alt="PORTFOLIO" title="PORTFOLIO" style="width:229px;height:31px;">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_portfolioLayoutGrid1">
+      <div id="portfolioLayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="portfolioRollOverText1" style="overflow:hidden;display:block;position:relative;">
+                     <img alt="ABOUT" class="image" src="images/aliciaa.png">
+                     <div class="caption">
+                        <div class="title">ABOUT</div>
+                        <p class="description">Read more about our company</p>
+                        <a class="link" href="#">More information</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="portfolioRollOverText2" style="overflow:hidden;display:block;position:relative;">
+                     <img alt="ABOUT" class="image" src="images/aliciaa.png">
+                     <div class="caption">
+                        <div class="title">ABOUT</div>
+                        <p class="description">Read more about our company</p>
+                        <a class="link" href="#">More information</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3">
+               <div class="col-3-padding">
+                  <div id="portfolioRollOverText3" style="overflow:hidden;display:block;position:relative;">
+                     <img alt="ABOUT" class="image" src="images/aliciaa.png">
+                     <div class="caption">
+                        <div class="title">ABOUT</div>
+                        <p class="description">Read more about our company</p>
+                        <a class="link" href="#">More information</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_portfolioLayoutGrid2">
+      <div id="portfolioLayoutGrid2">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="portfolioRollOverText4" style="overflow:hidden;display:block;position:relative;">
+                     <img alt="ABOUT" class="image" src="images/aliciaa.png">
+                     <div class="caption">
+                        <div class="title">ABOUT</div>
+                        <p class="description">Read more about our company</p>
+                        <a class="link" href="#">More information</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="portfolioRollOverText5" style="overflow:hidden;display:block;position:relative;">
+                     <img alt="ABOUT" class="image" src="images/aliciaa.png">
+                     <div class="caption">
+                        <div class="title">ABOUT</div>
+                        <p class="description">Read more about our company</p>
+                        <a class="link" href="#">More information</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3">
+               <div class="col-3-padding">
+                  <div id="portfolioRollOverText6" style="overflow:hidden;display:block;position:relative;">
+                     <img alt="ABOUT" class="image" src="images/aliciaa.png">
+                     <div class="caption">
+                        <div class="title">ABOUT</div>
+                        <p class="description">Read more about our company</p>
+                        <a class="link" href="#">More information</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contact">
+      <div id="contact-overlay"></div>
+      <div id="contact">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_contactForm">
+                     <div id="contactForm">
+                        <div class="row">
+                           <div class="col-1">
+                              <div class="col-1-padding">
+                                 <div id="wb_contactText1">
+                                    <p style="margin:6.67px 0px 6.67px 0px;font-size:16px;line-height:18px;font-weight:bold;color:#FFFFFF;"><span style="font-size:24px;line-height:27.5px;">Send A Message</span></p>
+                                 </div>
+                                 <input type="text" id="contactName" style="display:block;width:100%;height:42px;z-index:48;" name="name" value="" spellcheck="false" placeholder="Name">
+                                 <input type="text" id="contactEmail" style="display:block;width:100%;height:42px;z-index:49;" name="email" value="" spellcheck="false" placeholder="Email">
+                                 <input type="text" id="contactSubject" style="display:block;width:100%;height:42px;z-index:50;" name="subject" value="" spellcheck="false" placeholder="Subject">
+                                 <textarea name="message" id="contactMessage" style="display:block;width:100%;;height:108px;z-index:51;" rows="4" cols="35" autocomplete="off" spellcheck="false" placeholder="Message"></textarea>
+                                 <input type="submit" id="contactButton" name="" value="Submit" style="display:inline-block;width:128px;height:33px;z-index:52;">
+                              </div>
+                           </div>
+                           <div class="col-2">
+                              <div class="col-2-padding">
+                                 <div id="wb_contactText2">
+                                    <p style="margin:6.67px 0px 6.67px 0px;font-size:24px;line-height:27.5px;font-weight:bold;color:#FFFFFF;">Contact Me</p>
+                                    <p style="font-size:16px;line-height:18px;color:#FFFFFF;line-height:21.6px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span style="font-size:16px;line-height:18px;color:#FFFFFF;"><br/></span><span style="font-size:16px;line-height:18px;color:#FFFFFF;"><br/></span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <p style="font-size:16px;line-height:18px;font-weight:bold;line-height:21.6px;">&nbsp;</p>
+                                 </div>
+                                 <div id="wb_contactIcon1" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:54;">
+                                    <a href="./wb16_freelancer.html"><div id="contactIcon1"><i class="fa fa-facebook"></i></div></a>
+                                 </div>
+                                 <div id="wb_contactIcon2" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:55;">
+                                    <a href="./wb16_freelancer.html"><div id="contactIcon2"><i class="fa fa-twitter"></i></div></a>
+                                 </div>
+                                 <div id="wb_contactIcon3" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:56;">
+                                    <a href="./wb16_freelancer.html"><div id="contactIcon3"><i class="fa fa-instagram"></i></div></a>
+                                 </div>
+                                 <div id="wb_contactIcon4" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:57;">
+                                    <a href="./wb16_freelancer.html"><div id="contactIcon4"><i class="fa fa-youtube"></i></div></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_footer">
+      <div id="footer">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_contactText3">
+                  <p style="color:#FFFFFF;">Copyright © 2020 WYSIWYG Web Builder.&nbsp; All Rights Reserved<span style="color:#FFFFFF;"><br/></span>Artwork by Clyhard</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="PanelLayer" style="text-align:right;">
+      <div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:75;">
+         <img src="images/alicia_250x250.png" id="Image1" alt="">
+      </div>
+      <div id="wb_Heading3" style="display:inline-block;width:100%;z-index:76;">
+         <h1 id="Heading3">Freelancer</h1>
+      </div>
+      <div id="wb_OverlayMenu1" style="display:inline-block;width:306px;height:152px;z-index:77;">
+         <div class="OverlayMenu1">
+            <ul class="OverlayMenu1" role="menu">
+               <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Home</a></li>
+               <li class="item-has-children">
+                  <a role="menuitem" href="#" class="OverlayMenu1-effect">Blog</a>
+                  <ul class="sub-menu" role="menu">
+                     <li class="item-has-children">
+                        <a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-eye overlay-icon"></i>Design</a>
+                        <ul class="sub-menu" role="menu">
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+                        </ul>
+                     </li>
+                     <li class="item-has-children">
+                        <a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-html5 overlay-icon"></i>HTML</a>
+                        <ul class="sub-menu" role="menu">
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+                        </ul>
+                     </li>
+                     <li class="item-has-children">
+                        <a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-css3 overlay-icon"></i>CSS</a>
+                        <ul class="sub-menu" role="menu">
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+                        </ul>
+                     </li>
+                     <li class="item-has-children">
+                        <a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-code overlay-icon"></i>JavaScript</a>
+                        <ul class="sub-menu" role="menu">
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li class="item-has-children">
+                  <a role="menuitem" href="#" class="OverlayMenu1-effect">Work</a>
+                  <ul class="sub-menu" role="menu">
+                     <li class="item-has-children">
+                        <a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-desktop overlay-icon"></i>Web&nbsp;Design</a>
+                        <ul class="sub-menu" role="menu">
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+                        </ul>
+                     </li>
+                     <li class="item-has-children">
+                        <a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-picture-o overlay-icon"></i>Typography</a>
+                        <ul class="sub-menu" role="menu">
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+                        </ul>
+                     </li>
+                     <li class="item-has-children">
+                        <a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-envelope overlay-icon"></i>Applications</a>
+                        <ul class="sub-menu" role="menu">
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+                           <li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li><a role="menuitem" href="#" class="OverlayMenu1-effect">About</a></li>
+            </ul>
+         </div>
+      </div>
+      <div id="wb_Heading1" style="display:inline-block;width:100%;z-index:78;">
+         <h2 id="Heading1">Subscribe for newsletter</h2>
+      </div>
+      <input type="text" id="Editbox1" style="display:block;width:calc(100% - 30px);height:29px;z-index:79;" name="email" value="" spellcheck="false" placeholder="Enter email Address">
+      <div id="wb_Text2" style="position:absolute;top:auto !important;bottom:0 !important;width:100% !important;">
+         <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:21px;">Copyright 2020 All rights reserved.<br></span><span style="color:#BDB9E3;font-family:Arial;font-size:13px;line-height:16px;">WYSIWYG Web Builder</span>
+      </div>
+   </div>
+   <script>   
+   var wb_Timer1;
+   function TimerStartTimer1()
+   {
+      wb_Timer1 = setTimeout(function()
+      {
+         var event = null;
+         ShowPanel('PanelLayer', event);
+      }, 1000);
+   }
+   function TimerStopTimer1()
+   {
+      clearTimeout(wb_Timer1);
+   }
+   TimerStartTimer1();
+   </script>
+</body>
+</html>
