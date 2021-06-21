@@ -241,7 +241,7 @@
          header: 'h3',
          heightStyle: 'content'
       });
-      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutElastic', dismissible: false, display: 'push', position: 'left'});
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutElastic', dismissible: false, display: 'overlay', position: 'left'});
       $('.OverlayMenu1 .item-has-children').children('a').on('click', function(event)
       {
          event.preventDefault();
