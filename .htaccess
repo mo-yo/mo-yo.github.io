@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^index.html$ / [QSA,R]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} /index\.php(/(.*?))? [NC]
+RewriteRule ^(.*?)index\.php(/(.*?))?$ /$1$2 [L,R=301,NC,NE]
