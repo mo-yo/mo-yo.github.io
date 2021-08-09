@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628534678186">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628537302964">
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
     <file name="ptsansnarrow-regular.eot" crc="281157933"/>
@@ -6,8 +6,8 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="268531988" ref="index"/>
-    <file name="nomq_index.css" crc="499127585" ref="index"/>
+    <file name="index.css" crc="126478850" ref="index"/>
+    <file name="nomq_index.css" crc="3864095078" ref="index"/>
     <file name="master_______-a.css" crc="4028267390" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
   </folder>
@@ -53,6 +53,70 @@
     <file name="pic13-free-img-1290x329.jpg" crc="43148386" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="9a290x218.jpg" crc="4221294622" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1a290x218.jpg" crc="336841242" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2a290x218.jpg" crc="4262310627" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4a290x218.jpg" crc="4265837548" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="7a290x218.jpg" crc="398328544" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5a290x218.jpg" crc="521932502" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="6a290x218.jpg" crc="115127653" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="8a290x218.jpg" crc="215056808" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9a.jpg" crc="4236778727" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1a.jpg" crc="277566666" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2a.jpg" crc="453102775" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4a.jpg" crc="3774256351" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="7a.jpg" crc="4122909082" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5a.jpg" crc="4163630163" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="6a.jpg" crc="3829289226" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="8a.jpg" crc="467342727" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="144791357" seo="true" mt="1628534624695" redirect="true"/>
+  <file name="index.html" crc="4068348875" seo="true" mt="1628537255437" redirect="true"/>
 </manifest>
