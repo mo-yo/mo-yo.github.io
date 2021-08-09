@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628522049435">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628522397195">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="487863423" ref="index"/>
-    <file name="nomq_index.css" crc="4183324311" ref="index"/>
+    <file name="index.css" crc="532992764" ref="index"/>
+    <file name="nomq_index.css" crc="4256673060" ref="index"/>
     <file name="master_______-a.css" crc="4028267390" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
   </folder>
@@ -35,8 +35,8 @@
     </file>
     <file name="7779456456-u280-fr.jpg" crc="467549061" ref="index"/>
     <file name="7779456456-u280-fr2.jpg" crc="936494" ref="index"/>
-    <file name="7779456456-u280-fr3.jpg" crc="298786360" ref="index"/>
+    <file name="7779456456-u280-fr3.jpg" crc="3914244990" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3870782397" seo="true" mt="1628522023730" redirect="true"/>
+  <file name="index.html" crc="4268491409" seo="true" mt="1628522384985" redirect="true"/>
 </manifest>
