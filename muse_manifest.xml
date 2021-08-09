@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628537302964">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628537420328">
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
     <file name="ptsansnarrow-regular.eot" crc="281157933"/>
@@ -6,8 +6,8 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="126478850" ref="index"/>
-    <file name="nomq_index.css" crc="3864095078" ref="index"/>
+    <file name="index.css" crc="3815646895" ref="index"/>
+    <file name="nomq_index.css" crc="516249638" ref="index"/>
     <file name="master_______-a.css" crc="4028267390" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
   </folder>
@@ -118,5 +118,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4068348875" seo="true" mt="1628537255437" redirect="true"/>
+  <file name="index.html" crc="3971220378" seo="true" mt="1628537387694" redirect="true"/>
 </manifest>
