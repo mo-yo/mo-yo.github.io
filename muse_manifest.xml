@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628519919653">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628522049435">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3819163262" ref="index"/>
-    <file name="nomq_index.css" crc="4259053936" ref="index"/>
+    <file name="index.css" crc="487863423" ref="index"/>
+    <file name="nomq_index.css" crc="4183324311" ref="index"/>
     <file name="master_______-a.css" crc="4028267390" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
   </folder>
@@ -14,6 +14,7 @@
     <file name="jquery.watch.js" crc="51536988" ref="index"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3896167836" ref="index"/>
@@ -23,6 +24,19 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="7779456456.jpg" crc="4036157423" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="action2-300x168.png" crc="421207540" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="7779456456-u280-fr.jpg" crc="467549061" ref="index"/>
+    <file name="7779456456-u280-fr2.jpg" crc="936494" ref="index"/>
+    <file name="7779456456-u280-fr3.jpg" crc="298786360" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3795946922" seo="true" mt="1628519899753" redirect="true"/>
+  <file name="index.html" crc="3870782397" seo="true" mt="1628522023730" redirect="true"/>
 </manifest>
