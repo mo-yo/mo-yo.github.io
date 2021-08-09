@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628517886186">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628518001482">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="342460929" ref="index"/>
@@ -13,5 +13,8 @@
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
-  <file name="index.html" crc="157809768" seo="true" mt="1628517376730" redirect="true"/>
+  <folder name="images">
+    <file name="favicon.ico" crc="3896167836" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3961930892" seo="true" mt="1628517992720" redirect="true"/>
 </manifest>
