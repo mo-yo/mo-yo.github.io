@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628537985002">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1628588459228">
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
     <file name="ptsansnarrow-regular.eot" crc="281157933"/>
@@ -6,10 +6,10 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4141539057" ref="index"/>
-    <file name="nomq_index.css" crc="4100793829" ref="index"/>
-    <file name="master_______-a.css" crc="4028267390" ref="index"/>
-    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="4146123814" ref="index"/>
+    <file name="nomq_index.css" crc="3858978536" ref="index"/>
+    <file name="master_______-a.css" crc="4138527563" ref="index"/>
+    <file name="nomq_preview_master_______-a.css" crc="3852663282" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -42,7 +42,7 @@
     <file name="7779456456-u280-fr2.jpg" crc="936494" ref="index"/>
     <file name="7779456456-u280-fr3.jpg" crc="3914244990" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="steps44a-u377-6-fr.png" crc="3879807966" ref="index"/>
+    <file name="steps44a-u377-6-fr.png" crc="421289666" ref="index"/>
     <file name="pic13-free-img-1.jpg" crc="406793386" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -118,5 +118,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3927708075" seo="true" mt="1628537942322" redirect="true"/>
+  <file name="index.html" crc="286718416" seo="true" mt="1628588376427" redirect="true"/>
 </manifest>
