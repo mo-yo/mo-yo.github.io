@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1630654705608">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1630655934093">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="3934417302" ref="index"/>
@@ -33,5 +33,5 @@
     </file>
     <file name="favicon.ico" crc="4049465293" ref="index"/>
   </folder>
-  <file name="index.html" crc="239658639" seo="true" mt="1630654696793" redirect="true"/>
+  <file name="index.html" crc="4076435109" seo="true" mt="1630655903868" redirect="true"/>
 </manifest>
