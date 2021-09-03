@@ -1,0 +1,36 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1630654629960">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="3934417302" ref="index"/>
+    <file name="nomq_index.css" crc="29426356" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="ptsans-narrowbold.woff" crc="3942810612"/>
+    <file name="ptsansnarrow-bold.eot" crc="35338678"/>
+    <file name="ptsans-narrowbold.svg" crc="217463701"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3939489907" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="3936894949" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="index"/>
+    <file name="require.js" crc="4177726516" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="vanna123.jpg" crc="74482129" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="im4.jpg" crc="376634911" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="103 (1).gif" crc="3877275844" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="361596877" seo="true" mt="1630654154542" redirect="true"/>
+</manifest>
