@@ -12,19 +12,19 @@
 		<meta property="og:site_name" content="Проба пера" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="stylesheet" href="style/reset.css?2021-3-4-0" media="screen,print" />
-		<link rel="stylesheet" href="style/print.css?2021-3-4-0" media="print" />
-		<link rel="stylesheet" href="style/style.css?2021-3-4-0" media="screen,print" />
-		<link rel="stylesheet" href="style/template.css?2021-3-4-0" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2021-3-4-0-637659571029860638" media="screen,print" />
-		<script src="res/jquery.js?2021-3-4-0"></script>
-		<script src="res/x5engine.js?2021-3-4-0" data-files-version="2021-3-4-0"></script>
+		<link rel="stylesheet" href="style/reset.css?2021-3-5-0" media="screen,print" />
+		<link rel="stylesheet" href="style/print.css?2021-3-5-0" media="print" />
+		<link rel="stylesheet" href="style/style.css?2021-3-5-0" media="screen,print" />
+		<link rel="stylesheet" href="style/template.css?2021-3-5-0" media="screen" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2021-3-5-0-637668277127707963" media="screen,print" />
+		<script src="res/jquery.js?2021-3-5-0"></script>
+		<script src="res/x5engine.js?2021-3-5-0" data-files-version="2021-3-5-0"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','Возможно, Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','[1]Обновите Ваш браузер[/1] или [2]продолжите процедуру [/2].','http://outdatedbrowser.com/'); };
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.ico?2021-3-4-0-637659571029820631" type="image/vnd.microsoft.icon" />
+		<link rel="icon" href="favicon.ico?2021-3-5-0-637668277127667950" type="image/vnd.microsoft.icon" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">

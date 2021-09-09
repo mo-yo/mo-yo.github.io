@@ -11,7 +11,7 @@ $imSettings['general'] = array(
 	'url' => 'https://mo-yo.ml/',
 	'homepage_url' => 'https://mo-yo.ml/index.html',
 	'icon' => '',
-	'version' => '2021.3.4.0',
+	'version' => '2021.3.5.0',
 	'sitename' => 'Проба пера',
 	'lang_code' => 'ru-RU',
 	'public_folder' => '',
@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"ewt0t39e-imCpt\">Проверочное слово:</label><br />
-			<input type=\"text\" id=\"ewt0t39e-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"spyopps0-imCpt\">Проверочное слово:</label><br />
+			<input type=\"text\" id=\"spyopps0-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 
