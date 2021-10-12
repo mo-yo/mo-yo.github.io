@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1634058669433">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1634074690534">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="201244621" ref="index"/>
+    <file name="master_______-a.css" crc="4254526421" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="3928310023" ref="index"/>
-    <file name="nomq_index.css" crc="323509670" ref="index"/>
+    <file name="index.css" crc="3889819178" ref="index"/>
+    <file name="nomq_index.css" crc="3867977699" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -76,7 +76,7 @@
     <file name="robot001538x303.jpg" crc="170006886" seo="true" ref="index">
       <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="untitled4-crop-u6882.jpg" crc="449358880" seo="true" ref="index">
+    <file name="untitled4-crop-u6882.jpg" crc="469521055" seo="true" ref="index">
       <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="fe2467310eefa5fc864cd6ab8ce88531-crop-u7282.jpg" crc="4105650142" seo="true" ref="index">
@@ -90,5 +90,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="83978775" seo="true" mt="1634058654890" redirect="true"/>
+  <file name="index.html" crc="4190791654" seo="true" mt="1634074666759" redirect="true"/>
 </manifest>
