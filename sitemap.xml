@@ -42,6 +42,7 @@
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.ml/images/z.jpg</image:loc>
+      <image:caption>Robots Are The Future</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.ml/images/636e31a208d5ea88d839b88b582e2a46.jpg</image:loc>
@@ -77,6 +78,7 @@
     </image:image>
     <image:image>
       <image:loc>https://mo-yo.ml/images/z2.jpg</image:loc>
+      <image:caption>Robots Are The Future</image:caption>
     </image:image>
   </url>
 </urlset>
