@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1634057591868">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1634057952078">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="469780650" ref="index"/>
+    <file name="master_______-a.css" crc="507812860" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="3883100548" ref="index"/>
-    <file name="nomq_index.css" crc="5245274" ref="index"/>
+    <file name="index.css" crc="4231220783" ref="index"/>
+    <file name="nomq_index.css" crc="323509670" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -90,5 +90,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="58407703" seo="true" mt="1634057582619" redirect="true"/>
+  <file name="index.html" crc="4164674860" seo="true" mt="1634057923030" redirect="true"/>
 </manifest>
