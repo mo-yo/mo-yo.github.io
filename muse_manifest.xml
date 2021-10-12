@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1634057952078">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1634058576890">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="507812860" ref="index"/>
+    <file name="master_______-a.css" crc="201244621" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="4231220783" ref="index"/>
+    <file name="index.css" crc="3928310023" ref="index"/>
     <file name="nomq_index.css" crc="323509670" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -18,77 +18,77 @@
   <folder name="images">
     <file name="favicon.ico" crc="516192985" ref="index"/>
     <file name="coverstory_robots-crop-u104.jpg" crc="4161366922" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="robot001.jpg" crc="170434534" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="1q.png" crc="495823151" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="1.jpg" crc="216539024" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="fe2467310eefa5fc864cd6ab8ce88531-crop-u728.jpg" crc="199859331" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="untitled4-crop-u688.jpg" crc="370361750" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="2.jpg" crc="3766562653" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="technology_default_2.jpg" crc="30722339" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="untitled5-crop-u328.jpg" crc="4237240913" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="untitled5-crop-u328.jpg" crc="3784366683" seo="true" ref="index">
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="z.jpg" crc="344745801" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="636e31a208d5ea88d839b88b582e2a46.jpg" crc="4091511814" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="text.png" crc="4124666952" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="default-logo.png" crc="3961565086" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="103 (1).gif" crc="3877275844" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="coverstory_robots-crop-u1042.jpg" crc="3896523593" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="robot001538x303.jpg" crc="170006886" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="untitled4-crop-u6882.jpg" crc="200038573" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="untitled4-crop-u6882.jpg" crc="469521055" seo="true" ref="index">
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="fe2467310eefa5fc864cd6ab8ce88531-crop-u7282.jpg" crc="301523713" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="fe2467310eefa5fc864cd6ab8ce88531-crop-u7282.jpg" crc="4105650142" seo="true" ref="index">
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="untitled5-crop-u3282.jpg" crc="4193972067" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="untitled5-crop-u3282.jpg" crc="3992658356" seo="true" ref="index">
+      <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="z2.jpg" crc="253978359" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4164674860" seo="true" mt="1634057923030" redirect="true"/>
+  <file name="index.html" crc="397202072" seo="true" mt="1634058570893" redirect="true"/>
 </manifest>
