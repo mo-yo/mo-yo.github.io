@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1634280971535">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1638089077718">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="185010496" ref="index"/>
+    <file name="master_______-a.css" crc="3776578986" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="3857921530" ref="index"/>
+    <file name="index.css" crc="504248312" ref="index"/>
     <file name="nomq_index.css" crc="3867977699" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -44,7 +44,7 @@
       <caption webpage="index" alt="Robots Are The Future"/>
       <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="untitled5-crop-u328.jpg" crc="4237240913" seo="true" ref="index">
+    <file name="untitled5-crop-u328.jpg" crc="3784366683" seo="true" ref="index">
       <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="z.jpg" crc="344745801" seo="true" ref="index">
@@ -76,13 +76,13 @@
     <file name="robot001538x303.jpg" crc="170006886" seo="true" ref="index">
       <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="untitled4-crop-u6882.jpg" crc="200038573" seo="true" ref="index">
+    <file name="untitled4-crop-u6882.jpg" crc="141218309" seo="true" ref="index">
       <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="fe2467310eefa5fc864cd6ab8ce88531-crop-u7282.jpg" crc="301523713" seo="true" ref="index">
+    <file name="fe2467310eefa5fc864cd6ab8ce88531-crop-u7282.jpg" crc="477922538" seo="true" ref="index">
       <caption webpage="index" alt="Robots Are The Future"/>
     </file>
-    <file name="untitled5-crop-u3282.jpg" crc="4193972067" seo="true" ref="index">
+    <file name="untitled5-crop-u3282.jpg" crc="314998998" seo="true" ref="index">
       <caption webpage="index" alt="Robots Are The Future"/>
     </file>
     <file name="z2.jpg" crc="253978359" seo="true" ref="index">
@@ -90,5 +90,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3759392724" seo="true" mt="1634280865646" redirect="true"/>
+  <file name="index.html" crc="152885343" seo="true" mt="1638088974350" redirect="true"/>
 </manifest>
