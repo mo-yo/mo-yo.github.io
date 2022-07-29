@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659129900576">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659130353717">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3768863660" ref="index"/>
+    <file name="index.css" crc="352492856" ref="index"/>
     <file name="nomq_index.css" crc="261846263" ref="index"/>
   </folder>
   <folder name="fonts">
@@ -123,15 +123,6 @@
     </file>
     <file name="7779456456-u1946-fr2.jpg" crc="3802629370" ref="index"/>
     <file name="text-u2041-fr2.png" crc="3839043210" ref="index"/>
-    <file name="06062022ryu1 (3)86x93.jpg" crc="4103550289" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="06062022ryu1 (4)92x88.jpg" crc="4030866362" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="06062022ryu1 (4)86x98.jpg" crc="260851013" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="06062022ryu1 (3)196x211.jpg" crc="352307764" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -144,6 +135,15 @@
     <file name="7779456456-u1946-fr3.jpg" crc="4167402832" ref="index"/>
     <file name="text-u2041-fr3.png" crc="114258623" ref="index"/>
     <file name="z-u2308-fr.jpg" crc="3764014613" ref="index"/>
+    <file name="06062022ryu1 (3)-crop-u14314.jpg" crc="208652977" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (4)-crop-u17653.jpg" crc="3996019131" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (4)-crop-u18184.jpg" crc="3952499449" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3823455712" seo="true" mt="1659129690259" redirect="true"/>
+  <file name="index.html" crc="17521649" seo="true" mt="1659130306105" redirect="true"/>
 </manifest>
