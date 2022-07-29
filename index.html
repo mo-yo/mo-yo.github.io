@@ -18,10 +18,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Пробный сайт</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=181910962" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=221410549"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=422582986" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=275041713" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=3824530138"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3932976361" id="nomq_pagesheet"/>
   <![endif]-->
     <!--HTML Widget code-->
   
@@ -155,6 +157,9 @@ false
      </div>
     </div>
     <div class="verticalspacer" data-offset-top="2310" data-content-above-spacer="2310" data-content-below-spacer="61"></div>
+    <div class="size_fixed grpelem shared_content" id="u2821" data-content-guid="u2821_content"><!-- custom html -->
+     <span class="copyright">Все права защищены &copy; 2010 - <script>var dteNow=new Date,intYear=dteNow.getFullYear();document.write(intYear);</script></span>
+    </div>
    </div>
   </div>
   <div class="breakpoint" id="bp_1024" data-min-width="769" data-max-width="1024"><!-- responsive breakpoint node -->
@@ -233,6 +238,7 @@ false
      <span class="browser_width colelem placeholder" data-placeholder-for="u2330-bw_content"><!-- placeholder node --></span>
     </div>
     <div class="verticalspacer" data-offset-top="1979" data-content-above-spacer="1978" data-content-below-spacer="61"></div>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u2821_content"><!-- placeholder node --></span>
    </div>
   </div>
   <div class="breakpoint" id="bp_768" data-min-width="481" data-max-width="768"><!-- responsive breakpoint node -->
@@ -317,6 +323,7 @@ false
      <span class="browser_width colelem placeholder" data-placeholder-for="u2330-bw_content"><!-- placeholder node --></span>
     </div>
     <div class="verticalspacer" data-offset-top="1787" data-content-above-spacer="1787" data-content-below-spacer="61"></div>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u2821_content"><!-- placeholder node --></span>
    </div>
   </div>
   <div class="breakpoint" id="bp_480" data-max-width="480"><!-- responsive breakpoint node -->
@@ -399,6 +406,7 @@ false
      <span class="browser_width colelem placeholder" data-placeholder-for="u2330-bw_content"><!-- placeholder node --></span>
     </div>
     <div class="verticalspacer" data-offset-top="2282" data-content-above-spacer="2282" data-content-below-spacer="61"></div>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u2821_content"><!-- placeholder node --></span>
    </div>
   </div>
   <!-- JS includes -->
@@ -428,17 +436,17 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('#slideshowu193', ['#bp_infinity', '#bp_1024', '#bp_768', '#bp_480'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'horizontal',lightboxEnabled_runtime:true,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:false,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu193 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_768').one('muse_this_bp_activate', function(){
-$('#u2308').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1219.5],"speed":[0,0]},{"in":[1219.5,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_480').one('muse_this_bp_activate', function(){
 $('#u2308').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1747.75],"speed":[0,0]},{"in":[1747.75,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_1024').one('muse_this_bp_activate', function(){
+$('#u2308').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1400],"speed":[0,0.6]},{"in":[1400,Infinity],"speed":[0,0.6]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u2308').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1608],"speed":[0,0.6]},{"in":[1608,Infinity],"speed":[0,0.6]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_1024').one('muse_this_bp_activate', function(){
-$('#u2308').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1400],"speed":[0,0.6]},{"in":[1400,Infinity],"speed":[0,0.6]}], $(this)); /* scroll effect */
+$('#bp_768').one('muse_this_bp_activate', function(){
+$('#u2308').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1219.5],"speed":[0,0]},{"in":[1219.5,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
