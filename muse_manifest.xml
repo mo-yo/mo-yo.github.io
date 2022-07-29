@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659130353717">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659134893720">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="352492856" ref="index"/>
+    <file name="index.css" crc="3879368283" ref="index"/>
     <file name="nomq_index.css" crc="261846263" ref="index"/>
   </folder>
   <folder name="fonts">
@@ -145,5 +145,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="17521649" seo="true" mt="1659130306105" redirect="true"/>
+  <file name="index.html" crc="3822911886" seo="true" mt="1659134867630" redirect="true"/>
 </manifest>
