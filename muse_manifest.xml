@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659178628437">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659184649811">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="474581091" ref="index"/>
     <file name="nomq_index.css" crc="509999781" ref="index"/>
     <file name="master_______-a.css" crc="413073420" ref="index:zemlya"/>
     <file name="nomq_preview_master_______-a.css" crc="118854670" ref="index:zemlya"/>
-    <file name="zemlya.css" crc="4216155113" ref="zemlya"/>
-    <file name="nomq_zemlya.css" crc="84883392" ref="zemlya"/>
+    <file name="zemlya.css" crc="4074209466" ref="zemlya"/>
+    <file name="nomq_zemlya.css" crc="4016069991" ref="zemlya"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -55,7 +55,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:zemlya"/>
     <file name="06062022ryu1 (4).jpg" crc="246026" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -147,7 +147,67 @@
     <file name="06062022ryu1 (4)-crop-u18184.jpg" crc="3952499449" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="9_11.jpg" crc="101999916" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="11_12.jpg" crc="325414760" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="3_20.jpg" crc="263239239" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="8_16.jpg" crc="4216989909" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="4_17.jpg" crc="4183554527" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="6_15.jpg" crc="284810882" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="9_11210x140.jpg" crc="3993423465" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="11_12210x158.jpg" crc="282053713" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="3_20210x140.jpg" crc="126837472" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="8_16210x137.jpg" crc="4234066892" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="4_17210x140.jpg" crc="163285243" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="6_15210x136.jpg" crc="3847622442" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="9_11280x187.jpg" crc="253611029" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="3_20280x187.jpg" crc="214566524" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="4_17280x187.jpg" crc="4196924308" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="11_12280x211.jpg" crc="3869766174" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="8_16280x183.jpg" crc="362306277" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
+    <file name="6_15280x182.jpg" crc="4200603046" seo="true" ref="zemlya">
+      <caption webpage="zemlya" alt="Храмы России"/>
+    </file>
   </folder>
   <file name="index.html" crc="506428746" seo="true" mt="1659178255733" redirect="true"/>
-  <file name="zemlya.html" crc="34422168" seo="true" mt="1659178614318" redirect="true"/>
+  <file name="zemlya.html" crc="4215993844" seo="true" mt="1659184591417" redirect="true"/>
 </manifest>
