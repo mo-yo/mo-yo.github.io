@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659178300270">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659178628437">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="474581091" ref="index"/>
     <file name="nomq_index.css" crc="509999781" ref="index"/>
     <file name="master_______-a.css" crc="413073420" ref="index:zemlya"/>
     <file name="nomq_preview_master_______-a.css" crc="118854670" ref="index:zemlya"/>
-    <file name="zemlya.css" crc="237042388" ref="zemlya"/>
-    <file name="nomq_zemlya.css" crc="533478529" ref="zemlya"/>
+    <file name="zemlya.css" crc="4216155113" ref="zemlya"/>
+    <file name="nomq_zemlya.css" crc="84883392" ref="zemlya"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -34,7 +34,7 @@
     <file name="html5shiv.js" crc="4241844378" ref="index:zemlya"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3874248244" ref="index"/>
+    <file name="favicon.ico" crc="3874248244" ref="index:zemlya"/>
     <file name="7779456456.jpg" crc="4036157423" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -55,7 +55,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index:zemlya"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="06062022ryu1 (4).jpg" crc="246026" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -149,5 +149,5 @@
     </file>
   </folder>
   <file name="index.html" crc="506428746" seo="true" mt="1659178255733" redirect="true"/>
-  <file name="zemlya.html" crc="4265461840" seo="true" mt="1659178255733" redirect="true"/>
+  <file name="zemlya.html" crc="34422168" seo="true" mt="1659178614318" redirect="true"/>
 </manifest>
