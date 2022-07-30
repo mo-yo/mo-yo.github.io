@@ -81,4 +81,10 @@
       <image:loc>https://mo-yo.ml/images/06062022ryu1%20(4)-crop-u18184.jpg</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://mo-yo.ml/zemlya.html</loc>
+    <lastmod>2022-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

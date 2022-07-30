@@ -1,10 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659138246230">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659176477708">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="76618368" ref="index"/>
-    <file name="nomq_index.css" crc="3910387313" ref="index"/>
-    <file name="master_______-a.css" crc="221410549" ref="index"/>
-    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="381806387" ref="index"/>
+    <file name="nomq_index.css" crc="3895780079" ref="index"/>
+    <file name="master_______-a.css" crc="4284601434" ref="index:zemlya"/>
+    <file name="nomq_preview_master_______-a.css" crc="118854670" ref="index:zemlya"/>
+    <file name="zemlya.css" crc="66073131" ref="zemlya"/>
+    <file name="nomq_zemlya.css" crc="3821016354" ref="zemlya"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -15,19 +17,21 @@
     <file name="fa-solid-900.svg" crc="4152254594"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="340535759" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4286661555" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:zemlya"/>
+    <file name="museutils.js" crc="340535759" ref="index:zemlya"/>
+    <file name="whatinput.js" crc="86476730" ref="index:zemlya"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:zemlya"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:zemlya"/>
     <file name="webpro.js" crc="4059564322" ref="index"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
     <file name="touchswipe.js" crc="4075097462" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
-    <file name="require.js" crc="7928878" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:zemlya"/>
+    <file name="require.js" crc="7928878" ref="index:zemlya"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:zemlya"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:zemlya"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3874248244" ref="index"/>
@@ -51,7 +55,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:zemlya"/>
     <file name="06062022ryu1 (4).jpg" crc="246026" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -89,12 +93,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="z.jpg" crc="45535379" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="2ykfoqojgcg.jpg" crc="4231064551" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="06062022ryu1 (3)-crop-u14312.jpg" crc="4232206624" seo="true" ref="index">
@@ -150,5 +148,6 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="116308426" seo="true" mt="1659138117148" redirect="true"/>
+  <file name="index.html" crc="3981612710" seo="true" mt="1659176437012" redirect="true"/>
+  <file name="zemlya.html" crc="259411137" seo="true" mt="1659176437012" redirect="true"/>
 </manifest>
