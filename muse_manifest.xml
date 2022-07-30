@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659176477708">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://mo-yo.ml" resolutions="1x" timestamp="1659178300270">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="381806387" ref="index"/>
-    <file name="nomq_index.css" crc="3895780079" ref="index"/>
-    <file name="master_______-a.css" crc="4284601434" ref="index:zemlya"/>
+    <file name="index.css" crc="474581091" ref="index"/>
+    <file name="nomq_index.css" crc="509999781" ref="index"/>
+    <file name="master_______-a.css" crc="413073420" ref="index:zemlya"/>
     <file name="nomq_preview_master_______-a.css" crc="118854670" ref="index:zemlya"/>
-    <file name="zemlya.css" crc="66073131" ref="zemlya"/>
-    <file name="nomq_zemlya.css" crc="3821016354" ref="zemlya"/>
+    <file name="zemlya.css" crc="237042388" ref="zemlya"/>
+    <file name="nomq_zemlya.css" crc="533478529" ref="zemlya"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -148,6 +148,6 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3981612710" seo="true" mt="1659176437012" redirect="true"/>
-  <file name="zemlya.html" crc="259411137" seo="true" mt="1659176437012" redirect="true"/>
+  <file name="index.html" crc="506428746" seo="true" mt="1659178255733" redirect="true"/>
+  <file name="zemlya.html" crc="4265461840" seo="true" mt="1659178255733" redirect="true"/>
 </manifest>
