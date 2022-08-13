@@ -1,0 +1,178 @@
+img {
+    -webkit-backface-visibility: hidden; 
+    -ms-transform: translateZ(0); /* IE 9 */
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0);
+    padding:0px;
+    margin:0px;
+}
+
+
+
+.wafx-img-picture{
+  position:absolute;
+  background-repeat: no-repeat;
+  overflow:visible;
+  z-index:0;
+opacity:1;
+ /*sinon bug shadow sous safari  ??*/
+ -webkit-transform: translate3d(0, 0, 0);
+ 
+
+}
+
+.wafx-img-picture-over{
+  position:absolute;
+  background-repeat: no-repeat;
+  overflow:visible;
+  z-index:100;
+  opacity:0;
+
+   /*sinon bug shadow sous safari  ??*/
+ -webkit-transform: translate3d(0, 0, 0);
+}
+
+
+.wafx-carousel.blueimp-gallery-carousel
+{
+     margin: 0px;
+
+    box-shadow: 0px 0px 0px transparent;
+    text-shadow: 0px 0px 0px transparent !important;
+}
+.wafx-carousel>.title
+{
+    text-shadow: none;
+         padding:0px;
+           left:0px;
+}
+
+
+.wafx-carousel>.title h1
+{
+  padding:0px;
+  margin:0px;
+}
+
+.wafx-carousel>.title p
+{
+  padding:0px;
+  /*margin:0px;*/
+
+}
+
+.wafx-slideshow-text-wrap
+{
+  width:100%;
+  left:0px;
+}
+.wafx-slideshow-text-wrap div
+{
+  width:100%;
+  left:0px;
+}
+/*
+.wafx-carousel.blueimp-gallery-carousel
+{
+    margin: 0px;
+    box-shadow: 0px 0px 0px #000;
+}
+
+
+.wafx-carousel>.title
+{
+   left: 0px;
+    width: 100%;
+   margin : 0px;
+  font-size: initial;
+  text-shadow: none;
+  line-height: normal;
+   opacity: 1;
+   bottom:0px;
+
+   text-align:left;
+   top:0px;
+}
+
+
+
+*/
+
+
+
+
+
+/*  FORM CSS  */
+
+.waFxInternalEditorMarker .wafx-form-lineedit{
+  border:1px solid lightgray;
+  width:97%;
+  height:97%;
+}
+
+.waFxInternalEditorMarker .wafx-form-textarea{
+  border:1px solid lightgray;
+    width:97%;
+  height:97%;
+}
+
+.waFxInternalEditorMarker .wafx-form-list{
+  border:1px solid lightgray;
+}
+
+.wafx-form-textarea{
+    width:100%;
+    height:100%;
+    resize: none;
+    padding:0.5em !important;
+    margin::0px !important;
+    box-sizing: border-box !important;
+}
+
+.wafx-form-lineedit{
+  
+    width:100%;
+    height:100%;
+    padding: 0.5em !important;
+    box-sizing: border-box !important;
+}
+
+.wafx-form-list
+{
+   width:100%;
+   padding: 0;
+   box-sizing: border-box !important;
+}
+
+.wafx-form-radio
+{
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+.wafx-form-checkbox
+{
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+
+.ripple-container {
+}
+.ripple-container .ripple{
+    background-color: rgba(255,255,255,0.3);
+    animation: ripple 2s forwards cubic-bezier(0, 0, 0.2, 1);
+}
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+        opacity: 0.5;
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
