@@ -299,13 +299,13 @@ body{background-color:#ffffff;background-image:url(./wafx_res/Images/0--1-xv_2x.
 .comp_65 .wafx-smt-txt-wrap{width:261px;}
 .comp_66{height:56px;left:-2.84217e-14px;top:4329.34px;width:320px;}
 .comp_66 .wafx-smt-txt-wrap{width:300px;}
-.comp_67{height:17px;left:134px;top:931.003px;width:52px;}
+.comp_67{height:40px;left:101px;top:3880.97px;width:118px;}
 .comp_67  i{font-size:17px;}
-.comp_67 .cont-button{border:1px solid #143f77;border-radius:5px;height:17px;margin:-1px;width:52px;}
-.comp_67 .cont-button .inner-box{border:1px solid #388fff;border-radius:4px;height:calc(17px - 2px);left:1px;margin:-1px;position:absolute;top:1px;transition:border 0.4s;width:calc(52px - 2px);z-index:-1;}
+.comp_67 .cont-button{border:1px solid #143f77;border-radius:5px;height:40px;margin:-1px;width:118px;}
+.comp_67 .cont-button .inner-box{border:1px solid #388fff;border-radius:4px;height:calc(40px - 2px);left:1px;margin:-1px;position:absolute;top:1px;transition:border 0.4s;width:calc(118px - 2px);z-index:-1;}
 .comp_67 .text_content{font-size:13px;}
 .comp_67 .cont-button:hover{border:1px solid #0061aa;margin:-1px;}
-.comp_67 .cont-button:hover .inner-box{border:1px solid #7fc9ff;border-radius:4px;height:calc(17px - 2px);left:1px;margin:-1px;position:absolute;top:1px;width:calc(52px - 2px);z-index:-1;}
+.comp_67 .cont-button:hover .inner-box{border:1px solid #7fc9ff;border-radius:4px;height:calc(40px - 2px);left:1px;margin:-1px;position:absolute;top:1px;width:calc(118px - 2px);z-index:-1;}
 .comp_7{height:873px;left:0px;top:1389.12px;width:320px;}
 .comp_8{background-image:url(./wafx_res/Images/0-640-chef.jpg);height:349px;left:0px;top:818px;width:320px;}
 .comp_9{height:143px;left:0px;top:1520.46px;width:320px;}
@@ -503,7 +503,7 @@ body{background-color:#ffffff;background-image:url(./wafx_res/Images/0--1-xv_2x.
 .comp_65 .wafx-smt-txt-wrap{width:476px;}
 .comp_66{height:42px;left:16.906px;top:3294.25px;width:245px;}
 .comp_66 .wafx-smt-txt-wrap{width:225px;}
-.comp_67{height:40px;left:322px;top:2234.81px;width:124px;}
+.comp_67{height:40px;left:322px;top:2750.81px;width:124px;}
 .comp_67  i{font-size:17px;}
 .comp_67 .cont-button{border:1px solid #143f77;border-radius:5px;height:40px;margin:-1px;width:124px;}
 .comp_67 .cont-button .inner-box{border:1px solid #388fff;border-radius:4px;height:calc(40px - 2px);left:1px;margin:-1px;position:absolute;top:1px;transition:border 0.4s;width:calc(124px - 2px);z-index:-1;}
