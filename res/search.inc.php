@@ -10,7 +10,7 @@ $imSettings['search']['general'] = array(
 		'3' => 'dva.html',
 		'4' => 'lorem-ipsum-dolor.html',
 		'5' => 'vanna.html',
-		'6' => 'futer.php'
+		'6' => 'futer.html'
 	),
 	'extendedScope' => array(
 	)

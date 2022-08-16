@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="style/print.css?2022-2-6-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2022-2-6-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2022-2-6-0" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2022-2-6-0-637959007310150296" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2022-2-6-0-637962168621856554" media="screen,print" />
 		<script src="res/jquery.js?2022-2-6-0"></script>
 		<script src="res/x5engine.js?2022-2-6-0" data-files-version="2022-2-6-0"></script>
 		<script>
@@ -24,7 +24,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.ico?2022-2-6-0-637959007310100325" type="image/vnd.microsoft.icon" />
+		<link rel="icon" href="favicon.ico?2022-2-6-0-637962168621856554" type="image/vnd.microsoft.icon" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -50,10 +50,10 @@
 </div>
 	</li><li class="imMnMnLast imLevel"><div class="label-wrapper"><div class="label-inner-wrapper"><span class="label">Меню</span></div></div><div class="multiple-column" style=" width: 340px;"><ul  class="open-right imUlCl-1">
 <li class="imMnMnFirst imLevel"><div class="label-wrapper"><img class='menu-item-icon' src='images/053bf5cb715cd218eff8aed9e44d6d56.jpg' alt='menu item icon' />
-<div class="label-inner-wrapper"><span class="label"></span></div></div></li><li class="imMnMnFirst imPage" data-link-paths=",/futer.php">
+<div class="label-inner-wrapper"><span class="label"></span></div></div></li><li class="imMnMnFirst imPage" data-link-paths=",/futer.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="futer.php">
+		<a class="label" href="futer.html">
 Футер		</a>
 </div>
 </div>
