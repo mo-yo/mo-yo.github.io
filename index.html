@@ -1,0 +1,598 @@
+<?php
+function ValidateEmail($email)
+{
+   $pattern = '/^([0-9a-z]([-.\w]*[0-9a-z])*@(([0-9a-z])+([-\w]*[0-9a-z])*\.)+[a-z]{2,6})$/i';
+   return preg_match($pattern, $email);
+}
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['formid']) && $_POST['formid'] == 'layoutgrid8')
+{
+   $mailto = 'yourname@yourdomain.com';
+   $mailfrom = isset($_POST['email']) ? $_POST['email'] : $mailto;
+   $subject = 'Website form';
+   $message = 'Values submitted from web site form:';
+   $success_url = '';
+   $error_url = '';
+   $eol = "\n";
+   $error = '';
+   $internalfields = array ("submit", "reset", "send", "filesize", "formid", "captcha", "recaptcha_challenge_field", "recaptcha_response_field", "g-recaptcha-response", "h-captcha-response");
+   $boundary = md5(uniqid(time()));
+   $header  = 'From: '.$mailfrom.$eol;
+   $header .= 'Reply-To: '.$mailfrom.$eol;
+   $header .= 'MIME-Version: 1.0'.$eol;
+   $header .= 'Content-Type: multipart/mixed; boundary="'.$boundary.'"'.$eol;
+   $header .= 'X-Mailer: PHP v'.phpversion().$eol;
+
+   try
+   {
+      if (!ValidateEmail($mailfrom))
+      {
+         $error .= "The specified email address (" . $mailfrom . ") is invalid!\n<br>";
+         throw new Exception($error);
+      }
+      $message .= $eol;
+      $message .= "IP Address : ";
+      $message .= $_SERVER['REMOTE_ADDR'];
+      $message .= $eol;
+      foreach ($_POST as $key => $value)
+      {
+         if (!in_array(strtolower($key), $internalfields))
+         {
+            if (is_array($value))
+            {
+               $message .= ucwords(str_replace("_", " ", $key)) . " : " . implode(",", $value) . $eol;
+            }
+            else
+            {
+               $message .= ucwords(str_replace("_", " ", $key)) . " : " . $value . $eol;
+            }
+         }
+      }
+      $body  = 'This is a multi-part message in MIME format.'.$eol.$eol;
+      $body .= '--'.$boundary.$eol;
+      $body .= 'Content-Type: text/plain; charset=UTF-8'.$eol;
+      $body .= 'Content-Transfer-Encoding: 8bit'.$eol;
+      $body .= $eol.stripslashes($message).$eol;
+      if (!empty($_FILES))
+      {
+         foreach ($_FILES as $key => $value)
+         {
+             if ($_FILES[$key]['error'] == 0)
+             {
+                $body .= '--'.$boundary.$eol;
+                $body .= 'Content-Type: '.$_FILES[$key]['type'].'; name='.$_FILES[$key]['name'].$eol;
+                $body .= 'Content-Transfer-Encoding: base64'.$eol;
+                $body .= 'Content-Disposition: attachment; filename='.$_FILES[$key]['name'].$eol;
+                $body .= $eol.chunk_split(base64_encode(file_get_contents($_FILES[$key]['tmp_name']))).$eol;
+             }
+         }
+      }
+      $body .= '--'.$boundary.'--'.$eol;
+      if ($mailto != '')
+      {
+         mail($mailto, $subject, $body, $header);
+      }
+      header('Location: '.$success_url);
+   }
+   catch (Exception $e)
+   {
+      $errorcode = file_get_contents($error_url);
+      $replace = "##error##";
+      $errorcode = str_replace($replace, $e->getMessage(), $errorcode);
+      echo $errorcode;
+   }
+   exit;
+}
+?>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Женская одежда - магазин модной красивой женской одежды, купить одежду для женщин по лучшим ценам в Киеве и в Украине, заказать в каталоге интернет магазина</title>
+<meta name="description" content="Одежда и белье для беременных ❤Бесплатная доставка по Украине❤ Все в родом купить для новорожденных">
+<meta name="keywords" content="одежда для беременных купить, одежда для беременных в Запорожье, одежда для кормящих купить, одежда для беременных Киев, одежда для беременных, одежда для беременых Днепр, белье для кормления, мама та я запорожье, одежда для беременных Украина">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="7 days">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="odessa.jpg" rel="shortcut icon" type="image/x-icon">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Proba_Pera.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
+</head>
+<body>
+<div id="indexLayer1">
+<div id="indexLayer1_Container">
+<div id="wb_indexClipArt1">
+<a href="#top"><img class="hover" src="images/img0005_hover.png" alt="" id="wb_uid10"><span class="default"><img src="images/img0005.png" id="indexClipArt1" alt=""></span></a></div>
+</div>
+</div>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_Breadcrumb1">
+<ul id="Breadcrumb1">
+<li><a href="">Corporate</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_indexResponsiveMenu1">
+<label class="toggle" for="indexResponsiveMenu1-submenu" id="indexResponsiveMenu1-title">Menu<span id="indexResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="indexResponsiveMenu1-submenu">
+<ul class="indexResponsiveMenu1" id="indexResponsiveMenu1" role="menu">
+<li role="menuitem"><a href=""><i class="fa fa-home fa-2x">&nbsp;</i><br>Home</a></li>
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-book fa-2x">&nbsp;</i>Blog<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-book fa-2x">&nbsp;</i><br>Blog<b class="arrow-down"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-1" class="toggle"><i class="fa fa-eye fa-2x">&nbsp;</i>Design<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-eye fa-2x">&nbsp;</i>Design<b class="arrow-left"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-1">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-2" class="toggle"><i class="fa fa-html5 fa-2x">&nbsp;</i>HTML<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-html5 fa-2x">&nbsp;</i>HTML<b class="arrow-left"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-2">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-3" class="toggle"><i class="fa fa-css3 fa-2x">&nbsp;</i>CSS<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-css3 fa-2x">&nbsp;</i>CSS<b class="arrow-left"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-3">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-4" class="toggle"><i class="fa fa-code fa-2x">&nbsp;</i>JavaScript<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-code fa-2x">&nbsp;</i>JavaScript<b class="arrow-left"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-4">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-5" class="toggle"><i class="fa fa-gear fa-2x">&nbsp;</i>Work<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-gear fa-2x">&nbsp;</i><br>Work<b class="arrow-down"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-5">
+<ul role="menu">
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-6" class="toggle"><i class="fa fa-desktop fa-2x">&nbsp;</i>Web&nbsp;Design<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-desktop fa-2x">&nbsp;</i>Web&nbsp;Design<b class="arrow-left"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-6">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-7" class="toggle"><i class="fa fa-picture-o fa-2x">&nbsp;</i>Typography<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-picture-o fa-2x">&nbsp;</i>Typography<b class="arrow-left"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-7">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="indexResponsiveMenu1-submenu-8" class="toggle"><i class="fa fa-envelope fa-2x">&nbsp;</i>Applications<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-envelope fa-2x">&nbsp;</i>Applications<b class="arrow-left"></b></a>
+<input type="checkbox" id="indexResponsiveMenu1-submenu-8">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li role="menuitem"><a href=""><i class="fa fa-user fa-2x">&nbsp;</i><br>About</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="container">
+
+</div>
+<div id="wb_VideoBackground">
+<div id="VideoBackground-video"><iframe src="https://www.youtube.com/embed/KUgrBTNbSe4?controls=0&showinfo=0&rel=0&autoplay=1&mute=1&loop=1&playlist=KUgrBTNbSe4" frameborder="0" allowfullscreen></iframe></div>
+<div id="VideoBackground-overlay"></div>
+<div id="VideoBackground">
+<div class="row">
+<div class="col-1">
+<div id="wb_Palms">
+<img src="images/06062022ryu1%20%2820%29.jpg" loading="lazy" id="Palms" alt=""><div id="Palms-overlay">МОЁ</div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Heading1">
+<h1 id="Heading1">INTRO WITH VIDEO BACKGROUND</h1>
+</div>
+<div id="wb_indexText1">
+<span id="wb_uid0"><em>Intro with text, image and background video. </em></span>
+</div>
+<div id="wb_indexAccordion1">
+<div id="indexAccordion1">
+<h4><i class="fa fa-phone-square accordion-icon"></i>Узнать телефон</h4>
+<div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card7" class="card">
+   <div id="Card7-card-body">
+      <div id="Card7-card-item0"><i class="fa fa-user"></i></div>
+      <div id="Card7-card-item1">About</div>
+      <div id="Card7-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+      <div id="Card7-card-item3"><a href="#top">Смотреть</a></div>
+   </div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card8" class="card">
+   <div id="Card8-card-body">
+      <div id="Card8-card-item0"><i class="fa fa-check"></i></div>
+      <div id="Card8-card-item1">Services</div>
+      <div id="Card8-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h4>Panel 2</h4>
+<div>
+<div id="wb_indexCardContainer1">
+<div id="indexCardContainer1">
+<div id="wb_indexCard3" class="card">
+   <div id="indexCard3-card-body">
+      <img id="indexCard3-card-item0" src="06062022ryu1%20%2833%29.jpeg" alt="" title="">
+      <div id="indexCard3-card-item1">Pablo Carrasco</div>
+      <div id="indexCard3-card-item2">Developer</div>
+      <div id="indexCard3-card-item3"><i class="fa fa-star"></i></div>
+      <div id="indexCard3-card-item4"><i class="fa fa-star"></i></div>
+      <div id="indexCard3-card-item5"><i class="fa fa-star"></i></div>
+      <div id="indexCard3-card-item6"><i class="fa fa-star"></i></div>
+      <div id="indexCard3-card-item7"><i class="fa fa-star"></i></div>
+      <div id="indexCard3-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+   </div>
+</div>
+<div id="wb_indexCard2" class="card">
+   <div id="indexCard2-card-body">
+      <img id="indexCard2-card-item0" src="images/06062022ryu1%20%2819%29.jpg" alt="" title="">
+      <div id="indexCard2-card-item1">Pablo Carrasco</div>
+      <div id="indexCard2-card-item2">Developer</div>
+      <div id="indexCard2-card-item3"><i class="fa fa-star"></i></div>
+      <div id="indexCard2-card-item4"><i class="fa fa-star"></i></div>
+      <div id="indexCard2-card-item5"><i class="fa fa-star"></i></div>
+      <div id="indexCard2-card-item6"><i class="fa fa-star"></i></div>
+      <div id="indexCard2-card-item7"><i class="fa fa-star"></i></div>
+      <div id="indexCard2-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo,</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+<h4>Panel 3</h4>
+<div>
+</div>
+<h4>Panel 4</h4>
+<div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_indexLayoutGrid2">
+<div id="indexLayoutGrid2">
+<div class="col-1">
+<div id="wb_indexImage2">
+<img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw2ODk0MXwwfDF8c2VhcmNofDExfHxjYXR8ZW58MHx8fHwxNjYzNzk1MDA2&ixlib=rb-1.2.1&q=80&w=1080" id="indexImage2" alt="https://unsplash.com/@michaelsum1228" title="https://unsplash.com/@michaelsum1228">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_indexImage3">
+<img src="https://images.unsplash.com/photo-1661242469713-9226d4cdd146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw2ODk0MXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY2Mzc5MTk3OQ&ixlib=rb-1.2.1&q=80&w=1080" id="indexImage3" alt="https://unsplash.com/@ruxat" title="https://unsplash.com/@ruxat">
+</div>
+</div>
+<div class="col-3">
+<div id="wb_indexImage1">
+<img src="https://images.unsplash.com/photo-1661951933705-4e817fd90cab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw2ODk0MXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY2Mzc5MTk3OQ&ixlib=rb-1.2.1&q=80&w=1080" id="indexImage1" alt="https://unsplash.com/@diane_soko" title="https://unsplash.com/@diane_soko">
+</div>
+</div>
+<div class="col-4">
+<div id="wb_indexImage4">
+<img src="https://images.unsplash.com/photo-1662368356332-ae84ad6b7ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw2ODk0MXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY2Mzc5MTk3OQ&ixlib=rb-1.2.1&q=80&w=1080" id="indexImage4" alt="https://unsplash.com/@tamaragovedarov" title="https://unsplash.com/@tamaragovedarov">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_CardContainer9">
+<div id="CardContainer9">
+<div id="wb_Card23" class="card">
+   <div id="Card23-card-body">
+      <img id="Card23-card-item0" src="06062022ryu1%20%2812%29.jpeg" alt="" title="">
+      <div id="Card23-card-item1">Pablo Carrasco</div>
+      <div id="Card23-card-item2">Developer</div>
+      <div id="Card23-card-item3"><i class="fa fa-star"></i></div>
+      <div id="Card23-card-item4"><i class="fa fa-star"></i></div>
+      <div id="Card23-card-item5"><i class="fa fa-star"></i></div>
+      <div id="Card23-card-item6"><i class="fa fa-star"></i></div>
+      <div id="Card23-card-item7"><i class="fa fa-star"></i></div>
+      <hr id="Card23-card-item8">
+      <div id="Card23-card-item9">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+   </div>
+</div>
+<div id="wb_indexCard1" class="card">
+   <div id="indexCard1-card-body">
+      <img id="indexCard1-card-item0" src="images/06062022ryu1%20%2814%29.jpg" alt="" title="">
+      <div id="indexCard1-card-item1">Pablo Carrasco</div>
+      <div id="indexCard1-card-item2">Developer</div>
+      <div id="indexCard1-card-item3"><i class="fa fa-star"></i></div>
+      <div id="indexCard1-card-item4"><i class="fa fa-star"></i></div>
+      <div id="indexCard1-card-item5"><i class="fa fa-star"></i></div>
+      <div id="indexCard1-card-item6"><i class="fa fa-star"></i></div>
+      <div id="indexCard1-card-item7"><i class="fa fa-star"></i></div>
+      <div id="indexCard1-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+   </div>
+</div>
+<div id="wb_Card24" class="card">
+   <div id="Card24-card-body">
+      <img id="Card24-card-item0" src="images/06062022ryu1%20%2814%29.jpg" alt="" title="">
+      <div id="Card24-card-item1">Pablo Carrasco</div>
+      <div id="Card24-card-item2">Developer</div>
+      <div id="Card24-card-item3"><i class="fa fa-star"></i></div>
+      <div id="Card24-card-item4"><i class="fa fa-star"></i></div>
+      <div id="Card24-card-item5"><i class="fa fa-star"></i></div>
+      <div id="Card24-card-item6"><i class="fa fa-star"></i></div>
+      <div id="Card24-card-item7"><i class="fa fa-star"></i></div>
+      <div id="Card24-card-item8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+   </div>
+</div>
+</div>
+</div>
+<div id="wb_galleryGrid">
+<div id="galleryGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_galleryHeading1">
+<h1 id="galleryHeading1">Gallery</h1>
+</div>
+<div id="wb_galleryHeading2">
+<h2 id="galleryHeading2">Check out these great pictures!</h2>
+</div>
+<div id="wb_gallery">
+<div id="gallery">
+   <div class="thumbnails">
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/06062022ryu1 (1).jpg" data-rel=""><img alt="" src="images/06062022ryu1 (1).jpg" loading="lazy" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/06062022ryu1 (1).png" data-rel=""><img alt="" src="images/06062022ryu1 (1).png" loading="lazy" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="06062022ryu1 (2).jpeg" data-rel=""><img alt="" src="06062022ryu1 (2).jpeg" loading="lazy" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="06062022ryu1 (30).webp" data-rel=""><img alt="" src="06062022ryu1 (30).webp" loading="lazy" class="image"></a>
+</div>
+      </div>
+      <div class="clearfix visible-col4"></div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="06062022ryu1 (3).jpeg" data-rel=""><img alt="" src="06062022ryu1 (3).jpeg" loading="lazy" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/06062022ryu1 (3).jpg" data-rel=""><img alt="" src="images/06062022ryu1 (3).jpg" loading="lazy" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="06062022ryu1 (4).jpeg" data-rel=""><img alt="" src="06062022ryu1 (4).jpeg" loading="lazy" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/06062022ryu1 (4).jpg" data-rel=""><img alt="" src="images/06062022ryu1 (4).jpg" loading="lazy" class="image"></a>
+</div>
+      </div>
+      <div class="clearfix visible-col4"></div>
+   </div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_indexFlexContainer1">
+<div id="indexFlexContainer1">
+<div id="wb_indexShape1">
+<a href=""><img class="hover" src="images/img0001_hover.png" alt="" id="wb_uid1"><span class="default"><img src="images/img0001.png" id="indexShape1" alt=""></span></a>
+</div>
+<div id="wb_indexShape2">
+<a href=""><div id="indexShape2"><div id="indexShape2_text"><div><span id="wb_uid2">Привет</span></div></div></div></a>
+</div>
+<div id="wb_indexShape3">
+<a href=""><img class="hover" src="images/img0003_hover.png" alt="" id="wb_uid3"><span class="default"><img src="images/img0003.png" id="indexShape3" alt=""></span></a>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading9">
+<h1 id="Heading9">Feel free to contact us</h1>
+</div>
+<div id="wb_Shape4">
+<div id="Shape4"></div>
+</div>
+<div id="wb_Heading8">
+<h2 id="Heading8">Have a question or want further information?</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div id="wb_indexBreadcrumb1">
+<ul id="indexBreadcrumb1">
+<li><a href="http://"><i class="fa fa-map-marker">&nbsp;</i>#28, 3nd floor, WYSIWYG Plaza, Web City, Builder, WB 1969</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Breadcrumb3">
+<ul id="Breadcrumb3">
+<li><a href="http://"><i class="fa fa-phone">&nbsp;</i>+33 (0) 1234 5678</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Breadcrumb2">
+<ul id="Breadcrumb2">
+<li><a href="http://"><i class="fa fa-envelope-o">&nbsp;</i>yourname@gmail.com</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid8">
+<form name="LayoutGrid8" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" id="LayoutGrid8">
+<input type="hidden" name="formid" value="layoutgrid8">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9">
+<div class="row">
+<div class="col-1">
+<input type="text" id="editboxName" name="name" value="" spellcheck="false" placeholder="NAME">
+</div>
+<div class="col-2">
+<input type="text" id="editboxEmail" name="email" value="" spellcheck="false" placeholder="EMAIL ADDRESS">
+</div>
+<div class="col-3">
+<input type="text" id="editboxPhone" name="phone" value="" spellcheck="false" placeholder="PHONE">
+</div>
+</div>
+</div>
+</div>
+<textarea name="message" id="editboxMessage" rows="4" cols="100" autocomplete="off" spellcheck="false" placeholder="COMMENTS"></textarea>
+<div id="wb_Text11">
+<span id="wb_uid4">* All fields are required. </span>
+</div>
+<input type="submit" id="Button1" name="" value="Submit">
+</div>
+</div>
+</form>
+</div>
+<div id="wb_Divider6">
+<div id="Divider6-overlay"></div>
+<div id="Divider6">
+<div class="row">
+<div class="col-1">
+<hr id="DividerLine6">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text1">
+<span id="wb_uid5"><strong>INFO</strong></span>
+</div>
+<div id="wb_Text2">
+<span id="wb_uid6"><strong>1234 Address<br>New York New York, NY 12345<br>Email: email@gmail.com<br>Phone: (123) 456-7890</strong></span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text3">
+<span id="wb_uid7"><strong>SOCIAL MEDIA</strong></span>
+</div>
+<div id="wb_FontAwesomeIcon1">
+<a href="./index.html"><div id="FontAwesomeIcon1"><i class="fa fa-facebook"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon2">
+<a href="./index.html"><div id="FontAwesomeIcon2"><i class="fa fa-twitter"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon3">
+<a href="./index.html"><div id="FontAwesomeIcon3"><i class="fa fa-pinterest"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon4">
+<a href="./index.html"><div id="FontAwesomeIcon4"><i class="fa fa-instagram"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon5">
+<a href="./index.html"><div id="FontAwesomeIcon5"><i class="fa fa-youtube"></i></div></a>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Text5">
+<span id="wb_uid8"><strong>ABOUT ME</strong></span>
+</div>
+<div id="wb_Text4">
+<span id="wb_uid9"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script src="wwb17.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
