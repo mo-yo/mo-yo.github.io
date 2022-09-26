@@ -255,25 +255,19 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #galleryHeading2 { color:#FFA500; font-family:Arial; font-weight:normal; font-style:normal; font-size:16px; margin:0; text-align:center; }
 #wb_indexFlexContainer1 { background-color:#00FF7F; background-image:none; border:0px solid #CCCCCC; box-sizing:border-box; position:relative; width:100%; }
 #indexFlexContainer1 { display:-webkit-flex; display:flex; position:relative; padding:55px 10px 55px 10px; -webkit-flex-direction:row; flex-direction:row; -webkit-flex-wrap:wrap; flex-wrap:wrap; -webkit-justify-content:space-around; justify-content:space-around; -webkit-align-items:center; align-items:center; -webkit-align-content:center; align-content:center; margin-top:0px; margin-bottom:0px; margin-right:auto; margin-left:auto; max-width:1150px; box-sizing:border-box; font-size:0; }
-#wb_indexShape1 a img { position:absolute; left:0; }
-#wb_indexShape1 .default { position:absolute; left:0; }
-#wb_indexShape1 a .hover { visibility:hidden; }
-#wb_indexShape1 a:hover .hover { visibility:visible; }
-#wb_indexShape1 a:hover .default { visibility:hidden; }
-#indexShape1 { border-width:0; vertical-align:top; }
+#indexShape1 { width:268px; height:42px; background-color:#191970; background-image:none; border:1px #0963AD solid; }
+#indexShape1_text { position:absolute; pointer-events:none; display:flex; align-items:center; justify-content:center; flex-direction:column; left:0.37%; top:2.38%; width:99.25%; height:95.24%; box-sizing:border-box; overflow:hidden; text-align:center; word-wrap:break-word; }
+#indexShape1:hover { background-color:#00BFFF; -webkit-transition:background-color 500ms linear 0ms; transition:background-color 500ms linear 0ms; }
+#indexShape1 { -webkit-transition:all 500ms linear 0ms; transition:all 500ms linear 0ms; }
 #wb_indexShape1 { margin:5px 5px 5px 5px; -webkit-flex-grow:0; flex-grow:0; -webkit-flex-shrink:0; flex-shrink:0; -webkit-align-self:auto; align-self:auto; }
-#indexShape2 { top:5px; width:268px; height:42px; background-color:#DC143C; background-image:none; border:1px #0963AD solid; }
-#indexShape2:hover { background-color:#FF6347; background-image:none; border:1px #0963AD solid; }
+#indexShape2 { width:268px; height:42px; background-color:#DC143C; background-image:none; border:1px #0963AD solid; }
 #indexShape2_text { position:absolute; pointer-events:none; display:flex; align-items:center; justify-content:center; flex-direction:column; left:0.37%; top:2.38%; width:99.25%; height:95.24%; box-sizing:border-box; overflow:hidden; text-align:center; word-wrap:break-word; }
-#indexShape2:hover { -webkit-transform:rotate(0deg) scale(1.3,1.3); transform:rotate(0deg) scale(1.3,1.3); -webkit-transition:-webkit-transform 200ms linear 0ms; transition:transform 200ms linear 0ms; }
-#indexShape2 { -webkit-transform:rotate(0deg); transform:rotate(0deg); -webkit-transition:-webkit-transform 200ms linear 0ms; transition:transform 200ms linear 0ms; }
+#indexShape2:hover { -webkit-transform:rotate(0deg) scale(1.3,1.3); transform:rotate(0deg) scale(1.3,1.3); background-color:#FF6347; -webkit-transition:-webkit-transform 200ms linear 0ms, background-color 200ms linear 0ms; transition:transform 200ms linear 0ms, background-color 200ms linear 0ms; }
+#indexShape2 { -webkit-transition:all 200ms linear 0ms; transition:all 200ms linear 0ms; }
 #wb_indexShape2 { margin:5px 5px 5px 5px; -webkit-flex-grow:0; flex-grow:0; -webkit-flex-shrink:0; flex-shrink:0; -webkit-align-self:auto; align-self:auto; }
-#wb_indexShape3 a img { position:absolute; left:0; }
-#wb_indexShape3 .default { position:absolute; left:0; }
-#wb_indexShape3 a .hover { visibility:hidden; }
-#wb_indexShape3 a:hover .hover { visibility:visible; }
-#wb_indexShape3 a:hover .default { visibility:hidden; }
-#indexShape3 { border-width:0; vertical-align:top; }
+#indexShape3 { width:268px; height:42px; background-color:#FFFF00; background-image:none; border:1px #0963AD solid; }
+#indexShape3:hover { background-color:#FFA500; -webkit-transition:background-color 500ms linear 0ms; transition:background-color 500ms linear 0ms; }
+#indexShape3 { -webkit-transition:all 500ms linear 0ms; transition:all 500ms linear 0ms; }
 #wb_indexShape3 { margin:5px 5px 5px 5px; -webkit-flex-grow:0; flex-grow:0; -webkit-flex-shrink:0; flex-shrink:0; -webkit-align-self:auto; align-self:auto; }
 #wb_indexImage1 { margin:0; vertical-align:top; }
 #indexImage1 { border:0px solid #000000; border-radius:0px; box-sizing:border-box; padding:0; display:block; width:100%; height:auto; max-width:800px; margin-left:auto; margin-right:auto; vertical-align:top; }
@@ -488,22 +482,20 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #LayoutGrid1 > .row > .col-1,#LayoutGrid1 > .row > .col-2,#LayoutGrid1 > .row > .col-3 { float:none; width:100%; }
 }
 #wb_Breadcrumb1 { display:inline-block; width:100%; z-index:1; vertical-align:top; }
+#wb_uid5 { color:#FFFFFF; font-family:"Arial"; font-size:24px; }
 #wb_FontAwesomeIcon2 { display:inline-block; width:16px; height:16px; text-align:center; z-index:50; }
-#wb_uid5 { color:#FFFFFF; font-family:"Arial"; font-size:15px; }
 #wb_Breadcrumb2 { display:inline-block; width:100%; z-index:34; vertical-align:top; }
 #wb_Breadcrumb3 { display:inline-block; width:100%; z-index:33; vertical-align:top; }
 #wb_FontAwesomeIcon1 { display:inline-block; width:16px; height:16px; text-align:center; z-index:49; }
 #wb_uid4 { color:#FFFFFF; font-family:"Arial"; font-size:24px; }
-#indexShape3 { width:270px; height:44px; }
 #wb_indexAccordion1 { display:inline-block; width:100%; z-index:14; }
-#wb_uid3 { border-width:0; width:270px; height:44px; }
+#wb_uid3 { color:#FFFFFF; font-family:"Arial"; font-size:15px; }
 #indexClipArt1 { width:35px; height:35px; }
+#wb_uid2 { color:#FFFFFF; font-family:"Arial"; font-size:24px; }
 #wb_Heading8 { display:inline-block; width:100%; z-index:31; }
-#wb_uid2 { color:#FFFFFF; font-family:"PT Sans Narrow"; font-size:24px; }
-#indexShape1 { width:270px; height:44px; }
 #indexLayer1 { position:fixed; text-align:center; left:auto; right:20px; top:auto; bottom:20px; width:48px; height:48px; z-index:3; z-index:99999; }
 #wb_Heading9 { display:inline-block; width:100%; z-index:29; }
-#wb_uid1 { border-width:0; width:270px; height:44px; }
+#wb_uid1 { color:#FFFFFF; font-family:"PT Sans Narrow"; font-size:24px; }
 #wb_indexCard1 { display:flex; z-index:20; }
 #wb_uid0 { color:#FFFFFF; font-family:"Arial"; font-size:24px; }
 #wb_indexCard3 { display:flex; z-index:9; }
@@ -520,22 +512,20 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #wb_indexResponsiveMenu1 { display:inline-block; width:100%; z-index:2; }
 #wb_indexBreadcrumb1 { display:inline-block; width:100%; z-index:32; vertical-align:top; }
 #wb_Shape4 { display:inline-block; width:112px; height:3px; z-index:30; position:relative; }
-#wb_uid9 { border-width:0; width:35px; height:35px; }
 #wb_indexClipArt1 { position:absolute; left:6px; top:6px; width:35px; height:35px; z-index:0; }
 #wb_Card23 { display:flex; z-index:19; }
 #wb_Heading1 { display:inline-block; width:100%; z-index:12; }
-#wb_uid8 { color:#FFFFFF; font-family:"Arial"; font-size:15px; }
 #wb_FontAwesomeIcon5 { display:inline-block; width:16px; height:16px; text-align:center; z-index:53; }
 #DividerLine6 { display:block; width:100%; z-index:35; }
 #wb_galleryHeading2 { display:inline-block; width:100%; z-index:23; }
 #wb_galleryHeading1 { display:inline-block; width:100%; z-index:22; }
-#wb_uid7 { color:#FFFFFF; font-family:"Arial"; font-size:24px; }
+#wb_uid7 { border-width:0; width:35px; height:35px; }
 #wb_FontAwesomeIcon4 { display:inline-block; width:16px; height:16px; text-align:center; z-index:52; }
 #wb_indexShape3 { display:inline-block; width:270px; height:44px; z-index:28; position:relative; }
 #wb_indexShape2 { display:inline-block; width:270px; height:44px; z-index:27; position:relative; }
 #wb_indexShape1 { display:inline-block; width:270px; height:44px; z-index:26; position:relative; }
+#wb_uid6 { color:#FFFFFF; font-family:"Arial"; font-size:15px; }
 #wb_FontAwesomeIcon3 { display:inline-block; width:16px; height:16px; text-align:center; z-index:51; }
-#wb_uid6 { color:#FFFFFF; font-family:"Arial"; font-size:24px; }
 #wb_Card7 { display:flex; width:100%; z-index:6; }
 html { scroll-behavior:smooth; }
 #gallery a { text-decoration:none; }
