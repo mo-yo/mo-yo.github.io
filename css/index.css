@@ -90,7 +90,7 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #wb_indexResponsiveMenu1 ul li ul li .toggle:hover .arrow-down,#wb_indexResponsiveMenu1 ul li ul li .active .arrow-down { border-top-color:#424242; }
 }
 #wb_LayoutGrid1 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:#2C3E50; background-image:none; border:0px solid #2C3E50; box-sizing:border-box; margin:0; }
-#LayoutGrid1 { box-sizing:border-box; padding:0 15px 10px 15px; margin-right:auto; margin-left:auto; }
+#LayoutGrid1 { box-sizing:border-box; padding:0 15px 10px 15px; margin-right:auto; margin-left:auto; max-width:1200px; }
 #LayoutGrid1 > .row { margin-right:-15px; margin-left:-15px; }
 #LayoutGrid1 > .row > .col-1,#LayoutGrid1 > .row > .col-2,#LayoutGrid1 > .row > .col-3 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
 #LayoutGrid1 > .row > .col-1,#LayoutGrid1 > .row > .col-2,#LayoutGrid1 > .row > .col-3 { float:left; }
@@ -469,7 +469,7 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #indexCard3-card-item7 i { text-align:center; vertical-align:top; font-size:16px; width:16px; }
 #indexCard3-card-item8 { box-sizing:border-box; margin:30px 30px 50px 50px; padding:0; color:#737373; font-family:Arial; font-weight:normal; font-style:italic; font-size:15px; line-height:22.5px; }
 #wb_LayoutGrid1 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:#2C3E50; background-image:none; border:0px solid #2C3E50; box-sizing:border-box; margin:0; }
-#LayoutGrid1 { box-sizing:border-box; padding:0 15px 10px 15px; margin-right:auto; margin-left:auto; }
+#LayoutGrid1 { box-sizing:border-box; padding:0 15px 10px 15px; margin-right:auto; margin-left:auto; max-width:1200px; }
 #LayoutGrid1 > .row { margin-right:-15px; margin-left:-15px; }
 #LayoutGrid1 > .row > .col-1,#LayoutGrid1 > .row > .col-2,#LayoutGrid1 > .row > .col-3 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
 #LayoutGrid1 > .row > .col-1,#LayoutGrid1 > .row > .col-2,#LayoutGrid1 > .row > .col-3 { float:left; }
