@@ -1,4 +1,4 @@
-@font-face { font-family:"PT Sans Narrow"; font-display:swap; }
+@font-face { font-family:"PT Sans Narrow"; font-display:swap; src:url('../font/PTSans-Narrow.woff') format('woff'), url('../font/PTSansNarrow-Regular.ttf') format('truetype'), url('../font/PTSans-Narrow.svg#PTSans-Narrow') format('svg'), url('../font/PTSansNarrow-Regular.eot') format('embedded-opentype'); }
 h1,.h1 { font-family:Arial; font-weight:bold; font-size:32px; text-decoration:none; color:#000000; background-color:transparent; margin:0 0 0 0; padding:0 0 0 0; display:inline-block; }
 h2,.h2 { font-family:Arial; font-weight:bold; font-size:27px; text-decoration:none; color:#000000; background-color:transparent; margin:0 0 0 0; padding:0 0 0 0; display:inline-block; }
 h3,.h3 { font-family:Arial; font-weight:bold; font-size:24px; text-decoration:none; color:#000000; background-color:transparent; margin:0 0 0 0; padding:0 0 0 0; display:inline-block; }
