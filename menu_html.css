@@ -1,0 +1,117 @@
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+#table_3ee42e34 th {  } 
+#table_3ee42e34 td {  } 
+#table_52758fb0 th {  } 
+#table_52758fb0 td {  } 
+#button_70082cb5 { vertical-align: bottom; position:relative; display: inline-block; width:150px; height:40px; background-color:#FFFFFF;  }
+#button_70082cb5:hover { background-color:#C0C0C0;  }
+#button_70082cb5:hover span { color:#525252; }
+#button_4c63728e { vertical-align: bottom; position:relative; display: inline-block; width:150px; height:40px; background-color:#FFFFFF;  }
+#button_4c63728e:hover { background-color:#C0C0C0;  }
+#button_4c63728e:hover span { color:#525252; }
+#button_7d6e0e94 { vertical-align: bottom; position:relative; display: inline-block; width:150px; height:40px; background-color:#FFFFFF;  }
+#button_7d6e0e94:hover { background-color:#C0C0C0;  }
+#button_7d6e0e94:hover span { color:#525252; }
+#button_1ebebf5c { box-sizing: border-box; vertical-align: bottom; border-radius: 25px; position:relative; display: inline-block; width:50px; height:50px; background-color:rgba(255, 255, 255, 0.74902); border: 2px solid #595959;     right: 20px;
+    bottom: 20px;
+    position: fixed;
+    z-index: 3000;
+    cursor: pointer; }
+#button_1ebebf5c:hover { background-color:rgba(169, 169, 188, 0.74902); border-color:#000000;  }
+#button_1ebebf5c:hover span { color:#000000; }
+html { scroll-behavior: smooth; } body { background-color:#FFFFFF; padding:0;  margin: 0; }
+.textstyle1 { text-align:left; }
+#container_53797471 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:119px; background-color:#FFFFFF;  }
+#container_53797471_padding { margin: 20px 10px 20px 10px;display: block;  }
+.textstyle2 { text-align:center; }
+.textstyle3 { font-size:40pt; font-family:'Lucida Console', Monaco, monospace; color:#000000; font-weight:bold;  }
+.textstyle4 { font-size:40pt; font-family:Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  }
+.textstyle5 { font-size:16pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFA925; font-weight:bold;  }
+.textstyle6 { font-size:16pt; font-family:Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  }
+.textstyle7 { font-size:20pt; font-family:Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  }
+#container_650abe15 { box-sizing: border-box; vertical-align: top; position:relative; display: inline-block; width:100%; min-height:30px; background-color:#FFFFFF; border-top: 1px solid #FFA925; border-left: none; border-right: none; border-bottom: none;  }
+.vcenterstyle1 { display: table; width: 100%; height: 100%; }
+.vcenterstyle2 { display: table-cell; vertical-align: middle; }
+.textstyle8 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000; font-weight:bold;  }
+#placeh_450824da { vertical-align: bottom; position:relative; display: inline-block; width:100%;  }
+#container_2999867e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; max-width:1200px; background:none;  }
+.textstyle9 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#container_4473df6d { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:191px; max-width:1200px; background-color:#242342; background-image: url(rc_images/restaurant_dark_glass.jpg); background-position:top left; background-size:cover;  }
+#container_4473df6d_padding { margin: 10px; display: block;  }
+#container_4867e833 { vertical-align: top; position:relative; display: inline-block; width:43%; min-height:113px; min-width:300px; background:none;  }
+#container_4867e833_padding { margin: 10px; display: block;  }
+.textstyle10 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFFFFF;  }
+.textstyle11 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFA925;  }
+.textstyle12 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#807AF9;  }
+.textstyle13 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
+.textstyle14 { font-size:26pt; font-family:'Lucida Console', Monaco, monospace; color:#FFFFFF; font-weight:bold;  }
+.textstyle15 { font-size:26pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight:bold;  }
+.textstyle16 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#FFFFFF; line-height: 1.5;  }
+.textstyle17 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; line-height: 1.5;  }
+#container_9e2d23b { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:508px; max-width:1200px; background-color:#FFFFFF;  }
+#container_9e2d23b_padding { margin: 20px; display: block;  }
+#container_261211a2 { vertical-align: top; position:relative; display: inline-block; width:88%; min-height:422px; background:none;  }
+#container_261211a2_padding { margin: 10px; display: block;  }
+#container_7048c57e { vertical-align: top; position:relative; display: inline-block; width:50%; min-height:150px; background:none;  }
+#container_7048c57e_padding { margin: 10px 20px 10px 10px;display: block;  }
+.textstyle18 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000; font-weight:bold;  }
+.textstyle19 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000;  }
+#table_3ee42e34 { vertical-align: bottom; position:relative; display: inline-table; width:94%; height:212px; background:none; table-layout: fixed;  }
+#cell_464c17e1 {  }
+#cell_77988867 {  }
+.textstyle20 { text-align:right; }
+#cell_22220890 {  }
+#cell_9e2438b {  }
+#cell_11641a92 {  }
+#cell_5be47000 {  }
+#cell_1349be35 {  }
+#cell_65c54bdf {  }
+#cell_455adee5 {  }
+#cell_30818d64 {  }
+#cell_30f911ac {  }
+#cell_66882640 {  }
+.textstyle21 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000; font-style:italic;  }
+#container_14a1b78f { vertical-align: top; position:relative; display: inline-block; width:50%; min-height:150px; background:none;  }
+#container_14a1b78f_padding { margin: 10px 10px 10px 20px;display: block;  }
+#table_52758fb0 { vertical-align: bottom; position:relative; display: inline-table; width:94%; height:288px; background:none; table-layout: fixed;  }
+#cell_271f2cf6 {  }
+#cell_33f1becb {  }
+#cell_36035886 {  }
+#cell_d89759c {  }
+#cell_25d41ca0 {  }
+#cell_301a3c75 {  }
+#cell_6b2a23d8 {  }
+#cell_36360adc {  }
+#cell_7c974777 {  }
+#cell_733ed3e1 {  }
+#cell_1a1378e9 {  }
+#cell_50be536e {  }
+#cell_50be536e {  }
+#cell_50be536e {  }
+#cell_50be536e {  }
+#cell_50be536e {  }
+#container_12dee79e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#FFA925;  }
+#container_12dee79e_padding { margin: 20px; display: block;  }
+.textstyle22 { font-size:26pt; font-family:'PT Sans Narrow'; color:#800000; font-weight:bold;  }
+#container_79dff3b4 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#container_79dff3b4_padding { margin: 10px; display: block;  }
+.textstyle23 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#004080; font-weight:bold;  }
+#container_2bc926a0 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#container_2bc926a0_padding { margin: 10px; display: block;  }
+#container_15f9c727 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#container_15f9c727_padding { margin: 10px; display: block;  }
+.textstyle24 { font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#595959;  }
+@media only screen and (max-width: 650px)
+{
+		#container_79dff3b4 { width:100%;  }
+		#container_2bc926a0 { width:100%;  }
+		#container_15f9c727 { width:100%;  }
+}
+@media only screen and (max-width: 800px)
+{
+		#container_7048c57e { width:100%;  }
+		#container_14a1b78f { width:100%;  }
+}
