@@ -89,12 +89,13 @@ html { scroll-behavior: smooth; } body { background-color:#FFFFFF; padding:0;  m
 #container_21b57895_padding { margin: 10px; display: block;  }
 #text_218b9b00 { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:90%; background:none; border: 2px solid #FFFFFF;  }
 #text_218b9b00_padding { margin: 10px 0px 10px 0px;display: block;  }
-.textstyle23 { font-size:26pt; font-family:'PT Sans Narrow'; color:#FFFFFF;  }
+.textstyle23 { font-size:26pt; font-family:Oswald; color:#FFFFFF;  }
 .textstyle24 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
 .textstyle25 { font-size:15pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
 .textstyle26 { font-size:15pt; font-family:Arial, Helvetica, sans-serif; color:#FFFF00; font-weight:bold;  }
 #text_60320bed { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:90%; background:none; border: 2px solid #FFFFFF;  }
-.textstyle27 { font-size:15pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+.textstyle27 { font-size:26pt; font-family:'PT Sans Narrow'; color:#FFFFFF;  }
+.textstyle28 { font-size:15pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
 #container_18a8c6ca { vertical-align: top; position:relative; display: inline-block; width:10%; min-height:60px; background:none;  }
 #container_18a8c6ca_padding { margin: 10px; display: block;  }
 #container_465fee16 { vertical-align: top; position:relative; display: inline-block; width:40%; min-height:345px; background-color:#FFFFFF; background-image: url(rc_images/06062022ryu1__8__1200x1200.jpg); background-position:top left; background-size:cover;  }
@@ -103,22 +104,22 @@ html { scroll-behavior: smooth; } body { background-color:#FFFFFF; padding:0;  m
 #container_48b5813c_padding { margin: 10px; display: block;  }
 #text_459f1faa { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:90%; background:none; border: 2px solid #FFFFFF;  }
 #text_9663379 { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:90%; background:none; border: 2px solid #FFFFFF;  }
-.textstyle28 { font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+.textstyle29 { font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
 #container_6385801d { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#80FFFF;  }
 #container_6385801d_padding { margin: 10px; display: block;  }
 #gallery_4e5f1f5c { overflow:hidden; box-sizing: border-box; vertical-align: bottom; border-radius: 10px; position:relative; display: inline-block; width:100%; max-width:1200px;  }
 #container_12dee79e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#FFA925;  }
 #container_12dee79e_padding { margin: 20px; display: block;  }
-.textstyle29 { font-size:26pt; font-family:'PT Sans Narrow'; color:#800000; font-weight:bold;  }
-.textstyle30 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000;  }
+.textstyle30 { font-size:26pt; font-family:'PT Sans Narrow'; color:#800000; font-weight:bold;  }
+.textstyle31 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000;  }
 #container_79dff3b4 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
 #container_79dff3b4_padding { margin: 10px; display: block;  }
-.textstyle31 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#004080; font-weight:bold;  }
+.textstyle32 { font-size:14pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#004080; font-weight:bold;  }
 #container_2bc926a0 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
 #container_2bc926a0_padding { margin: 10px; display: block;  }
 #container_15f9c727 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
 #container_15f9c727_padding { margin: 10px; display: block;  }
-.textstyle32 { font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#595959;  }
+.textstyle33 { font-size:18pt; font-family:Arial, Helvetica, sans-serif; color:#595959;  }
 @media only screen and (max-width: 650px)
 {
 		#container_79dff3b4 { width:100%;  }
