@@ -8,26 +8,47 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 </style>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-<script type="text/javascript">
-$(document).ready(function(){
- 
-$(window).scroll(function(){
-if ($(this).scrollTop() > 100) {
-$('.scrollup').fadeIn();
-} else {
-$('.scrollup').fadeOut();
-}
-});
- 
-$('.scrollup').click(function(){
-$("html, body").animate({ scrollTop: 0 }, 600);
-return false;
-});
- 
-});
-</script>	<title></title>
+<style>
+    .btn-up {
+      position: fixed;
+      background-color: #f57c00;
+      right: 20px;
+      bottom: 30px;
+      border-radius: 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.15s ease-in-out, transform 0.3s ease-in-out;
+      color: #fff;
+      width: 50px;
+      height: 50px;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .btn-up_hide {
+      display: none;
+    }
+
+    .btn-up_hiding {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+
+    .btn-up-icon {
+      width: 40px;
+      height: 40px;
+      fill: currentcolor;
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+      .btn-up:hover {
+        background-color: #ef6c00;
+      }
+    }
+</style>	<title></title>
 	<link rel="stylesheet" type="text/css" href="menu_html.css">
 </head>
 <body>
@@ -282,22 +303,74 @@ return false;
 </div></div><div id="container_15f9c727"><div id="container_15f9c727_padding" ><div class="textstyle2"><span class="textstyle23">Social Media</span><span class="textstyle19"><br/><br/>● Twitter<br/>● Facebook<br/>● Other</span></div>
 <div class="textstyle1"></div>
 </div></div></div>
-<div class="textstyle1"><span class="textstyle9"><br/></span><a href="#" class="scrollup">Наверх</a>
+<div class="textstyle1"><span class="textstyle9"><br/></span><svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="arrow-up-short" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
+    </symbol>
+  </svg>
 
-<style>
-.scrollup{
-width:40px;
-height:40px;
-opacity:0.3;
-position:fixed;
-bottom:50px;
-right:100px;
-display:none;
-text-indent:-9999px;
-background: url('icon_top.png') no-repeat;
-z-index: 99999;
-}
-</style></div>
+
+  <div class="btn-up btn-up_hide">
+    <svg class="btn-up-icon" role="img" aria-label="Прокрутить страницу к началу">
+      <use xlink:href="#arrow-up-short"></use>
+    </svg>
+  </div>
+
+  <script>
+    const btnUp = {
+      el: document.querySelector('.btn-up'),
+      scrolling: false,
+      show() {
+        if (this.el.classList.contains('btn-up_hide') && !this.el.classList.contains('btn-up_hiding')) {
+          this.el.classList.remove('btn-up_hide');
+          this.el.classList.add('btn-up_hiding');
+          window.setTimeout(() => {
+            this.el.classList.remove('btn-up_hiding');
+          }, 300);
+        }
+      },
+      hide() {
+        if (!this.el.classList.contains('btn-up_hide') && !this.el.classList.contains('btn-up_hiding')) {
+          this.el.classList.add('btn-up_hiding');
+          window.setTimeout(() => {
+            this.el.classList.add('btn-up_hide');
+            this.el.classList.remove('btn-up_hiding');
+          }, 300);
+        }
+      },
+      addEventListener() {
+        // при прокрутке окна (window)
+        window.addEventListener('scroll', () => {
+          const scrollY = window.scrollY || document.documentElement.scrollTop;
+          if (this.scrolling && scrollY > 0) {
+            return;
+          }
+          this.scrolling = false;
+          // если пользователь прокрутил страницу более чем на 200px
+          if (scrollY > 200) {
+            // сделаем кнопку .btn-up видимой
+            this.show();
+          } else {
+            // иначе скроем кнопку .btn-up
+            this.hide();
+          }
+        });
+        // при нажатии на кнопку .btn-up
+        document.querySelector('.btn-up').onclick = () => {
+          this.scrolling = true;
+          this.hide();
+          // переместиться в верхнюю часть страницы
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+        }
+      }
+    }
+
+    btnUp.addEventListener();
+  </script></div>
 <div style="clear:both"></div></div></div>  </div>
 </body>
 </html>
