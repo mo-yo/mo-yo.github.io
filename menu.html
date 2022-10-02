@@ -8,22 +8,26 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 </style>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
-<script type="text/javascript"> 
-$(function() { 
-$(window).scroll(function() { 
-if($(this).scrollTop() != 0) { 
-$('#toTop').fadeIn(); 
-} else { 
-$('#toTop').fadeOut(); 
-} 
-}); 
-$('#toTop').click(function() { 
-$('body,html').animate({scrollTop:0},800); 
-}); 
-}); 
-</script>
-	<title></title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>	<title></title>
 	<link rel="stylesheet" type="text/css" href="menu_html.css">
 </head>
 <body>
@@ -278,25 +282,19 @@ $('body,html').animate({scrollTop:0},800);
 </div></div><div id="container_15f9c727"><div id="container_15f9c727_padding" ><div class="textstyle2"><span class="textstyle23">Social Media</span><span class="textstyle19"><br/><br/>● Twitter<br/>● Facebook<br/>● Other</span></div>
 <div class="textstyle1"></div>
 </div></div></div>
-<div class="textstyle1"><span class="textstyle9"><br/></span><p id="toTop" > ▲ </p>
+<div class="textstyle1"><span class="textstyle9"><br/></span><a href="#" class="scrollup">Наверх</a>
 
 <style>
-#toTop {
-width: 25px;
-border:2px solid #1b6a89;
-background:#f7f7f7;
-text-align:center;
-padding: 8px;
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
 position:fixed;
-bottom:20px; /* отступ кнопки от нижнего края страницы*/
-right:20px;
-cursor:pointer;
+bottom:50px;
+right:100px;
 display:none;
-color:#333;
-font-family:arial;
-font-size:20px;
-border-radius: 7px;
-z-index: 9999;
+text-indent:-9999px;
+background: url('icon_top.png') no-repeat;
 }
 </style></div>
 <div style="clear:both"></div></div></div>  </div>
