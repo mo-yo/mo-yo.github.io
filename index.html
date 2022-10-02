@@ -8,6 +8,21 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 </style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script type="text/javascript"> 
+$(function() { 
+$(window).scroll(function() { 
+if($(this).scrollTop() != 0) { 
+$('#toTop').fadeIn(); 
+} else { 
+$('#toTop').fadeOut(); 
+} 
+}); 
+$('#toTop').click(function() { 
+$('body,html').animate({scrollTop:0},800); 
+}); 
+}); 
+</script>
 <meta name="description" content="Первый пробный сайт сделаный на конструкторе сайтов" />
 	<title>Проба пера</title>
 	<meta name="keywords" content="Сайтец" />
@@ -117,10 +132,27 @@
 </div></div><div id="container_15f9c727"><div id="container_15f9c727_padding" ><div class="textstyle2"><span class="textstyle31">Social Media</span><span class="textstyle30"><br/><br/>● Twitter<br/>● Facebook<br/>● Other</span></div>
 <div class="textstyle1"></div>
 </div></div></div>
-<div class="textstyle22"><a href="#top" style="text-decoration:none"><div id="button_1ebebf5c"><div class="vcenterstyle1"><div class="vcenterstyle2"><div class="textstyle2">  <span class="textstyle32">▲</span>
-</div>
-<div class="textstyle1"></div>
-</div></div></div></a></div>
+<div class="textstyle1"><span class="textstyle9"><br/></span><div id="toTop" > ▲ </ div >
+
+<style>
+#toTop {
+
+border:2px solid #1b6a89;
+background:#f7f7f7;
+text-align:center;
+padding: 8px;
+position:fixed;
+bottom:20px; /* отступ кнопки от нижнего края страницы*/
+right:20px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:arial;
+font-size:20px;
+border-radius: 7px;
+z-index: 9999;
+}
+</style></div>
 <div style="clear:both"></div></div></div>  </div>
 </body>
 </html>
