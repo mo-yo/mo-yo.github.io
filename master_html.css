@@ -11,7 +11,7 @@ a:hover { color:#B2B3B4; }
 #button_7d6e0e94 { vertical-align: bottom; position:relative; display: inline-block; width:150px; height:40px; background-color:#FFFFFF;  }
 #button_7d6e0e94:hover { background-color:#C0C0C0;  }
 #button_7d6e0e94:hover span { color:#525252; }
-body { background-color:#FFFFFF; padding:0;  margin: 0; }
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');body { background-color:#FFFFFF; padding:0;  margin: 0; }
 .textstyle1 { text-align:left; }
 #container_53797471 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:119px; background-color:#FFFFFF;  }
 #container_53797471_padding { margin: 20px 10px 20px 10px;display: block;  }
