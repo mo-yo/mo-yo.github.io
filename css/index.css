@@ -145,7 +145,7 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #wb_Text4 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:10px 0 10px 0; margin:0; text-align:center; }
 #wb_Text4 div { text-align:center; }
 #wb_Text4 { display:block; margin:0; box-sizing:border-box; width:100%; }
-#wb_VideoBackground { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../images/444gftuyh.jpg'); background-repeat:no-repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; box-sizing:border-box; margin:0; }
+#wb_VideoBackground { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; border:0px solid #CCCCCC; box-sizing:border-box; margin:0; }
 #VideoBackground { box-sizing:border-box; padding:100px 15px 100px 15px; margin-right:auto; margin-left:auto; max-width:1150px; }
 #VideoBackground > .row { margin-right:-15px; margin-left:-15px; }
 #VideoBackground > .row > .col-1,#VideoBackground > .row > .col-2 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
@@ -158,6 +158,8 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #VideoBackground > .row > .col-1,#VideoBackground > .row > .col-2 { float:none; width:100%; }
 }
 #VideoBackground-overlay { position:absolute; top:0; right:0; bottom:0; left:0; background-color:#000000; opacity:0.55; }
+#wb_VideoBackground .parallax { background-color:transparent; background-image:url('../images/444gftuyh.jpg'); background-repeat:no-repeat; background-position:center center; position:fixed; top:0; -webkit-transform:translate3d(0, 0, 0); transform:translate3d(0, 0, 0); -webkit-transform-style:preserve-3d; transform-style:preserve-3d; width:100%; background-position:center; background-repeat:no-repeat; background-size:cover; }
+#wb_VideoBackground .parallax__container { clip:rect(0, auto, auto, 0); height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%; z-index:-100; }
 #wb_indexLayoutGrid2 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:none; border:0px solid #CCCCCC; box-sizing:border-box; margin:0; }
 #indexLayoutGrid2 { box-sizing:border-box; display:-webkit-flex; display:flex; -webkit-flex-direction:row; flex-direction:row; -webkit-flex-wrap:wrap; flex-wrap:wrap; padding:0; margin-right:auto; margin-left:auto; }
 #indexLayoutGrid2 > .col-1,#indexLayoutGrid2 > .col-2,#indexLayoutGrid2 > .col-3,#indexLayoutGrid2 > .col-4 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:0px; padding-left:0px; position:relative; }
