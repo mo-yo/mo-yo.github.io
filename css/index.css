@@ -146,7 +146,6 @@ input:focus,textarea:focus,select:focus { outline:none; }
 @media (max-width: 768px) {
 #VideoBackground > .row > .col-1,#VideoBackground > .row > .col-2 { float:none; width:100%; }
 }
-#VideoBackground-overlay { position:absolute; top:0; right:0; bottom:0; left:0; background-color:#000000; opacity:0.55; }
 #VideoBackground-divider-top { overflow:hidden; position:absolute; top:0%; width:100%; height:50px; line-height:0; left:0; transform:scaleY(-1.0); z-index:7777; }
 #VideoBackground-divider-top svg { display:block; width:100%; height:100%; position:relative; left:50%; top:0; transform:translateX(-50%); }
 #VideoBackground-divider-top .divider-fill { fill:#005280; transform-origin:bottom; transform:rotateY(0deg); }
