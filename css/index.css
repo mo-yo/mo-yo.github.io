@@ -147,7 +147,7 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #VideoBackground > .row > .col-1,#VideoBackground > .row > .col-2 { float:none; width:100%; }
 }
 #VideoBackground-overlay { position:absolute; top:0; right:0; bottom:0; left:0; background-color:#000000; opacity:0.55; }
-#VideoBackground-divider-top { overflow:hidden; position:absolute; top:0%; width:100%; height:50px; line-height:0; left:0; transform:scaleY(-1.0); z-index:7777; }
+#VideoBackground-divider-top { overflow:hidden; position:absolute; top:0%; width:100%; height:50px; line-height:0; left:0; transform:scaleY(-1.0); }
 #VideoBackground-divider-top svg { display:block; width:100%; height:100%; position:relative; left:50%; top:0; transform:translateX(-50%); }
 #VideoBackground-divider-top .divider-fill { fill:#005280; transform-origin:bottom; transform:rotateY(0deg); }
 #wb_VideoBackground .parallax { background-color:transparent; background-image:url('../images/vanna123%20%281%29.jpg'); background-repeat:no-repeat; background-position:center center; position:fixed; top:0; -webkit-transform:translate3d(0, 0, 0); transform:translate3d(0, 0, 0); -webkit-transform-style:preserve-3d; transform-style:preserve-3d; width:100%; background-position:center; background-repeat:no-repeat; background-size:cover; }
@@ -351,7 +351,7 @@ input:focus,textarea:focus,select:focus { outline:none; }
 }
 #DividerLine6 { border-color:#1ABC9C; border-style:dotted; border-bottom-width:7px; border-top:0; border-left:0; border-right:0; height:0  !important; line-height:0  !important; margin:0; padding:0; }
 #wb_Heading1 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:50px 0 15px 0; text-align:center; }
-#Heading1 { color:#FFFF00; font-family:Arial; font-weight:bold; font-style:normal; font-size:32px; margin:0; text-align:center; }
+#Heading1 { color:#FF1493; font-family:Arial; font-weight:bold; font-style:normal; font-size:32px; margin:0; text-align:center; }
 #wb_indexText1 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0 0 25px 0; margin:0; text-align:center; }
 #wb_indexText1 div { text-align:center; }
 #wb_indexText1 { display:block; margin:0; box-sizing:border-box; width:100%; }
@@ -476,10 +476,10 @@ input:focus,textarea:focus,select:focus { outline:none; }
 #wb_indexAccordion1 { display:inline-block; width:100%; z-index:13; }
 #wb_uid3 { color:#FFFFFF; font-family:"PT Sans Narrow"; font-size:24px; }
 #wb_Heading8 { display:inline-block; width:100%; z-index:30; }
-#wb_uid2 { fill-opacity:0.5; }
+#wb_uid2 { color:#FF0000; font-family:"Arial"; font-size:24px; }
 #wb_Heading9 { display:inline-block; width:100%; z-index:28; }
 #wb_indexCard1 { display:flex; z-index:19; }
-#wb_uid1 { color:#FF0000; font-family:"Arial"; font-size:24px; }
+#wb_uid1 { fill-opacity:0.5; }
 #wb_uid0 { display:none; }
 #wb_indexCard3 { display:flex; z-index:8; }
 #wb_gallery { display:inline-block; width:100%; z-index:23; }
